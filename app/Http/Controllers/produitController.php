@@ -139,9 +139,10 @@ class produitController extends Controller
         $categorie = Categorie::find($idCategorie);
  
         $produits = $categorie->produits()->get();
-        $produits ;
+        // $produits ;
         
         return response()->json($produits);
+        
 
         // foreach($produits as $produit){
         //     echo $produit->nom.",";
