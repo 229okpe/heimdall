@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Categorie;
+use App\Models\Favoris;
 use App\Models\Produit;
 use Illuminate\Http\Request; 
 use Illuminate\Support\Facades\Validator;
@@ -137,17 +138,74 @@ class produitController extends Controller
     public function liste_produits_par_categorie($idCategorie)
     {
         $categorie = Categorie::find($idCategorie);
- 
-        $produits = $categorie->produits()->get();
-        // $produits ;
-        
-        return response()->json($produits);
-        
 
-        // foreach($produits as $produit){
-        //     echo $produit->nom.",";
-        // }
+        $produits = $categorie->produits()->get();
+
+        return response()->json($produits);
     }
+
+    public function ajouterAuxFavoris($id)
+    {
+        $produit = Produit::find($id);
+
+        if (!$produit) {
+            return response()->json(['message' => 'Produit non trouvé'], 404);
+        }
+
+        $currentUser = app('currentUser');
+
+        // Vérifier si le produit existe déjà dans les favoris de l'utilisateur
+        $favorisExistant = Favoris::where('produit_id', $produit->id)
+                                ->where('user_id', $currentUser->id)
+                                ->first();
+
+        if ($favorisExistant) {
+            return response()->json(['message' => 'Ce produit est déjà dans les favoris.']);
+        }
+
+        // Ajouter le produit aux favoris de l'utilisateur
+        $favoris = new Favoris();
+        $favoris->produit_id = $produit->id;
+        $favoris->user_id = $currentUser->id;
+        $favoris->save();
+
+        return response()->json(['message' => 'Ce produit a été ajouté aux favoris.'] , 200);
+    }
+
+    public function showFavoris()
+    {
+        $currentUser = app('currentUser');
+
+        // Récupérer la liste des produits favoris de l'utilisateur
+        $produitsFavoris = Favoris::where('user_id', $currentUser->id)
+                                ->with('produit') // Charger les détails des produits associés
+                                ->get();
+
+        return response()->json(['produits_favoris' => $produitsFavoris] , 200);
+    }
+
+
+    public function supprimerUnFavoris($id){
+
+        $produit = Produit::find($id);
+
+        if($produit){
+            
+            // trouver un enregistrement dans la table des favoris de la bdd
+
+            $favoris = Favoris::where('produit_id' , $produit->id)->where('user_id' , app('currentUser')->id);
+
+            if ($favoris) {
+                $favoris->delete();
+
+                return response()->json(['message' => 'Produit supprimé'], 200);
+            }else{
+                return response()->json(['message' => 'Produit non trouver'] , 404);
+
+            }
+        }    
+    }    
+            
 
 }
 

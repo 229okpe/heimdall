@@ -23,7 +23,6 @@ Route::post('/register', [Authentification::class, 'register']);
 Route::post('/login', [Authentification::class, 'login']); 
 
 Route::get('/logout', [Authentification::class, 'logout']);
-// Route::get('/logout', function(){ echo "e";});
 
 Route::middleware(['auth:sanctum'])->group(function () {   
 
@@ -53,13 +52,22 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 });
 
-// Route::middleware(['auth:sanctum'])->group(function () { 
+Route::middleware(['auth:sanctum'])->group(function () { 
 
-//     Route::get('/liste-produits-par-categorie', [produitController::class, 'indexe']);
+    Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
 
-// });
+    Route::get('/ajouter-favoris/{id}', [produitController::class, 'ajouterAuxFavoris']);
 
-Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
+    Route::get('/supprimer-favoris/{id}', [produitController::class, 'supprimerUnFavoris']);
+
+    Route::get('/favoris', [produitController::class, 'showFavoris']);
+
+});
+
+
+
+
+
 
 
 
