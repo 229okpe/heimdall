@@ -3,6 +3,7 @@
 use App\Http\Controllers\Authentification;
 use App\Http\Controllers\produitController;
 use App\Http\Controllers\categorieController;
+use App\Http\Controllers\commandesController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
@@ -23,9 +24,18 @@ Route::post('/register', [Authentification::class, 'register']);
 Route::post('/login', [Authentification::class, 'login']); 
 
 Route::get('/logout', [Authentification::class, 'logout']);
+<<<<<<< HEAD
+
+Route::post('sendMailPasswordForgot', [Authentification::class, 'sendMailPasswordForgot']);
+
+Route::get('/verify-email/{id}/', [Authentification::class, 'verify'])->name('verification.verify');
+// Route::get('/logout', function(){ echo "e";});
+=======
+>>>>>>> c6459124a54aa6c84675142003a24d668707aca6
 
 Route::middleware(['auth:sanctum'])->group(function () {   
 
+            //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
 
     Route::post('/ajouter-produit', [produitController::class, 'store']); 
@@ -35,11 +45,11 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::post('/modifier-produit', [produitController::class, 'update']); 
 
     Route::get  ('/supprimer-produit/{id}', [produitController::class, 'delete']); 
+    
+    Route::get('/{categorie}/produits', [produitController::class, 'indexe']);
 
-});
-
-Route::middleware(['auth:sanctum'])->group(function () { 
-
+    
+            //CATEGORIES
     Route::get('/categories', [categorieController::class, 'index']);
 
     Route::post('/ajouter-categorie', [categorieController::class, 'store']); 
@@ -50,8 +60,16 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
     Route::get('/supprimer-categorie/{id}', [categorieController::class, 'delete']);
 
+
+            ///COMMANDES
+     Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
+
+     
+     Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
 });
 
+<<<<<<< HEAD
+=======
 Route::middleware(['auth:sanctum'])->group(function () { 
 
     Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
@@ -74,3 +92,4 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 
 
+>>>>>>> c6459124a54aa6c84675142003a24d668707aca6

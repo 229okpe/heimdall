@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Models\ResetCodePassword;
+use App\Mail\SendCodeResetPassword;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Auth\Notifications\VerifyEmail;
@@ -38,6 +40,7 @@ else {
             'prenoms' => $request->prenoms,
             'type' => $request->type,
             'devise' => $request->devise,
+            'valeurDevise' => $request->valeurDevise,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
@@ -141,9 +144,10 @@ else {
     
         if (!$user->hasVerifiedEmail()) {
             $user->markEmailAsVerified();
+            
         }
     
-
+        return response(['success' => 'Email vérifié avec succ&egrave;s.']);
           // return redirect('http://82.165.107.148/compte-valide'); 
     }
 
@@ -191,8 +195,8 @@ public function sendMailPasswordForgot(Request $request)
                     // Send email to user
                     if(Mail::to($request->email)->send(new SendCodeResetPassword($codeData->code))){
  
-                    return response(['message' => trans('passwords.sent')], 200);
-} else {dd("error");}
+                         return response(['message' => trans('passwords.sent')], 200);
+                    } else {dd("error");}
                 }
                 else {
                     return response(["msg" => "Utilisateur introuvable ! Veuillez v&eacute;rifier votre adresse mail"], 404);
