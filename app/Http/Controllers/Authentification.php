@@ -8,6 +8,8 @@ use App\Models\ResetCodePassword;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Notification;
+use Illuminate\Auth\Notifications\VerifyEmail;
 
 class Authentification extends Controller
 {
@@ -41,7 +43,7 @@ else {
         ]);
 
      //   $this->notify(new VerifyEmail);
-      //  Notification::send($user, new VerifyEmail($user));
+       Notification::send($user, new VerifyEmail($user));
 
        // Mail::send(new inscriptionMail($user));
 
