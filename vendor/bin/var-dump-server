@@ -112,8 +112,17 @@ if (PHP_VERSION_ID < 80000) {
         (function_exists('stream_get_wrappers') && in_array('phpvfscomposer', stream_get_wrappers(), true))
         || (function_exists('stream_wrapper_register') && stream_wrapper_register('phpvfscomposer', 'Composer\BinProxyWrapper'))
     ) {
+<<<<<<< HEAD
         return include("phpvfscomposer://" . __DIR__ . '/..'.'/symfony/var-dumper/Resources/bin/var-dump-server');
     }
 }
 
 return include __DIR__ . '/..'.'/symfony/var-dumper/Resources/bin/var-dump-server';
+=======
+        include("phpvfscomposer://" . __DIR__ . '/..'.'/symfony/var-dumper/Resources/bin/var-dump-server');
+        exit(0);
+    }
+}
+
+include __DIR__ . '/..'.'/symfony/var-dumper/Resources/bin/var-dump-server';
+>>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8

@@ -27,7 +27,7 @@ class Authentification extends Controller
         $validator = Validator::make($request->all(), [
             'nom' =>"required|string|max:255",
             'prenoms' =>"required|string",
-            'type' => "required",
+            'superAdmin' => "required",
             'devise' => "required",
            'email' =>"required|string|email|max:255|unique:".User::class,
            'password' => 'required' ]);
@@ -38,7 +38,7 @@ else {
         $user = User::create([
             'nom' => $request->nom,
             'prenoms' => $request->prenoms,
-            'type' => $request->type,
+            'superAdmin' => $request->superAdmin,
             'devise' => $request->devise,
             'valeurDevise' => $request->valeurDevise,
             'email' => $request->email,

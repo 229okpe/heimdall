@@ -21,7 +21,7 @@ class User extends Authenticatable
         'nom',
         'prenoms',
         'devise',
-        'type',
+        'superAdmin',
         'email',
         'password',
          'devise',

@@ -49,7 +49,11 @@ return array(
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
+<<<<<<< HEAD
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src', $vendorDir . '/psr/http-factory/src'),
+=======
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-factory/src', $vendorDir . '/psr/http-message/src'),
+>>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
     'Psr\\Http\\Client\\' => array($vendorDir . '/psr/http-client/src'),
     'Psr\\EventDispatcher\\' => array($vendorDir . '/psr/event-dispatcher/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
@@ -74,7 +78,13 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'GrahamCampbell\\ResultType\\' => array($vendorDir . '/graham-campbell/result-type/src'),
+<<<<<<< HEAD
     'Fruitcake\\Cors\\' => array($vendorDir . '/fruitcake/php-cors/src'),
+=======
+    'Gloudemans\\Shoppingcart\\' => array($vendorDir . '/mindscms/laravelshoppingcart/src'),
+    'Fruitcake\\Cors\\' => array($vendorDir . '/fruitcake/php-cors/src'),
+    'FedaPay\\' => array($vendorDir . '/fedapay/fedapay-php/lib'),
+>>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
     'Faker\\' => array($vendorDir . '/fakerphp/faker/src/Faker'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
