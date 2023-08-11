@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Produit;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Categorie extends Model
 {
@@ -16,6 +17,6 @@ class Categorie extends Model
 
     public function produits()
     {
-        return $this->hasMany(Produit::class);
+        return $this->hasMany('App\Models\Produit','categorie_id');
     }
 }

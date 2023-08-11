@@ -32,7 +32,7 @@ class categorieController extends Controller
            
             if ($validator->fails()) {
               return response(['errors' => $validator->errors(), ], 422); 
-          }
+            }
           $categorie=Categorie::create([
             'nom' => $request->nom,
             'description' => $request->description,
