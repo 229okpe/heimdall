@@ -10,12 +10,13 @@ return new class extends Migration
      * Run the migrations.
      */
     public function up(): void
-    {
+    {  if(!Schema::hasTable('produits')){
         Schema::create('produits', function (Blueprint $table) {
             $table->id();
    
             $table->string('nom');
             $table->text('description');
+      
             $table->text('image');
             $table->integer('prix'); 
             // $table->string('categorie');
@@ -23,6 +24,7 @@ return new class extends Migration
             $table->timestamps();
             $table->foreign('categorie_id')->references('id')->on('categories')->onDelete('cascade');
         });
+    }
     }
 
     /**

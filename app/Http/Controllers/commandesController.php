@@ -2,10 +2,32 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Produit;
 use Illuminate\Http\Request;
+use Gloudemans\Shoppingcart\Facades\Cart;
 
 class commandesController extends Controller
 {
+
+    public function addcart($id) {
+        $produit=Produit::find($id);
+        
+            if($produit){
+                Cart::add($produit, '1', 1, 9.99);
+                Cart::save();
+                return response(["message"=>"Produit ajouté"], 200);
+            } else {
+                return response(["message"=>"Produit non trouvé"], 404);
+            }
+
+    }
+
+    public function recupererContenuPanier()
+    {
+        $contenuPanier = Cart::content();
+       
+        dd($contenuPanier);
+    }
     /**
      * Display a listing of the resource.
      */
@@ -19,7 +41,7 @@ class commandesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**

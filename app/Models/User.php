@@ -23,7 +23,9 @@ class User extends Authenticatable
         'devise',
         'type',
         'email',
-        'password'
+        'password',
+         'devise',
+        'valeurDevise'
     ];
 
     /**

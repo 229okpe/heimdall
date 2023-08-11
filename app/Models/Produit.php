@@ -13,8 +13,9 @@ class Produit extends Model
         'description',
         'prix',
         'categorie_id',
-        'image'
-    ];
+        'image',
+       
+    ]; 
 
     public function categorie()
     {
