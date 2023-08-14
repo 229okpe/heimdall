@@ -27,7 +27,7 @@ class Authentification extends Controller
         $validator = Validator::make($request->all(), [
             'nom' =>"required|string|max:255",
             'prenoms' =>"required|string",
-            'superAdmin' => "required",
+            'type' => "required",
             'devise' => "required",
            'email' =>"required|string|email|max:255|unique:".User::class,
            'password' => 'required' ]);
@@ -38,9 +38,9 @@ else {
         $user = User::create([
             'nom' => $request->nom,
             'prenoms' => $request->prenoms,
-            'superAdmin' => $request->superAdmin,
+            'type' => $request->type,
             'devise' => $request->devise,
-            'valeurDevise' => $request->valeurDevise,
+            // 'valeurDevise' => $request->valeurDevise,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
@@ -245,8 +245,10 @@ public function passwordReset(Request $request)
             $passwordReset->delete();
 
             return response(['message' =>'Le mot de passe a &eacute;t&eacute; r&eacute;initialis&eacute; avec succ&egrave;s'], 200);
-}
+        }
 
-} 
+    } 
+
+    
 
 }

@@ -4,11 +4,7 @@
 
 namespace Composer\Autoload;
 
-<<<<<<< HEAD
-class ComposerStaticInit9804fe1682be24d78946412d34c076f4
-=======
 class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -143,18 +139,12 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'GrahamCampbell\\ResultType\\' => 26,
-<<<<<<< HEAD
-=======
             'Gloudemans\\Shoppingcart\\' => 24,
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         ),
         'F' => 
         array (
             'Fruitcake\\Cors\\' => 15,
-<<<<<<< HEAD
-=======
             'FedaPay\\' => 8,
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
             'Faker\\' => 6,
         ),
         'E' => 
@@ -361,13 +351,8 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         ),
         'Psr\\Http\\Message\\' => 
         array (
-<<<<<<< HEAD
             0 => __DIR__ . '/..' . '/psr/http-message/src',
             1 => __DIR__ . '/..' . '/psr/http-factory/src',
-=======
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -467,24 +452,18 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
         ),
-<<<<<<< HEAD
-=======
         'Gloudemans\\Shoppingcart\\' => 
         array (
             0 => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src',
         ),
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'Fruitcake\\Cors\\' => 
         array (
             0 => __DIR__ . '/..' . '/fruitcake/php-cors/src',
         ),
-<<<<<<< HEAD
-=======
         'FedaPay\\' => 
         array (
             0 => __DIR__ . '/..' . '/fedapay/fedapay-php/lib',
         ),
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
@@ -547,10 +526,7 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Authentification' => __DIR__ . '/../..' . '/app/Http/Controllers/Authentification.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-<<<<<<< HEAD
-=======
         'App\\Http\\Controllers\\categorieController' => __DIR__ . '/../..' . '/app/Http/Controllers/categorieController.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'App\\Http\\Controllers\\commandesController' => __DIR__ . '/../..' . '/app/Http/Controllers/commandesController.php',
         'App\\Http\\Controllers\\produitController' => __DIR__ . '/../..' . '/app/Http/Controllers/produitController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -564,12 +540,10 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Middleware\\auth' => __DIR__ . '/../..' . '/app/Http/Middleware/auth.php',
-<<<<<<< HEAD
-=======
         'App\\Mail\\SendCodeResetPassword' => __DIR__ . '/../..' . '/app/Mail/SendCodeResetPassword.php',
         'App\\Models\\Categorie' => __DIR__ . '/../..' . '/app/Models/Categorie.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'App\\Models\\Commande' => __DIR__ . '/../..' . '/app/Models/Commande.php',
+        'App\\Models\\Favoris' => __DIR__ . '/../..' . '/app/Models/Favoris.php',
         'App\\Models\\Produit' => __DIR__ . '/../..' . '/app/Models/Produit.php',
         'App\\Models\\ResetCodePassword' => __DIR__ . '/../..' . '/app/Models/ResetCodePassword.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
@@ -691,11 +665,8 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
-<<<<<<< HEAD
-=======
         'Database\\Seeders\\ProduitSeeder' => __DIR__ . '/../..' . '/database/seeders/ProduitSeeder.php',
         'Database\\Seeders\\categorieSeeder' => __DIR__ . '/../..' . '/database/seeders/categorieSeeder.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -1404,10 +1375,6 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'Faker\\Provider\\zh_TW\\Text' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/zh_TW/Text.php',
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/ValidGenerator.php',
-<<<<<<< HEAD
-        'Fruitcake\\Cors\\CorsService' => __DIR__ . '/..' . '/fruitcake/php-cors/src/CorsService.php',
-        'Fruitcake\\Cors\\Exceptions\\InvalidOptionException' => __DIR__ . '/..' . '/fruitcake/php-cors/src/Exceptions/InvalidOptionException.php',
-=======
         'FedaPay\\Account' => __DIR__ . '/..' . '/fedapay/fedapay-php/lib/Account.php',
         'FedaPay\\ApiKey' => __DIR__ . '/..' . '/fedapay/fedapay-php/lib/ApiKey.php',
         'FedaPay\\ApiOperations\\All' => __DIR__ . '/..' . '/fedapay/fedapay-php/lib/ApiOperations/All.php',
@@ -1456,7 +1423,6 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'Gloudemans\\Shoppingcart\\Exceptions\\UnknownModelException' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Exceptions/UnknownModelException.php',
         'Gloudemans\\Shoppingcart\\Facades\\Cart' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Facades/Cart.php',
         'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/ShoppingcartServiceProvider.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'GrahamCampbell\\ResultType\\Error' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Error.php',
         'GrahamCampbell\\ResultType\\Result' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Result.php',
         'GrahamCampbell\\ResultType\\Success' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Success.php',
@@ -6458,15 +6424,9 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-<<<<<<< HEAD
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9804fe1682be24d78946412d34c076f4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9804fe1682be24d78946412d34c076f4::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9804fe1682be24d78946412d34c076f4::$classMap;
-=======
             $loader->prefixLengthsPsr4 = ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69::$classMap;
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
 
         }, null, ClassLoader::class);
     }

@@ -1,15 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-<<<<<<< HEAD
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
-=======
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '6aa3f5d242cb7116ee38201629e80bb25a81bfd5',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
+        'reference' => '61eda37b8bd819d9967720a65469b1b7d205efc0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -91,8 +85,6 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-<<<<<<< HEAD
-=======
         'fedapay/fedapay-php' => array(
             'pretty_version' => '0.4.0',
             'version' => '0.4.0.0',
@@ -102,7 +94,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'filp/whoops' => array(
             'pretty_version' => '2.15.3',
             'version' => '2.15.3.0',
@@ -389,15 +380,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-<<<<<<< HEAD
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
-=======
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '6aa3f5d242cb7116ee38201629e80bb25a81bfd5',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
+            'reference' => '61eda37b8bd819d9967720a65469b1b7d205efc0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -493,8 +478,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-<<<<<<< HEAD
-=======
         'mindscms/laravelshoppingcart' => array(
             'pretty_version' => 'v2.1.0',
             'version' => '2.1.0.0',
@@ -504,7 +487,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
         'mockery/mockery' => array(
             'pretty_version' => '1.6.2',
             'version' => '1.6.2.0',
@@ -760,13 +742,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-<<<<<<< HEAD
                 0 => '1.0|2.0|3.0',
                 1 => '3.0.0',
-=======
-                0 => '3.0.0',
-                1 => '1.0|2.0|3.0',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
             ),
         ),
         'psr/simple-cache' => array(

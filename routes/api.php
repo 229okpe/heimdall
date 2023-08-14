@@ -1,9 +1,12 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Authentification;
 use App\Http\Controllers\produitController;
 use App\Http\Controllers\categorieController;
 use App\Http\Controllers\commandesController;
+use App\Http\Middleware\CheckAccess;
+use Illuminate\Auth\Events\Authenticated;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
@@ -76,6 +79,20 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::get('/favoris', [produitController::class, 'showFavoris']);
 
 });
+
+Route::middleware(['CheckAccess::class'])->group(function () { 
+
+    Route::get('/admins', [AdminController::class, 'index']); 
+
+    Route::post('/ajouter-admin', [Authentication::class, 'register']); 
+
+    Route::get  ('/supprimer-admin/{id}', [AdminController::class, 'delete']); 
+
+    Route::post('/modifier-admin/{id}', [AdminController::class, 'update']);
+
+});
+
+
 
 
 

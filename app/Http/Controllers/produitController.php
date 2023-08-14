@@ -16,7 +16,7 @@ class produitController extends Controller
     public function index()
     { 
      //   $produits=Produit::all();
-     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->devise])->get();
+     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->get();
 
         return response()->json(['produits' => $produits], 200);
     }
@@ -65,7 +65,7 @@ class produitController extends Controller
 
     if ($produit) {
         // Multipliez le prix du produit par la devise donnée
-        $produit->prix_converti = $produit->prix * app('currentUser')->devise;
+        $produit->prix_converti = $produit->prix * app('currentUser')->valeurDevise;
 
  
         return response()->json(['produit' => $produit], 200);

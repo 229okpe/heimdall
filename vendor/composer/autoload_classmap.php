@@ -10,10 +10,7 @@ return array(
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Authentification' => $baseDir . '/app/Http/Controllers/Authentification.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
-<<<<<<< HEAD
-=======
     'App\\Http\\Controllers\\categorieController' => $baseDir . '/app/Http/Controllers/categorieController.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
     'App\\Http\\Controllers\\commandesController' => $baseDir . '/app/Http/Controllers/commandesController.php',
     'App\\Http\\Controllers\\produitController' => $baseDir . '/app/Http/Controllers/produitController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
@@ -27,12 +24,10 @@ return array(
     'App\\Http\\Middleware\\ValidateSignature' => $baseDir . '/app/Http/Middleware/ValidateSignature.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Http\\Middleware\\auth' => $baseDir . '/app/Http/Middleware/auth.php',
-<<<<<<< HEAD
-=======
     'App\\Mail\\SendCodeResetPassword' => $baseDir . '/app/Mail/SendCodeResetPassword.php',
     'App\\Models\\Categorie' => $baseDir . '/app/Models/Categorie.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
     'App\\Models\\Commande' => $baseDir . '/app/Models/Commande.php',
+    'App\\Models\\Favoris' => $baseDir . '/app/Models/Favoris.php',
     'App\\Models\\Produit' => $baseDir . '/app/Models/Produit.php',
     'App\\Models\\ResetCodePassword' => $baseDir . '/app/Models/ResetCodePassword.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
@@ -154,11 +149,8 @@ return array(
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
-<<<<<<< HEAD
-=======
     'Database\\Seeders\\ProduitSeeder' => $baseDir . '/database/seeders/ProduitSeeder.php',
     'Database\\Seeders\\categorieSeeder' => $baseDir . '/database/seeders/categorieSeeder.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
     'DeepCopy\\Exception\\PropertyException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -867,10 +859,6 @@ return array(
     'Faker\\Provider\\zh_TW\\Text' => $vendorDir . '/fakerphp/faker/src/Faker/Provider/zh_TW/Text.php',
     'Faker\\UniqueGenerator' => $vendorDir . '/fakerphp/faker/src/Faker/UniqueGenerator.php',
     'Faker\\ValidGenerator' => $vendorDir . '/fakerphp/faker/src/Faker/ValidGenerator.php',
-<<<<<<< HEAD
-    'Fruitcake\\Cors\\CorsService' => $vendorDir . '/fruitcake/php-cors/src/CorsService.php',
-    'Fruitcake\\Cors\\Exceptions\\InvalidOptionException' => $vendorDir . '/fruitcake/php-cors/src/Exceptions/InvalidOptionException.php',
-=======
     'FedaPay\\Account' => $vendorDir . '/fedapay/fedapay-php/lib/Account.php',
     'FedaPay\\ApiKey' => $vendorDir . '/fedapay/fedapay-php/lib/ApiKey.php',
     'FedaPay\\ApiOperations\\All' => $vendorDir . '/fedapay/fedapay-php/lib/ApiOperations/All.php',
@@ -919,7 +907,6 @@ return array(
     'Gloudemans\\Shoppingcart\\Exceptions\\UnknownModelException' => $vendorDir . '/mindscms/laravelshoppingcart/src/Exceptions/UnknownModelException.php',
     'Gloudemans\\Shoppingcart\\Facades\\Cart' => $vendorDir . '/mindscms/laravelshoppingcart/src/Facades/Cart.php',
     'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider' => $vendorDir . '/mindscms/laravelshoppingcart/src/ShoppingcartServiceProvider.php',
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
     'GrahamCampbell\\ResultType\\Error' => $vendorDir . '/graham-campbell/result-type/src/Error.php',
     'GrahamCampbell\\ResultType\\Result' => $vendorDir . '/graham-campbell/result-type/src/Result.php',
     'GrahamCampbell\\ResultType\\Success' => $vendorDir . '/graham-campbell/result-type/src/Success.php',

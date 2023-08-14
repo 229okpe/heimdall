@@ -516,8 +516,6 @@
             "install-path": "../fakerphp/faker"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "fedapay/fedapay-php",
             "version": "0.4.0",
             "version_normalized": "0.4.0.0",
@@ -574,7 +572,6 @@
             "install-path": "../fedapay/fedapay-php"
         },
         {
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
             "name": "filp/whoops",
             "version": "2.15.3",
             "version_normalized": "2.15.3.0",
@@ -2213,8 +2210,6 @@
             "install-path": "../league/mime-type-detection"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "mindscms/laravelshoppingcart",
             "version": "v2.1.0",
             "version_normalized": "2.1.0.0",
@@ -2287,7 +2282,6 @@
             "install-path": "../mindscms/laravelshoppingcart"
         },
         {
->>>>>>> 5da5ad09f3f252d1c3917c4f651b5ecbe865faa8
             "name": "mockery/mockery",
             "version": "1.6.2",
             "version_normalized": "1.6.2.0",

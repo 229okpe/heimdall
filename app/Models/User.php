@@ -21,7 +21,7 @@ class User extends Authenticatable
         'nom',
         'prenoms',
         'devise',
-        'superAdmin',
+        'type',
         'email',
         'password',
          'devise',
@@ -47,4 +47,5 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
 }
