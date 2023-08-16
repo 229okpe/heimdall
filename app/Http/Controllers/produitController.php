@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Models\Categorie;
+use App\Models\Commande;
 use App\Models\Favoris;
 use App\Models\Produit;
 use Illuminate\Http\Request; 
 use Illuminate\Support\Facades\Validator;
+// App\Http\Controllers\nbrTotalProduits;
 
 class produitController extends Controller
 {
@@ -204,8 +206,31 @@ class produitController extends Controller
 
             }
         }    
-    }    
-            
+    } 
+
+    public function nbrTotalProduits(){
+
+        $total = Produit::count();
+
+        return "Le nombre total de produits est : " . $total;
+
+    }  
+
+    public function nbrTotalCatgories(){
+
+        $total = Categorie::count();
+
+        return "Le nombre total de categorie est : " . $total;
+
+    } 
+
+    public function nbrTotalCommandes(){
+
+        $total = Commande::count();
+
+        return "Le nombre total de commande est : " . $total;
+
+    } 
 
 }
 

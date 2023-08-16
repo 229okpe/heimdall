@@ -46,16 +46,16 @@ else {
         ]);
 
      //   $this->notify(new VerifyEmail);
-       Notification::send($user, new VerifyEmail($user));
+    //    Notification::send($user, new VerifyEmail($user));
 
        // Mail::send(new inscriptionMail($user));
 
-        $token = $user->createToken('api_token')->plainTextToken;
-            $this->login($request);
-        return response([
-            'user' => $user,
-            'token' => $token,
-        ], 201);
+    //     $token = $user->createToken('api_token')->plainTextToken;
+    //         $this->login($request);
+    //     return response([
+    //         'user' => $user,
+    //         'token' => $token,
+    //     ], 201);
     }
         
     }

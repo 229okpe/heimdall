@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Admin;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -22,16 +23,16 @@ class AdminController extends Controller
           if ($validator->fails()) {return response(["error" =>  $validator->errors()], 200);  
         } else { 
     
-        $user = User::create([
+        $admin = Admin::create([
             'nom' => $request->nom,
             'prenoms' => $request->prenoms,
             'type' => $request->type,
             'devise' => $request->devise,
-            // 'valeurDevise' => $request->valeurDevise,
+            'valeurDevise' => $request->valeurDevise,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
-        return response()->json(['user' => $user], 200);
+        return response()->json(['admin' => $admin], 200);
 
 
     //  //   $this->notify(new VerifyEmail);
@@ -51,7 +52,7 @@ class AdminController extends Controller
 
     public function delete(string $id)
     {
-        $user = User::find($id);
+        $user = Admin::find($id);
 
         if ($user) {
             $user->delete();
@@ -62,7 +63,7 @@ class AdminController extends Controller
 
     public function index()
     {
-        $user = User::all();
+        $user = Admin::all();
 
         return response()->json(['user' => $user], 200);
     }
@@ -82,7 +83,7 @@ class AdminController extends Controller
             return response(['errors' => $validator->errors()], 422);
         }
     
-        $user = User::find($id);
+        $user = Admin::find($id);
     
         if (!$user) {
             return response()->json(['error' => 'Administrateur non trouvée'], 404);
