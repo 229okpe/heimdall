@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Models\Categorie;
+use App\Models\Commande;
 use App\Models\Favoris;
 use App\Models\Produit;
 use Illuminate\Http\Request; 
 use Illuminate\Support\Facades\Validator;
+// App\Http\Controllers\nbrTotalProduits;
 
 class produitController extends Controller
 {
@@ -16,7 +18,7 @@ class produitController extends Controller
     public function index()
     { 
      //   $produits=Produit::all();
-     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->devise])->get();
+     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->get();
 
         return response()->json(['produits' => $produits], 200);
     }
@@ -65,7 +67,7 @@ class produitController extends Controller
 
     if ($produit) {
         // Multipliez le prix du produit par la devise donnée
-        $produit->prix_converti = $produit->prix * app('currentUser')->devise;
+        $produit->prix_converti = $produit->prix * app('currentUser')->valeurDevise;
 
  
         return response()->json(['produit' => $produit], 200);
@@ -204,8 +206,31 @@ class produitController extends Controller
 
             }
         }    
-    }    
-            
+    } 
+
+    public function nbrTotalProduits(){
+
+        $total = Produit::count();
+
+        return "Le nombre total de produits est : " . $total;
+
+    }  
+
+    public function nbrTotalCatgories(){
+
+        $total = Categorie::count();
+
+        return "Le nombre total de categorie est : " . $total;
+
+    } 
+
+    public function nbrTotalCommandes(){
+
+        $total = Commande::count();
+
+        return "Le nombre total de commande est : " . $total;
+
+    } 
 
 }
 

@@ -27,6 +27,7 @@ return array(
     'App\\Mail\\SendCodeResetPassword' => $baseDir . '/app/Mail/SendCodeResetPassword.php',
     'App\\Models\\Categorie' => $baseDir . '/app/Models/Categorie.php',
     'App\\Models\\Commande' => $baseDir . '/app/Models/Commande.php',
+    'App\\Models\\Favoris' => $baseDir . '/app/Models/Favoris.php',
     'App\\Models\\Produit' => $baseDir . '/app/Models/Produit.php',
     'App\\Models\\ResetCodePassword' => $baseDir . '/app/Models/ResetCodePassword.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',

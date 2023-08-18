@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Commande;
 use App\Models\Produit;
 use Illuminate\Http\Request;
 use Gloudemans\Shoppingcart\Facades\Cart;
+
 
 class commandesController extends Controller
 {
@@ -67,4 +69,14 @@ class commandesController extends Controller
     {
         //
     }
+
+    public function nombreCommandesEnAttente()
+    {
+        $nombreEnAttente = Commande::where('statut', 'en_attente')->count();
+        
+        return "Le nombre de commande en attente est : " .  $nombreEnAttente
+        ;
+    }
+    
 }
+

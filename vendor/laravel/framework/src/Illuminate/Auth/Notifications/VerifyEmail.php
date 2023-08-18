@@ -10,21 +10,14 @@ use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\URL;
 
 class VerifyEmail extends Notification
-{   public $user;
-    
-    public function __construct($user)
-    {
-        $this->user=$user;
-     
-
-    } 
+{
     /**
      * The callback that should be used to create the verify email URL.
      *
      * @var \Closure|null
      */
     public static $createUrlCallback;
-   
+
     /**
      * The callback that should be used to build the mail message.
      *
@@ -69,9 +62,10 @@ class VerifyEmail extends Notification
     protected function buildMailMessage($url)
     {
         return (new MailMessage)
-            ->subject(Lang::get('Inscription sur Heimdall Store'))
-            ->view('emails/inscription',["url" => $url, "user" => $this->user]);
-           //  ->action(Lang::get('Verify Email Address'), $url);
+            ->subject(Lang::get('Verify Email Address'))
+            ->line(Lang::get('Please click the button below to verify your email address.'))
+            ->action(Lang::get('Verify Email Address'), $url)
+            ->line(Lang::get('If you did not create an account, no further action is required.'));
     }
 
     /**

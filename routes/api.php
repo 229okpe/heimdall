@@ -1,9 +1,13 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Authentification;
 use App\Http\Controllers\produitController;
 use App\Http\Controllers\categorieController;
+use App\Http\Controllers\chiffreAffaireController;
 use App\Http\Controllers\commandesController;
+use App\Http\Middleware\CheckAccess;
+use Illuminate\Auth\Events\Authenticated;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
@@ -23,6 +27,7 @@ Route::post('/register', [Authentification::class, 'register']);
 
 Route::post('/login', [Authentification::class, 'login']); 
 
+<<<<<<< HEAD
 //Route::get('/logout', [Authentification::class, 'logout']);
  
 Route::post('sendMailPasswordForgot', [Authentification::class, 'sendMailPasswordForgot']);
@@ -31,6 +36,16 @@ Route::get('/verify-email/{id}/', [Authentification::class, 'verify'])->name('ve
  Route::get('/logout', function(){ echo "e";});
  
 Route::middleware(['auth'])->group(function () {   
+=======
+Route::get('/logout', [Authentification::class, 'logout']);
+
+Route::post('sendMailPasswordForgot', [Authentification::class, 'sendMailPasswordForgot']);
+
+Route::get('/verify-email/{id}/', [Authentification::class, 'verify'])->name('verification.verify');
+// Route::get('/logout', function(){ echo "e";});
+
+Route::middleware(['auth:sanctum'])->group(function () {   
+>>>>>>> origin
 
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
@@ -57,6 +72,22 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/supprimer-categorie/{id}', [categorieController::class, 'delete']);
 
+<<<<<<< HEAD
+=======
+
+            ///COMMANDES
+     Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
+
+     
+     Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
+
+
+     Route::get('/nombre-commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
+});
+
+Route::middleware(['auth:sanctum'])->group(function () { 
+
+>>>>>>> origin
     Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
     
                     //FAVORIS
@@ -82,4 +113,63 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 });
 
+// Route::middleware(['CheckAccess::class'])->group(function () { 
 
+    // Route::get('/admins', [AdminController::class, 'index']); 
+
+    // Route::post('/ajouter-admin', [AdminController::class, 'ajouterAdmin']); 
+
+    // Route::get  ('/supprimer-admin/{id}', [AdminController::class, 'delete']); 
+
+    // Route::post('/modifier-admin/{id}', [AdminController::class, 'update']);
+
+// });
+
+// Route::get('/supprimer-admin/{id}' , function(){
+
+// })->middleware(CheckAccess::class);
+
+Route::get('/total-produit', [produitController::class, 'nbrTotalProduits']);
+
+Route::get('/total-categorie', [produitController::class, 'nbrTotalCatgories']);
+
+Route::get('/total-categorie', [produitController::class, 'nbrTotalCommandes']);
+
+
+                                    //CHIFFRE D'AFFAIRE
+
+Route::get('/chiffre-affaires', [chiffreAffaireController::class, 'calculerChiffreAffaires']);
+
+Route::get('/chiffre-affaires/mois-en-cours', [chiffreAffaireController::class, 'calculerChiffreAffairesMoisEnCours']);
+
+
+Route::group(['middleware' => ['auth', 'superadmin']], function () {
+
+    Route::get('/admins', [AdminController::class, 'index']); 
+
+    Route::post('/ajouter-admin', [AdminController::class, 'ajouterAdmin']); 
+
+    Route::get  ('/supprimer-admin/{id}', [AdminController::class, 'delete']); 
+
+    Route::post('/modifier-admin/{id}', [AdminController::class, 'update']);
+ });
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> origin

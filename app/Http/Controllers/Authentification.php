@@ -48,22 +48,30 @@ else {
             'prenoms' => $request->prenoms,
             'type' => $request->type,
             'devise' => $request->devise,
+<<<<<<< HEAD
             'valeurDevise' => $valeurDevise,
+=======
+            // 'valeurDevise' => $request->valeurDevise,
+>>>>>>> origin
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
 
      //   $this->notify(new VerifyEmail);
+<<<<<<< HEAD
     //   Notification::send($user, new VerifyEmail($user));
+=======
+    //    Notification::send($user, new VerifyEmail($user));
+>>>>>>> origin
 
        // Mail::send(new inscriptionMail($user));
 
-        $token = $user->createToken('api_token')->plainTextToken;
-            $this->login($request);
-        return response([
-            'user' => $user,
-            'token' => $token,
-        ], 201);
+    //     $token = $user->createToken('api_token')->plainTextToken;
+    //         $this->login($request);
+    //     return response([
+    //         'user' => $user,
+    //         'token' => $token,
+    //     ], 201);
     }
         
     }
@@ -255,8 +263,10 @@ public function passwordReset(Request $request)
             $passwordReset->delete();
 
             return response(['message' =>'Le mot de passe a &eacute;t&eacute; r&eacute;initialis&eacute; avec succ&egrave;s'], 200);
-}
+        }
 
-} 
+    } 
+
+    
 
 }
