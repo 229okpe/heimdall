@@ -27,25 +27,16 @@ Route::post('/register', [Authentification::class, 'register']);
 
 Route::post('/login', [Authentification::class, 'login']); 
 
-<<<<<<< HEAD
-//Route::get('/logout', [Authentification::class, 'logout']);
- 
-Route::post('sendMailPasswordForgot', [Authentification::class, 'sendMailPasswordForgot']);
-
-Route::get('/verify-email/{id}/', [Authentification::class, 'verify'])->name('verification.verify');
- Route::get('/logout', function(){ echo "e";});
- 
-Route::middleware(['auth'])->group(function () {   
-=======
 Route::get('/logout', [Authentification::class, 'logout']);
 
-Route::post('sendMailPasswordForgot', [Authentification::class, 'sendMailPasswordForgot']);
+Route::post('/sendMailPasswordForgot', [Authentification::class, 'sendMailPasswordForgot']);
 
 Route::get('/verify-email/{id}/', [Authentification::class, 'verify'])->name('verification.verify');
-// Route::get('/logout', function(){ echo "e";});
 
-Route::middleware(['auth:sanctum'])->group(function () {   
->>>>>>> origin
+Route::post('/contact', [Authentification::class, 'sendform'] );
+
+
+Route::middleware(['auth'])->group(function () {   
 
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
@@ -60,6 +51,8 @@ Route::middleware(['auth:sanctum'])->group(function () {
     
     Route::get('/{categorie}/produits', [produitController::class, 'indexe']);
 
+    Route::post('/rechercher-produit', [produitController::class, 'rechercherProduits']);
+
     
             //CATEGORIES
     Route::get('/categories', [categorieController::class, 'index']);
@@ -72,23 +65,21 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
     Route::get('/supprimer-categorie/{id}', [categorieController::class, 'delete']);
 
-<<<<<<< HEAD
-=======
 
             ///COMMANDES
-     Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
+    Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
 
-     
-     Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
+    Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
 
+    Route::get('/nombre-commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
 
-     Route::get('/nombre-commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
-});
-
-Route::middleware(['auth:sanctum'])->group(function () { 
-
->>>>>>> origin
     Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
+   
+    Route::get('/total-produit', [produitController::class, 'nbrTotalProduits']);
+
+    Route::get('/total-categorie', [produitController::class, 'nbrTotalCatgories']);
+
+    Route::get('/total-categorie', [produitController::class, 'nbrTotalCommandes']);
     
                     //FAVORIS
 
@@ -98,20 +89,23 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
     Route::get('/favoris', [produitController::class, 'showFavoris']);
            
+    
+
+                    //CHIFFRES DAFFAIRES
+    Route::get('/chiffre-affaires', [chiffreAffaireController::class, 'calculerChiffreAffaires']);
+
+    Route::get('/chiffre-affaires/mois-en-cours', [chiffreAffaireController::class, 'calculerChiffreAffairesMoisEnCours']);
+
            
            //
-     Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
+  //   Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
 
      
-     Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
+ //    Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
 });
 
  
-Route::middleware(['auth:sanctum'])->group(function () { 
 
-
-
-});
 
 // Route::middleware(['CheckAccess::class'])->group(function () { 
 
@@ -129,18 +123,10 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 // })->middleware(CheckAccess::class);
 
-Route::get('/total-produit', [produitController::class, 'nbrTotalProduits']);
 
-Route::get('/total-categorie', [produitController::class, 'nbrTotalCatgories']);
-
-Route::get('/total-categorie', [produitController::class, 'nbrTotalCommandes']);
 
 
                                     //CHIFFRE D'AFFAIRE
-
-Route::get('/chiffre-affaires', [chiffreAffaireController::class, 'calculerChiffreAffaires']);
-
-Route::get('/chiffre-affaires/mois-en-cours', [chiffreAffaireController::class, 'calculerChiffreAffairesMoisEnCours']);
 
 
 Route::group(['middleware' => ['auth', 'superadmin']], function () {
@@ -161,8 +147,6 @@ Route::group(['middleware' => ['auth', 'superadmin']], function () {
 
 
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -172,4 +156,3 @@ Route::group(['middleware' => ['auth', 'superadmin']], function () {
 
 
 
->>>>>>> origin

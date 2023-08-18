@@ -99,10 +99,10 @@
 <tr>
 <td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
 <div class="spacer_block block-1" style="height:35px;line-height:35px;font-size:1px;"> </div>
-<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2 mobile_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
-<div align="center" class="alignment" style="line-height:10px"><img src="{{asset('storage/images/images_mails/New_Logo_3_fond_blanc-removebg-preview.png')}}" style="display: block; height: auto; border: 0; max-width: 210px; width: 100%;" width="210"/></div>
+<div align="center" class="alignment" style="line-height:10px"><img src="{{asset('storage/images/images_mails//New_Logo_3_fond_blanc-removebg-preview.png')}}" style="display: block; height: auto; border: 0; max-width: 210px; width: 100%;" width="210"/></div>
 </td>
 </tr>
 </table>
@@ -126,36 +126,32 @@
 <table border="0" cellpadding="0" cellspacing="0" class="paragraph_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
 <tr>
 <td class="pad" style="padding-bottom:25px;padding-left:25px;padding-right:10px;padding-top:10px;">
-<div style="color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:35px;font-weight:400;line-height:120%;text-align:center;mso-line-height-alt:42px;">
-<p style="margin: 0; word-break: break-word;"><strong>MOT DE PASSE OUBLIE!</strong></p>
+<div style="color:#000000;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:15px;font-weight:400;line-height:150%;text-align:left;mso-line-height-alt:37.5px;">
+<p style="margin: 0; margin-bottom: 0px; font-size:26px !important">Cher Heimdall,</p><br>
+<p style="margin: 0;">Vous avez reçu un nouveau message.</p>
 </div>
 </td>
 </tr>
 </table>
-<table border="0" cellpadding="0" cellspacing="0" class="paragraph_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
-<tr>
-<td class="pad" style="padding-left:25px;padding-right:10px;padding-top:10px;">
-<div style="color:#000000;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:20px;font-weight:400;line-height:120%;text-align:center;mso-line-height-alt:24px;">
-<p style="margin: 0; word-break: break-word; margin-bottom: 0px;"><span>Votre code de réinitialisation de mot de passe.</span></p>
-<p style="margin: 0; word-break: break-word;"> </p>
-</div>
-</td>
-</tr>
-</table>
-<table border="0" cellpadding="10" cellspacing="0" class="button_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="paragraph_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
 <tr>
 <td class="pad">
-<div align="center" class="alignment"><!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:41px;width:90px;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#7683d9"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]-->
-<div style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#7683d9;border-radius:4px;width:auto;border-top:0px solid transparent;font-weight:400;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:5px;padding-bottom:5px;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:normal;"><span style="word-break: break-word; line-height: 32px;">{{$code}}</span></span></div><!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+<div style="color:#000000;direction:ltr;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:30px;font-weight:400;letter-spacing:0px;line-height:200%;text-align:center;mso-line-height-alt:60px;">
+<p style="margin: 0;">Voici les détails du message:</p>
 </div>
 </td>
 </tr>
 </table>
-<table border="0" cellpadding="0" cellspacing="0" class="paragraph_block block-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<table border="0" cellpadding="15" cellspacing="0" class="paragraph_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
 <tr>
-<td class="pad" style="padding-bottom:20px;padding-left:25px;padding-right:10px;padding-top:15px;">
-<div style="color:#000000;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:20px;font-weight:400;line-height:120%;text-align:center;mso-line-height-alt:24px;">
-<p style="margin: 0;">Veuillez cliquer sur le lien suivant pour entrer votre code.</p>
+<td class="pad">
+<div style="color:#000000;direction:ltr;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:19px;font-weight:400;letter-spacing:2px;line-height:150%;text-align:center;mso-line-height-alt:28.5px;">
+<p style="margin: 0; margin-bottom: 16px;">Nom: {{$data['nom']}}</p>
+<p style="margin: 0; margin-bottom: 16px;">Prénom: {{$data['prenom']}}</p>
+
+<p style="margin: 0; margin-bottom: 16px;">Numero de Téléphone: {{$data['numeroTelephone']}}</p>
+<p style="margin: 0; margin-bottom: 16px;">E-mail : {{$data['email']}}</p>
+<p style="margin: 0;">Contenu du Message :<br/>{{$data['message']}}</p>
 </div>
 </td>
 </tr>
@@ -176,14 +172,7 @@
 <tbody>
 <tr>
 <td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
-<table border="0" cellpadding="10" cellspacing="0" class="button_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-<tr>
-<td class="pad">
-<div align="center" class="alignment"><!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{$url}}" style="height:41px;width:124px;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#7683d9"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href="{{$url}}" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#7683d9;border-radius:4px;width:auto;border-top:0px solid transparent;font-weight:400;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:5px;padding-bottom:5px;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:normal;"><span style="word-break: break-word; line-height: 32px;">CLIQUER ICI</span></span></a><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
-</td>
-</tr>
-</table>
-<div class="spacer_block block-2" style="height:35px;line-height:35px;font-size:1px;"> </div>
+<div class="spacer_block block-1" style="height:35px;line-height:35px;font-size:1px;"> </div>
 </td>
 </tr>
 </tbody>
@@ -207,10 +196,10 @@
 <div align="center" class="alignment">
 <table border="0" cellpadding="0" cellspacing="0" class="social-table" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;" width="188px">
 <tr>
-<td style="padding:0 15px 0 0px;"><a href="https://www.facebook.com/profile.php?id=100094754689560&mibextid=LQQJ4d" target="_blank"><img alt="Facebook" height="32" src="{{asset('storage/images/images_mails/facebook2x.png')}}" style="display: block; height: auto; border: 0;" title="Facebook" width="32"/></a></td>
-<td style="padding:0 15px 0 0px;"><a href="https://instagram.com/heimdall.corp?igshid=MjEwN2IyYWYwYw==" target="_blank"><img alt="Instagram" height="32" src="{{asset('storage/images/images_mails/instagram2x.png')}}" style="display: block; height: auto; border: 0;" title="Instagram" width="32"/></a></td>
-<td style="padding:0 15px 0 0px;"><a href="https://www.tiktok.com/@heimdall.bj?_t=8ee13DWSyko&_r=1" target="_blank"><img alt="TikTok" height="32" src="{{asset('storage/images/images_mails/tiktok2x.png')}}" style="display: block; height: auto; border: 0;" title="TikTok" width="32"/></a></td>
-<td style="padding:0 15px 0 0px;"><a href="https://t.me/Heimdall_TV" target="_blank"><img alt="Telegram" height="32" src="{{asset('storage/images/images_mails/telegram2x.png')}}" style="display: block; height: auto; border: 0;" title="Telegram" width="32"/></a></td>
+<td style="padding:0 15px 0 0px;"><a href="https://www.facebook.com/profile.php?id=100094754689560&mibextid=LQQJ4d" target="_blank"><img alt="Facebook" height="32" src="{{asset('storage/images/images_mails//facebook2x.png')}}" style="display: block; height: auto; border: 0;" title="Facebook" width="32"/></a></td>
+<td style="padding:0 15px 0 0px;"><a href="https://instagram.com/heimdall.corp?igshid=MjEwN2IyYWYwYw==" target="_blank"><img alt="Instagram" height="32" src="{{asset('storage/images/images_mails//instagram2x.png')}}" style="display: block; height: auto; border: 0;" title="Instagram" width="32"/></a></td>
+<td style="padding:0 15px 0 0px;"><a href="https://www.tiktok.com/@heimdall.bj?_t=8ee13DWSyko&_r=1" target="_blank"><img alt="TikTok" height="32" src="{{asset('storage/images/images_mails//tiktok2x.png')}}" style="display: block; height: auto; border: 0;" title="TikTok" width="32"/></a></td>
+<td style="padding:0 15px 0 0px;"><a href="https://t.me/Heimdall_TV" target="_blank"><img alt="Telegram" height="32" src="{{asset('storage/images/images_mails//telegram2x.png')}}" style="display: block; height: auto; border: 0;" title="Telegram" width="32"/></a></td>
 </tr>
 </table>
 </div>
@@ -255,7 +244,7 @@
 <!--[if !vml]><!-->
 <table cellpadding="0" cellspacing="0" class="icons-inner" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block; margin-right: -4px; padding-left: 0px; padding-right: 0px;"><!--<![endif]-->
 <tr>
-<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 6px;"><a href="https://www.designedwithbee.com/?utm_source=editor&utm_medium=bee_pro&utm_campaign=free_footer_link" style="text-decoration: none;" target="_blank"><img align="center" alt="Designed with BEE" class="icon" height="32" src="{{asset('storage/images/images_mails/bee.png')}}" style="display: block; height: auto; margin: 0 auto; border: 0;" width="34"/></a></td>
+<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 6px;"><a href="https://www.designedwithbee.com/?utm_source=editor&utm_medium=bee_pro&utm_campaign=free_footer_link" style="text-decoration: none;" target="_blank"><img align="center" alt="Designed with BEE" class="icon" height="32" src="{{asset('storage/images/images_mails//bee.png')}}" style="display: block; height: auto; margin: 0 auto; border: 0;" width="34"/></a></td>
 <td style="font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; font-size: 15px; color: #9d9d9d; vertical-align: middle; letter-spacing: undefined; text-align: center;"><a href="https://www.designedwithbee.com/?utm_source=editor&utm_medium=bee_pro&utm_campaign=free_footer_link" style="color: #9d9d9d; text-decoration: none;" target="_blank">Designed with BEE</a></td>
 </tr>
 </table>

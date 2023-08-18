@@ -12,6 +12,8 @@ use Illuminate\Queue\SerializesModels;
 class SendCodeResetPassword extends Mailable
 {
    public $code;
+   public $type;
+   public $url;
     use Queueable, SerializesModels;
 
     /**
@@ -19,9 +21,10 @@ class SendCodeResetPassword extends Mailable
      *
      * @return void
      */
-    public function __construct($code)
+    public function __construct($code,$type)
     {
         $this->code=$code;
+        $this->type=$type;
     }
 
     /**
@@ -41,10 +44,15 @@ class SendCodeResetPassword extends Mailable
      *
      * @return \Illuminate\Mail\Mailables\Content
      */
-    public function content()
-    {
+    public function content() {  
+       
+         if ($this->type ='Customer') { 
+                $this->url="https://heimdall-store.com/reinitialisation";
+            } else {
+                $this->url="https://heimdall-store.com/admin/reinitialisation";
+            }
         return (new Content)
-           ->view('emails/SendCodeResetPassword',['code' =>$this->code]);
+           ->view('emails/SendCodeResetPassword',['code' =>$this->code, 'url' => $this->url]);
         
     }
 

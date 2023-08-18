@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Mail\contactMail;
 use Illuminate\Http\Request;
 use App\Models\ResetCodePassword;
 use App\Mail\SendCodeResetPassword;
@@ -48,30 +49,20 @@ else {
             'prenoms' => $request->prenoms,
             'type' => $request->type,
             'devise' => $request->devise,
-<<<<<<< HEAD
             'valeurDevise' => $valeurDevise,
-=======
-            // 'valeurDevise' => $request->valeurDevise,
->>>>>>> origin
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
 
-     //   $this->notify(new VerifyEmail);
-<<<<<<< HEAD
-    //   Notification::send($user, new VerifyEmail($user));
-=======
-    //    Notification::send($user, new VerifyEmail($user));
->>>>>>> origin
-
-       // Mail::send(new inscriptionMail($user));
-
-    //     $token = $user->createToken('api_token')->plainTextToken;
-    //         $this->login($request);
-    //     return response([
-    //         'user' => $user,
-    //         'token' => $token,
-    //     ], 201);
+       
+      Notification::send($user, new VerifyEmail($user));
+ 
+        $token = $user->createToken('api_token')->plainTextToken;
+            $this->login($request);
+        return response([
+            'user' => $user,
+            'token' => $token,
+        ], 201);
     }
         
     }
@@ -211,7 +202,7 @@ public function sendMailPasswordForgot(Request $request)
                     ]);
 
                     // Send email to user
-                    if(Mail::to($request->email)->send(new SendCodeResetPassword($codeData->code))){
+                    if(Mail::to($request->email)->send(new SendCodeResetPassword($codeData->code,User::firstWhere('email', $request->email)->type))){
  
                          return response(['message' => trans('passwords.sent')], 200);
                     } else {dd("error");}
@@ -267,6 +258,25 @@ public function passwordReset(Request $request)
 
     } 
 
-    
+    public function sendform(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'nom' => 'required',
+            'prenom' =>'required',
+            'email' => 'required|email',
+            'message' => 'required',
+            'numeroTelephone'=>'required|'
+           ]);
+           
+            if ($validator->fails()) {
+              return response([
+                     'errors' => $validator->errors(),
+              ], 422); // Code de r&eacute;ponse HTTP 422 Unprocessable Entity
+          }
+          $data = $request->all();
+          Mail::to('admin@admin.com')->send(new contactMail($data));
+
+        return response()->json(['message' => 'Message sent successfully'], 200);
+    }
 
 }

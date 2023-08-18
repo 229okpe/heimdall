@@ -18,7 +18,7 @@ class produitController extends Controller
     public function index()
     { 
      //   $produits=Produit::all();
-     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->get();
+     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->with('categorie:id,nom')->get();
 
         return response()->json(['produits' => $produits], 200);
     }
@@ -43,7 +43,7 @@ class produitController extends Controller
           $images = $request->file('image');
           $filename = uniqid() . '.' . $images->getClientOriginalExtension();
           $images->storeAs('public/images/images_produits', $filename);
-          $image='public/storage/images/photos_profil/'.$filename;
+          $image='public/storage/images/images_produits/'.$filename;
           $request->merge(['image' => $image]);
        
           $produit=Produit::create([
@@ -63,7 +63,7 @@ class produitController extends Controller
     public function show(string $id)
     {
       // Récupérez le produit par son ID
-        $produit = Produit::find($id);
+      $produit = Produit::with('categorie:id,nom')->find($id);
 
     if ($produit) {
         // Multipliez le prix du produit par la devise donnée
@@ -231,6 +231,25 @@ class produitController extends Controller
         return "Le nombre total de commande est : " . $total;
 
     } 
+
+    public function rechercherProduits(Request $request)
+    {
+        $nomRecherche = $request->nom;
+
+        if ($nomRecherche) {
+            $produits = Produit::with('categorie:id,nom')
+                ->where('nom', 'like', '%' . $nomRecherche . '%')
+                ->get();
+
+            if ($produits->isEmpty()) {
+                return response()->json(['message' => 'Aucun produit trouvé'], 404);
+            }
+
+            return response()->json(['produits' => $produits], 200);
+        } else {
+            return response()->json(['message' => 'Nom de produit non spécifié'], 400);
+        }
+    }
 
 }
 
