@@ -34,19 +34,27 @@ class Authentification extends Controller
          
           if ($validator->fails()) {return response(["error" =>  $validator->errors()], 200);  }
 else { 
-    
+        if($request->devise =="USD"){
+            $valeurDevise="650";
+        }
+        elseif($request->devise =="EUR"){
+            $valeurDevise="700";
+        }
+        elseif($request->devise =="CFA"){
+            $valeurDevise="1";
+        }
         $user = User::create([
             'nom' => $request->nom,
             'prenoms' => $request->prenoms,
             'type' => $request->type,
             'devise' => $request->devise,
-            'valeurDevise' => $request->valeurDevise,
+            'valeurDevise' => $valeurDevise,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
 
      //   $this->notify(new VerifyEmail);
-       Notification::send($user, new VerifyEmail($user));
+    //   Notification::send($user, new VerifyEmail($user));
 
        // Mail::send(new inscriptionMail($user));
 
@@ -67,20 +75,22 @@ else {
             'password' => 'required',
         ]);
 
-            if (Auth::attempt($credentials)) {
-                
-                    $user = Auth::user();
-                    if($user){
-                    $token = $user->createToken('authToken')->plainTextToken;
+       if (Auth::attempt($credentials)) {
+    $user = Auth::user();
+    if ($user) {
+        $token = $user->createToken('authToken')->plainTextToken;
 
-                    return response([
-                        'access_token' => $token,
-                        'token_type' => 'Bearer', ]);
+        return response([
+            'access_token' => $token,
+            'token_type' => 'Bearer',
+        ]);
+    } else {
+        return response(['message' => 'Identifiants incorrects ! Veuillez réessayer'], 401);
+    }
+} else {
+    return response(['message' => 'Identifiants incorrects ! Veuillez réessayer'], 401);
+}
 
-                    } else {
-                    return response(['message' => 'Identifiants incorrects ! Veuillez r&eacute;ssayer'], 401);
-                }
-             }
     }
     
     public function logout(Request $request)

@@ -1,0 +1,4 @@
+[16-Aug-2023 15:37:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Transport\Smtp\Stream\AbstractStream" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/symfony/mailer/Transport/Smtp/Stream/SocketStream.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/symfony/mailer/Transport/Smtp/Stream/SocketStream.php on line 24

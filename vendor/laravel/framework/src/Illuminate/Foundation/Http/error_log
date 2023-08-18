@@ -1,0 +1,1 @@
+[16-Aug-2023 15:29:30 UTC] PHP Fatal error:  Trait "Illuminate\Support\InteractsWithTime" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php on line 19

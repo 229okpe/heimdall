@@ -1,0 +1,1 @@
+[16-Aug-2023 15:29:30 UTC] PHP Fatal error:  Trait "Illuminate\Database\Concerns\BuildsQueries" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 31

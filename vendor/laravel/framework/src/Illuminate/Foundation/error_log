@@ -1,0 +1,4 @@
+[16-Aug-2023 17:10:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Container\Container" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 32

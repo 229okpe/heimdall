@@ -16,10 +16,10 @@ return new class extends Migration
    
             $table->string('nom');
             $table->text('description');
-      
+      $table->string('statut');
             $table->text('image');
             $table->integer('prix'); 
-            // $table->string('categorie');
+           
             $table->unsignedBigInteger('categorie_id');
             $table->timestamps();
             $table->foreign('categorie_id')->references('id')->on('categories')->onDelete('cascade');

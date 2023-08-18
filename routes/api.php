@@ -23,17 +23,14 @@ Route::post('/register', [Authentification::class, 'register']);
 
 Route::post('/login', [Authentification::class, 'login']); 
 
-Route::get('/logout', [Authentification::class, 'logout']);
-<<<<<<< HEAD
-
+//Route::get('/logout', [Authentification::class, 'logout']);
+ 
 Route::post('sendMailPasswordForgot', [Authentification::class, 'sendMailPasswordForgot']);
 
 Route::get('/verify-email/{id}/', [Authentification::class, 'verify'])->name('verification.verify');
-// Route::get('/logout', function(){ echo "e";});
-=======
->>>>>>> c6459124a54aa6c84675142003a24d668707aca6
-
-Route::middleware(['auth:sanctum'])->group(function () {   
+ Route::get('/logout', function(){ echo "e";});
+ 
+Route::middleware(['auth'])->group(function () {   
 
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
@@ -60,36 +57,29 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
     Route::get('/supprimer-categorie/{id}', [categorieController::class, 'delete']);
 
-
-            ///COMMANDES
-     Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
-
-     
-     Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
-});
-
-<<<<<<< HEAD
-=======
-Route::middleware(['auth:sanctum'])->group(function () { 
-
     Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
+    
+                    //FAVORIS
 
     Route::get('/ajouter-favoris/{id}', [produitController::class, 'ajouterAuxFavoris']);
 
     Route::get('/supprimer-favoris/{id}', [produitController::class, 'supprimerUnFavoris']);
 
     Route::get('/favoris', [produitController::class, 'showFavoris']);
+           
+           
+           //
+     Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
+
+     
+     Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
+});
+
+ 
+Route::middleware(['auth:sanctum'])->group(function () { 
+
+
 
 });
 
 
-
-
-
-
-
-
-
-
-
->>>>>>> c6459124a54aa6c84675142003a24d668707aca6
