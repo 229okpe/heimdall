@@ -83,17 +83,20 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/contenu-panier', [commandesController::class, 'recupererContenuPanier']);
 
+ 
     Route::get('/total-panier', [commandesController::class, 'totalPanier']);
 
-    Route::get('/payer-abonnement/{idProduit}', [commandesController::class, 'payerAbonnement']);
+    Route::get('/payer-abonnement/{idProduit?}', [commandesController::class, 'payerAbonnement']);
     
-    Route::post('/enregistrer-abonnement', [commandesController::class, 'savePayment']);
+    Route::post('/enregistrer-paiement', [commandesController::class, 'savePayment']);
 
     Route::get('/nombre-commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
 
     Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
     
     Route::get('/commandes', [commandesController::class, 'index']);
+
+    Route::get('/mes-commandes', [commandesController::class, 'mesCommandes']);
 
     Route::get('/commande/{id}', [commandesController::class, 'show']);
    

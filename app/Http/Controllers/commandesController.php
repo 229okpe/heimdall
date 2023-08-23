@@ -8,15 +8,17 @@ use App\Models\Commande;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Gloudemans\Shoppingcart\Facades\Cart;
+use Illuminate\Support\Facades\Validator;
 
 
 class commandesController extends Controller
 {
-    public function addcart($id) {
+    public function addcart(Request $request, $id) {
         $produit=Produit::find($id);
-        
+        $token = $request->header('Authorization');
+       
             if($produit){
-                Cart::instance("a")->add($produit->id, $produit->nom, 1,$produit->prix);
+                Cart::instance($token)->add($produit->id, $produit->nom, 1,$produit->prix);
                 
                 return response(["message"=>"Produit ajouté"], 200);
             } else {
@@ -25,23 +27,30 @@ class commandesController extends Controller
 
     }
 
-    public function removeCart($rowId) {
-       
-                Cart::remove($rowId);
-                return response(["message"=>"Produit ajouté"], 200);
+    public function removeCart(Request $request, $rowId) {
+            $token = $request->header('Authorization');
+              Cart::instance($token)->remove($rowId);
+                return response(["message"=>"Produit supprimé du panier"], 200);
          
     }
 
-    public function recupererContenuPanier()
-    {    
-        $contenuPanier = Cart::instance('a')->content();;
+    public function recupererContenuPanier(Request $request)
+    {     $token = $request->header('Authorization');
+        $contenuPanier = Cart::instance($token)->content(); 
+        $tauxDeChange = app('currentUser')->valeurDevise;
+
+            foreach ($contenuPanier as $item) {
+                $item->subtotal = $item->subtotal * $tauxDeChange;
+            }
         return response(["message"=>$contenuPanier], 200);
    
     }
 
-    public function totalPanier()
-    {    
-        $totalPanier = Cart::instance('a')->total();;
+    public function totalPanier(Request $request)
+    {     $token = $request->header('Authorization');
+        $totalPanier = Cart::instance($token)->total();
+        $totalPanier=$totalPanier *app('currentUser')->valeurDevise;
+
         return response(["message"=>$totalPanier], 200);
    
     }
@@ -49,25 +58,49 @@ class commandesController extends Controller
      * Display a listing of the resource.
      */
     public function index()
-    {
-        $commandes=Commande::all();
-
+    { 
+        
+        $commandes = Commande::selectRaw('*, prix_total / :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->get();
+     
         return response(["commandes"=>$commandes], 200);
     }
 
+    public function mesCommandes()
+    {
+                $commandes = Commande::where('user_id', app('currentUser')->id) ->get();
 
+                foreach($commandes as $commande){
+                    $commande->prix_converti = $commande->prix_total / app('currentUser')->valeurDevise;
+                }
+                           
+                         
+        return response(["commandes"=>$commandes], 200);
+    }
+     
 
-    public function payerAbonnement($idProduit ){
-        $produit=Produit::findorfail($idProduit);
+    public function payerAbonnement(Request $request, $idProduit = 02513 ){
+       
+
+        if($idProduit = 02513 ) {
+            $token = $request->header('Authorization');
+           $prix = (int)Cart::instance($token)->total(); 
+        }
+        else {
+            $produit=Produit::findorfail($idProduit);
+            $prix =$produit->prix;  
+        }
+       
         $prefix = 'HEIMDALL_ORDER-';
         $randomNumber = mt_rand(1000, 9999); 
         $orderID = $prefix . $randomNumber;
 
         $vente=Commande::create([
             'order_id' => $orderID,
-            'prix_total' =>$produit->prix 
+            'prix_total' =>$prix 
           ]);
           $_SESSION[app('currentUser')->nom]=$vente->order_id; 
+          
+ 
          /* Rempacez VOTRE_CLE_API par votre véritable clé API */
          \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
          //  \FedaPay\FedaPay::setApiKey("sk_live_i8hnQzQKe-Ez_gY6Hq6VC27D");
@@ -77,8 +110,8 @@ class commandesController extends Controller
     
            /* Créer la transaction */ 
           $transaction = \FedaPay\Transaction::create(array(
-           "description" =>   app('currentUser')->nom." ".$produit->prix,
-           "amount" => $produit->prix,
+           "description" =>   app('currentUser')->nom." ".$prix,
+           "amount" => $prix,
            "currency" => ["iso" => "XOF"],
            "callback_url" => "http://uppersoftgroup.com/",
            "customer" => [
@@ -101,11 +134,35 @@ class commandesController extends Controller
     }
 
     public function savePayment(Request $request) {
+  
+        $validator = Validator::make($request->all(), [
+            'statut' => 'required', 
+           ]);
+           
+            if ($validator->fails()) {
+              return response([
+                     'errors' => $validator->errors(),
+              ], 422); // Code de r&eacute;ponse HTTP 422 Unprocessable Entity
+          }
+          
+        if(empty($request->produit_id)){
+            $token = $request->header('Authorization');
+            $contenuPanier = Cart::instance($token)->content();
+            $idsDansLePanier = [];
+
+            foreach ($contenuPanier as $item) {
+                $idsDansLePanier[] = $item->id;
+            }
+            $produits=$idsDansLePanier;
+        }
+        else{
+            $produits =$request->produit_id;
+        } 
          
         $vente = Commande::where('order_id', $_SESSION[app('currentUser')->nom])->first();
         
         if($vente && $request->statut == 'success'){
-            $vente->produit_id = $request->produit_id;
+            $vente->produit_id =  $produits;
             $vente->user_id = app('currentUser')->id;
             $vente->date_created = Carbon::now();
             $vente->save();
@@ -137,10 +194,18 @@ class commandesController extends Controller
     public function show(string $id)
     {
         // Récupérez le produit par son ID
-        $commande = Commande::find($id);
-
+        $commande = Commande::find($id); 
+        $tab=json_decode($commande->produit_id); 
         if ($commande) {
-            // Multipliez le prix du produit par la devise donnée
+
+            foreach($tab as $id) 
+                {
+                     
+                $produits[] = Produit::find($id);
+                
+                }
+            $commande->produits = $produits;
+            $commande->prix_converti = $commande->prix_total / app('currentUser')->valeurDevise;
             
             return response()->json(['message' => $commande], 200);
         } else{

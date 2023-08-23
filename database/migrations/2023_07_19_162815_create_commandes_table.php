@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('commandes', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('produit_id')->nullable();
+            $table->json('produit_id')->nullable();
             $table->string('order_id');	
-            $table->string('status')->default('En cours');
+            $table->string('status')->default('En attente');
             $table->unsignedBigInteger('user_id')->nullable();	
             $table->dateTime('date_created')->nullable();
             $table->integer('prix_total')->nullable();
