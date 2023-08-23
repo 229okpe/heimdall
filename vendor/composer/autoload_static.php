@@ -351,8 +351,8 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -524,12 +524,15 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminController.php',
         'App\\Http\\Controllers\\Authentification' => __DIR__ . '/../..' . '/app/Http/Controllers/Authentification.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\categorieController' => __DIR__ . '/../..' . '/app/Http/Controllers/categorieController.php',
+        'App\\Http\\Controllers\\chiffreAffaireController' => __DIR__ . '/../..' . '/app/Http/Controllers/chiffreAffaireController.php',
         'App\\Http\\Controllers\\commandesController' => __DIR__ . '/../..' . '/app/Http/Controllers/commandesController.php',
         'App\\Http\\Controllers\\produitController' => __DIR__ . '/../..' . '/app/Http/Controllers/produitController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
+        'App\\Http\\Middleware\\Auth' => __DIR__ . '/../..' . '/app/Http/Middleware/Auth.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
@@ -539,8 +542,9 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'App\\Http\\Middleware\\auth' => __DIR__ . '/../..' . '/app/Http/Middleware/auth.php',
         'App\\Mail\\SendCodeResetPassword' => __DIR__ . '/../..' . '/app/Mail/SendCodeResetPassword.php',
+        'App\\Mail\\contactMail' => __DIR__ . '/../..' . '/app/Mail/contactMail.php',
+        'App\\Models\\Admin' => __DIR__ . '/../..' . '/app/Models/Admin.php',
         'App\\Models\\Categorie' => __DIR__ . '/../..' . '/app/Models/Categorie.php',
         'App\\Models\\Commande' => __DIR__ . '/../..' . '/app/Models/Commande.php',
         'App\\Models\\Favoris' => __DIR__ . '/../..' . '/app/Models/Favoris.php',
