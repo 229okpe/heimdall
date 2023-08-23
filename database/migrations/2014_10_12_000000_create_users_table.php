@@ -17,6 +17,7 @@ return new class extends Migration
             $table->text('devise');
             $table->text('valeurDevise');
             $table->string('prenoms');
+            $table->string('numTelephone');
             $table->string('type')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();

@@ -13,13 +13,13 @@ return new class extends Migration
     {
         Schema::create('commandes', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('produit_id');
+            $table->unsignedBigInteger('produit_id')->nullable();
             $table->string('order_id');	
             $table->string('status')->default('En cours');
-            $table->unsignedBigInteger('user_id');	
-            $table->dateTime('date_created');
-            $table->integer('prix_total');
-            $table->text('details');	
+            $table->unsignedBigInteger('user_id')->nullable();	
+            $table->dateTime('date_created')->nullable();
+            $table->integer('prix_total')->nullable();
+            $table->text('details')->nullable();	
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

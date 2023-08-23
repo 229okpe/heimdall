@@ -99,5 +99,11 @@ class categorieController extends Controller
         }
     }   
 
-    
+    public function nbrTotalCatgories(){
+
+        $total = Categorie::count();
+        return response()->json(['message' =>  $total], 200); 
+        
+
+    } 
 }

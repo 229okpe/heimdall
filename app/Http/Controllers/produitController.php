@@ -2,8 +2,7 @@
  
 namespace App\Http\Controllers;
 
-use App\Models\Categorie;
-use App\Models\Commande;
+use App\Models\Categorie; 
 use App\Models\Favoris;
 use App\Models\Produit;
 use Illuminate\Http\Request; 
@@ -23,6 +22,31 @@ class produitController extends Controller
         return response()->json(['produits' => $produits], 200);
     }
 
+    public function indexwithoutlog()
+    { 
+     //   $produits=Produit::all();
+     $produits = Produit::with('categorie:id,nom')->get();
+
+        return response()->json(['produits' => $produits], 200);
+    }
+
+    
+    public function showWithoutlog(string $id)
+    {
+      // Récupérez le produit par son ID
+      $produit = Produit::with('categorie:id,nom')->find($id);
+
+    if ($produit) {
+      
+        return response()->json(['produit' => $produit], 200);
+    } else{
+        return response()->json(['message' => 'Produit non trouvé'], 404);
+    }
+ 
+        
+    }
+
+
     /**
      * Store a newly created resource in storage.
      */
@@ -34,7 +58,8 @@ class produitController extends Controller
             'description' => 'required',
             'prix' => 'required',
             'image' => 'required|file',
-            'categorie_id' => 'required'
+            'categorie_id' => 'required',
+            'statut' => 'required'
            ]);
            
             if ($validator->fails()) {
@@ -51,6 +76,7 @@ class produitController extends Controller
             'nom' => $request->nom,
             'description' => $request->description,
             'prix' => $request->prix,
+            'statut' => $request->statut,
             'image' => $image,
             'categorie_id' => $request->categorie_id
           ]);
@@ -114,6 +140,7 @@ class produitController extends Controller
     
         // Mettre à jour les attributs du produit avec les nouvelles valeurs
         $produit->nom = $request->nom;
+        $produit->statut = $request->statut;
         $produit->description = $request->description;
         $produit->prix = $request->prix;
         $produit->categorie_id = $request->categorie_id;
@@ -213,25 +240,19 @@ class produitController extends Controller
 
         $total = Produit::count();
 
-        return "Le nombre total de produits est : " . $total;
+        return response()->json(['message' =>  $total], 200); 
 
     }  
 
     public function nbrTotalCatgories(){
 
         $total = Categorie::count();
-
-        return "Le nombre total de categorie est : " . $total;
-
-    } 
-
-    public function nbrTotalCommandes(){
-
-        $total = Commande::count();
-
-        return "Le nombre total de commande est : " . $total;
+        return response()->json(['message' =>  $total], 200); 
+        
 
     } 
+
+   
 
     public function rechercherProduits(Request $request)
     {

@@ -35,8 +35,14 @@ Route::get('/verify-email/{id}/', [Authentification::class, 'verify'])->name('ve
 
 Route::post('/contact', [Authentification::class, 'sendform'] );
 
+Route::get('/produits-sansconnexion', [produitController::class, 'indexwithoutlog']); 
+
+
+Route::get('/produit-sansconnexion/{id}', [produitController::class, 'showWithoutlog']); 
 
 Route::middleware(['auth'])->group(function () {   
+                //USER
+    Route::get('/current-user', [Authentification::class, 'currentUser']);          
 
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
@@ -52,6 +58,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/{categorie}/produits', [produitController::class, 'indexe']);
 
     Route::post('/rechercher-produit', [produitController::class, 'rechercherProduits']);
+  
+    Route::get('/total-produit', [produitController::class, 'nbrTotalProduits']);
 
     
             //CATEGORIES
@@ -65,21 +73,31 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/supprimer-categorie/{id}', [categorieController::class, 'delete']);
 
+    Route::get('/total-categorie', [categorieController::class, 'nbrTotalCatgories']);
+
 
             ///COMMANDES
     Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
 
-    Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
+    Route::get('/supprimer-panier/{rowId}', [commandesController::class, 'removeCart']);
+
+    Route::get('/contenu-panier', [commandesController::class, 'recupererContenuPanier']);
+
+    Route::get('/total-panier', [commandesController::class, 'totalPanier']);
+
+    Route::get('/payer-abonnement/{idProduit}', [commandesController::class, 'payerAbonnement']);
+    
+    Route::post('/enregistrer-abonnement', [commandesController::class, 'savePayment']);
 
     Route::get('/nombre-commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
 
     Route::get('/{idCategorie}/produits', [produitController::class, 'liste_produits_par_categorie']);
+    
+    Route::get('/commandes', [commandesController::class, 'index']);
+
+    Route::get('/commande/{id}', [commandesController::class, 'show']);
    
-    Route::get('/total-produit', [produitController::class, 'nbrTotalProduits']);
-
-    Route::get('/total-categorie', [produitController::class, 'nbrTotalCatgories']);
-
-    Route::get('/total-categorie', [produitController::class, 'nbrTotalCommandes']);
+    Route::get('/total-commandes', [commandesController::class, 'nbrTotalCommandes']);
     
                     //FAVORIS
 

@@ -16,7 +16,7 @@ return new class extends Migration
    
             $table->string('nom');
             $table->text('description');
-      $table->string('statut');
+             $table->string('statut');
             $table->text('image');
             $table->integer('prix'); 
            
