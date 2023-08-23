@@ -1,0 +1,9 @@
+[19-Aug-2023 10:57:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Routing\RouteCollectionInterface" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php on line 18
+[19-Aug-2023 10:57:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\AbstractRouteCollection" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php on line 9
+[19-Aug-2023 12:02:10 UTC] PHP Fatal error:  Trait "Illuminate\Routing\FiltersControllerMiddleware" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php on line 8

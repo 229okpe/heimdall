@@ -45,7 +45,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/produit/{id}', [produitController::class, 'show']); 
 
-    Route::post('/modifier-produit', [produitController::class, 'update']); 
+    Route::post('/modifier-produit/{id}', [produitController::class, 'update']); 
 
     Route::get  ('/supprimer-produit/{id}', [produitController::class, 'delete']); 
     
