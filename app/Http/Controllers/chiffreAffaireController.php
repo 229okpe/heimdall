@@ -12,7 +12,7 @@ class chiffreAffaireController extends Controller
     {
         $chiffreAffaire = Commande::sum('prix_total');
 
-        return response(["chiffre daffaire"=>$chiffreAffaire ], 200);
+        return response(["ca"=>$chiffreAffaire ], 200);
  
     }
 
@@ -23,6 +23,6 @@ class chiffreAffaireController extends Controller
 
         $chiffreAffaires = Commande::whereMonth('created_at', $moisEnCours)->sum('prix_total');
 
-        return response(["chiffre daffaire"=>$chiffreAffaires ], 200); 
+        return response(["ca"=>$chiffreAffaires ], 200); 
     }
 }

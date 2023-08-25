@@ -44,6 +44,7 @@ Route::middleware(['auth'])->group(function () {
                 //USER
     Route::get('/current-user', [Authentification::class, 'currentUser']);          
 
+    Route::get('/update-password', [Authentification::class, 'modifyPassword']);
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
 
@@ -99,6 +100,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/mes-commandes', [commandesController::class, 'mesCommandes']);
 
     Route::get('/commande/{id}', [commandesController::class, 'show']);
+
+    Route::get('/commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
    
     Route::get('/total-commandes', [commandesController::class, 'nbrTotalCommandes']);
     

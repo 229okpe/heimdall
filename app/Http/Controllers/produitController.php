@@ -17,7 +17,7 @@ class produitController extends Controller
     public function index()
     { 
      //   $produits=Produit::all();
-     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->with('categorie:id,nom')->get();
+     $produits = Produit::selectRaw('*, prix * :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->with('categorie:id,nom')->orderBy('id', 'desc')->get();
 
         return response()->json(['produits' => $produits], 200);
     }
@@ -243,14 +243,7 @@ class produitController extends Controller
 
     }  
 
-    public function nbrTotalCatgories(){
-
-        $total = Categorie::count();
-        return response()->json(['message' =>  $total], 200); 
-        
-
-    } 
-
+   
    
 
     public function rechercherProduits(Request $request)
