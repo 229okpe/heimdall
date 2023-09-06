@@ -13,8 +13,8 @@ class Commande extends Model
         'user_id',
         'produit_id',
         'order_id',
-        'date_createsd',
-        'statut',
+        'date_created',
+        'status',
         'prix_total'
     ];
 }

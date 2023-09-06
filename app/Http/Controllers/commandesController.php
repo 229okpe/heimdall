@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers;
 session_start();
+
 use Carbon\Carbon;
+use App\Models\User;
 use App\Models\Produit;
 use App\Models\Commande;
 use Illuminate\Http\Request;
+use App\Mail\orderDetailsMail;
+use App\Mail\orderMail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Gloudemans\Shoppingcart\Facades\Cart;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Notification;
 
 
 class commandesController extends Controller
@@ -81,12 +87,13 @@ class commandesController extends Controller
     public function payerAbonnement(Request $request, $idProduit = 02513 ){
        
 
-        if($idProduit = 02513 ) {
+        if($idProduit == 02513 ) {
             $token = $request->header('Authorization');
            $prix = (int)Cart::instance($token)->total(); 
         }
         else {
             $produit=Produit::findorfail($idProduit);
+           
             $prix =$produit->prix;  
         }
        
@@ -106,8 +113,7 @@ class commandesController extends Controller
          //  \FedaPay\FedaPay::setApiKey("sk_live_i8hnQzQKe-Ez_gY6Hq6VC27D");
        /* Précisez si vous souhaitez exécuter votre requête en mode test ou live */
            \FedaPay\FedaPay::setEnvironment('sandbox'); //ou setEnvironment('live');
-
-    
+ 
            /* Créer la transaction */ 
           $transaction = \FedaPay\Transaction::create(array(
            "description" =>   app('currentUser')->nom." ".$prix,
@@ -149,14 +155,20 @@ class commandesController extends Controller
             $token = $request->header('Authorization');
             $contenuPanier = Cart::instance($token)->content();
             $idsDansLePanier = [];
+            $nomProduits= "" ;
 
             foreach ($contenuPanier as $item) {
                 $idsDansLePanier[] = $item->id;
+                $nomProduits .= $item->name.' \ ';
             }
             $produits=$idsDansLePanier;
+            $listeProduit = $nomProduits;
         }
         else{
+
             $produits =$request->produit_id;
+
+            $listeProduit = Produit::find($request->produit_id)->nom;
         } 
          
         $vente = Commande::where('order_id', $_SESSION[app('currentUser')->nom])->first();
@@ -166,13 +178,14 @@ class commandesController extends Controller
             $vente->user_id = app('currentUser')->id;
             $vente->date_created = Carbon::now();
             $vente->save();
-            Session::forget(app('currentUser')->nom);
-            //Mail de Paiement
-            return response(['success' => 'Achat effectue avec succes'], 200);
-            
-          
+           // Session::forget(app('currentUser')->nom);
+           
+            if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
+                {
+                return response(['success' => 'Achat effectue avec succes'], 200);
+                 } else {dd("error");}}
+     
         
-        }
         else{
             return response(['error' => 'Produit non trouvé'], 404);
         }
@@ -243,6 +256,38 @@ class commandesController extends Controller
         return response()->json(['message' =>  $total], 200); 
 
     } 
+
+    public function validateOrder(Request $request){
+        $validator = Validator::make($request->all(), [
+        
+            'order_id' => 'required',
+            'details' => 'required',
+          ]);
+
+           
+            if ($validator->fails()) {
+              return response(['errors' => $validator->errors(), ], 422); 
+          } 
+          else {
+            $data = $request->details; 
+            $commande = Commande::where('order_id', $request->order_id)->first();
+                if($commande){ 
+                        $commande->details = $data;
+                        $commande->status = "Validé";
+                        $commande->save();
+                        $user= User::where('id', $commande->user_id)->first();
+                    
+                    if(Mail::to($user->email)->send(new orderDetailsMail( $user,$data, $commande))){
+                            return response(['message' => "Details envoyé"], 200);
+                    } else {dd("error");}}
+                else {
+                    return response(['message' => 'Commande non trouvé'], 404);
+                }
+
+           
+        }
+    }
+
     
 }
 

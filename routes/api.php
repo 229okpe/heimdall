@@ -37,14 +37,17 @@ Route::post('/contact', [Authentification::class, 'sendform'] );
 
 Route::get('/produits-sansconnexion', [produitController::class, 'indexwithoutlog']); 
 
+Route::post('/rechercher-produit', [produitController::class, 'rechercherProduits']);
 
 Route::get('/produit-sansconnexion/{id}', [produitController::class, 'showWithoutlog']); 
+
+Route::post('/update-password', [Authentification::class, 'passwordReset']);
 
 Route::middleware(['auth'])->group(function () {   
                 //USER
     Route::get('/current-user', [Authentification::class, 'currentUser']);          
 
-    Route::get('/update-password', [Authentification::class, 'modifyPassword']);
+    Route::ppost('/update-password', [Authentification::class, 'modifyPassword']);
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
 
@@ -58,7 +61,6 @@ Route::middleware(['auth'])->group(function () {
     
     Route::get('/{categorie}/produits', [produitController::class, 'indexe']);
 
-    Route::post('/rechercher-produit', [produitController::class, 'rechercherProduits']);
   
     Route::get('/total-produit', [produitController::class, 'nbrTotalProduits']);
 
@@ -104,6 +106,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
    
     Route::get('/total-commandes', [commandesController::class, 'nbrTotalCommandes']);
+
+    Route::post('/valider-commande', [commandesController::class, 'validateOrder']);
     
                     //FAVORIS
 
@@ -131,21 +135,17 @@ Route::middleware(['auth'])->group(function () {
  
 
 
-// Route::middleware(['CheckAccess::class'])->group(function () { 
+Route::middleware(['auth, superAdmin'])->group(function () { 
 
-    // Route::get('/admins', [AdminController::class, 'index']); 
+     Route::get('/admins', [AdminController::class, 'index']); 
 
-    // Route::post('/ajouter-admin', [AdminController::class, 'ajouterAdmin']); 
+     Route::post('/ajouter-admin', [AdminController::class, 'ajouterAdmin']); 
 
-    // Route::get  ('/supprimer-admin/{id}', [AdminController::class, 'delete']); 
+     Route::get  ('/supprimer-admin/{id}', [AdminController::class, 'delete']); 
 
-    // Route::post('/modifier-admin/{id}', [AdminController::class, 'update']);
+     Route::post('/modifier-admin/{id}', [AdminController::class, 'update']);
 
-// });
-
-// Route::get('/supprimer-admin/{id}' , function(){
-
-// })->middleware(CheckAccess::class);
+});
 
 
 

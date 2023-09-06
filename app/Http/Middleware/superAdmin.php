@@ -20,7 +20,7 @@ class CheckAccess
     {
         // Vérifiez si l'utilisateur est connecté et est un super administrateur
 
-        if (Auth::user() &&  Auth::user()->type == 1) {
+        if (Auth::user() &&  Auth::user()->type == "superAdmin") {
             
             return $next($request); // L'utilisateur est un super administrateur, laissez-le accéder à la route
        }

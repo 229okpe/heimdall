@@ -23,7 +23,7 @@ class AdminController extends Controller
           if ($validator->fails()) {return response(["error" =>  $validator->errors()], 200);  
         } else { 
     
-        $admin = Admin::create([
+        $admin = User::create([
             'nom' => $request->nom,
             'prenoms' => $request->prenoms,
             'type' => $request->type,
@@ -52,7 +52,7 @@ class AdminController extends Controller
 
     public function delete(string $id)
     {
-        $user = Admin::find($id);
+        $user = User::find($id);
 
         if ($user) {
             $user->delete();
@@ -63,7 +63,7 @@ class AdminController extends Controller
 
     public function index()
     {
-        $user = Admin::all();
+        $user = User::all();
 
         return response()->json(['user' => $user], 200);
     }
@@ -83,7 +83,7 @@ class AdminController extends Controller
             return response(['errors' => $validator->errors()], 422);
         }
     
-        $user = Admin::find($id);
+        $user = User::find($id);
     
         if (!$user) {
             return response()->json(['error' => 'Administrateur non trouvée'], 404);
