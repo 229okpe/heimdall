@@ -67,7 +67,8 @@ class produitController extends Controller
           } 
           $images = $request->file('image');
           $filename = uniqid() . '.' . $images->getClientOriginalExtension();
-          $images->storeAs('public/images/images_produits', $filename);
+       //  $images->storeAs('public/images/images_produits', $filename);
+         $images->move("storage/images/images_produits", $filename);
           $image='public/storage/images/images_produits/'.$filename;
           $request->merge(['image' => $image]);
        
@@ -132,7 +133,7 @@ class produitController extends Controller
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $filename = uniqid() . '.' . $image->getClientOriginalExtension();
-            $image->storeAs('public/images/images_produits', $filename);
+             $image->move("storage/images/images_produits", $filename);
             $imagePath = 'public/storage/images/images_produits/' . $filename;
             $produit->image = $imagePath;
         }

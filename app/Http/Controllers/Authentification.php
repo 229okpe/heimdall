@@ -57,7 +57,7 @@ else {
         ]);
 
        
-      Notification::send($user, new VerifyEmail($user));
+   //   Notification::send($user, new VerifyEmail($user));
  
         $token = $user->createToken('api_token')->plainTextToken;
             $this->login($request);
