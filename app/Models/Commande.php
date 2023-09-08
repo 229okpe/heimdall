@@ -15,6 +15,7 @@ class Commande extends Model
         'order_id',
         'date_created',
         'status',
+        'box',
         'prix_total'
     ];
 }

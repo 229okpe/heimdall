@@ -69,6 +69,53 @@ else {
         
     }
 
+ 
+public function update(Request $request, $id)
+{
+    $user = User::find($id);
+
+    if (!$user) {
+        return response(['error' => 'Utilisateur introuvable'], 404);
+    }
+
+    $validator = Validator::make($request->all(), [
+        'nom' => 'required|string|max:255',
+        'prenoms' => 'required|string',
+        'numeroTelephone' => 'required',
+        'type' => 'required',
+        'devise' => 'required',
+        'email' => 'required|string|email|max:255|unique:'.User::class,
+       
+    ]);
+
+    if ($validator->fails()) {
+        return response(["error" => $validator->errors()], 200);
+    } else {
+        if ($request->devise == "USD") {
+            $valeurDevise = "650";
+        } elseif ($request->devise == "EUR") {
+            $valeurDevise = "700";
+        } elseif ($request->devise == "CFA") {
+            $valeurDevise = "1";
+        }
+
+        $user->update([
+            'nom' => $request->nom,
+            'numTelephone' => $request->numeroTelephone,
+            'prenoms' => $request->prenoms,
+            'type' => $request->type,
+            'devise' => $request->devise,
+            'valeurDevise' => $valeurDevise,
+            'email' => $request->email
+        ]);
+
+        return response([
+            'message' => 'Utilisateur mis à jour avec succès',
+            'user' => $user,
+        ], 200);
+    }
+}
+
     public function login(Request $request)
     {
         $credentials = $request->validate([

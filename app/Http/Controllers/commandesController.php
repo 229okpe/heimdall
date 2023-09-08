@@ -24,7 +24,7 @@ class commandesController extends Controller
         $token = $request->header('Authorization');
        
             if($produit){
-                Cart::instance($token)->add($produit->id, $produit->nom, 1,$produit->prix);
+                Cart::instance($token)->add($produit->id, $produit->nom, 1,$produit->prix, ['image' => $produit->image]);
                 
                 return response(["message"=>"Produit ajouté"], 200);
             } else {
@@ -43,23 +43,27 @@ class commandesController extends Controller
     public function recupererContenuPanier(Request $request)
     {     $token = $request->header('Authorization');
         $contenuPanier = Cart::instance($token)->content(); 
+        $cartWithoutRowIds = [];
         $tauxDeChange = app('currentUser')->valeurDevise;
-
-            foreach ($contenuPanier as $item) {
-                $item->subtotal = $item->subtotal * $tauxDeChange;
-            }
-        return response(["message"=>$contenuPanier], 200);
-   
-    }
-
-    public function totalPanier(Request $request)
-    {     $token = $request->header('Authorization');
+     
         $totalPanier = Cart::instance($token)->total();
-        $totalPanier=$totalPanier *app('currentUser')->valeurDevise;
-
-        return response(["message"=>$totalPanier], 200);
+       $totalPanier=$totalPanier / app('currentUser')->valeurDevise;
+       foreach ($contenuPanier as $item) {
+        $cartWithoutRowIds[] = [
+            'id' => $item->id,
+            'name' => $item->name,
+            'qty' => $item->qty,
+            'price' => round($item->price /$tauxDeChange,2)  ,
+            'options' => $item->options,
+            'tax' => $item->tax,
+            'subtotal' => $item->subtotal,
+        ];
+    }
+        return response(["message"=>$cartWithoutRowIds, "prixTotal" =>round($totalPanier,2)], 200);
    
     }
+
+    
     /**
      * Display a listing of the resource.
      */
@@ -175,10 +179,11 @@ class commandesController extends Controller
         
         if($vente && $request->statut == 'success'){
             $vente->produit_id =  $produits;
+            $vente->box = $request->box;
             $vente->user_id = app('currentUser')->id;
             $vente->date_created = Carbon::now();
             $vente->save();
-           // Session::forget(app('currentUser')->nom);
+            Session::forget(app('currentUser')->nom);
            
             if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
                 {

@@ -47,7 +47,10 @@ Route::middleware(['auth'])->group(function () {
                 //USER
     Route::get('/current-user', [Authentification::class, 'currentUser']);          
 
-    Route::ppost('/update-password', [Authentification::class, 'modifyPassword']);
+    Route::post('/update-user/{id}', [Authentification::class, 'update']);
+
+
+    Route::post('/update-password', [Authentification::class, 'modifyPassword']);
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
 
@@ -87,7 +90,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/contenu-panier', [commandesController::class, 'recupererContenuPanier']);
 
  
-    Route::get('/total-panier', [commandesController::class, 'totalPanier']);
+    //Route::get('/total-panier', [commandesController::class, 'totalPanier']);
 
     Route::get('/payer-abonnement/{idProduit?}', [commandesController::class, 'payerAbonnement']);
     

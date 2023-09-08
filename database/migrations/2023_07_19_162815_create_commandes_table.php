@@ -16,6 +16,7 @@ return new class extends Migration
             $table->json('produit_id')->nullable();
             $table->string('order_id');	
             $table->string('status')->default('En attente');
+            $table->string('box');
             $table->unsignedBigInteger('user_id')->nullable();	
             $table->dateTime('date_created')->nullable();
             $table->integer('prix_total')->nullable();
