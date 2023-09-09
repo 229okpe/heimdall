@@ -180,11 +180,13 @@ class commandesController extends Controller
         if($vente && $request->statut == 'success'){
             $vente->produit_id =  $produits;
             $vente->box = $request->box;
+            
             $vente->user_id = app('currentUser')->id;
+            $vente->user_name = app('currentUser')->nom.' '.app('currentUser')->prenoms;
             $vente->date_created = Carbon::now();
             $vente->save();
-            Session::forget(app('currentUser')->nom);
-           
+           // Session::forget(app('currentUser')->nom); 
+            session()->forget(app('currentUser')->nom);
             if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
                 {
                 return response(['success' => 'Achat effectue avec succes'], 200);
@@ -213,9 +215,9 @@ class commandesController extends Controller
     {
         // Récupérez le produit par son ID
         $commande = Commande::find($id); 
-        $tab=json_decode($commande->produit_id); 
+      
         if ($commande) {
-
+            $tab=json_decode($commande->produit_id); 
             foreach($tab as $id) 
                 {
                      
@@ -265,8 +267,7 @@ class commandesController extends Controller
     public function validateOrder(Request $request){
         $validator = Validator::make($request->all(), [
         
-            'order_id' => 'required',
-            'details' => 'required',
+            'order_id' => 'required'
           ]);
 
            
@@ -274,17 +275,27 @@ class commandesController extends Controller
               return response(['errors' => $validator->errors(), ], 422); 
           } 
           else {
-            $data = $request->details; 
             $commande = Commande::where('order_id', $request->order_id)->first();
-                if($commande){ 
+            if($commande){ 
+                    
+                if ($request->statut =="Annulé") {
+                    $commande->status = $request->statut;
+                    $commande->save();
+                }
+                 else {
+                        $data = $request->details; 
+                        $commande->status = $request->statut;
                         $commande->details = $data;
-                        $commande->status = "Validé";
                         $commande->save();
                         $user= User::where('id', $commande->user_id)->first();
                     
-                    if(Mail::to($user->email)->send(new orderDetailsMail( $user,$data, $commande))){
-                            return response(['message' => "Details envoyé"], 200);
-                    } else {dd("error");}}
+                        if(Mail::to($user->email)->send(new orderDetailsMail( $user,$data, $commande))){
+                                return response(['message' => "Details envoyé"], 200);
+                        }
+            
+                      }
+        
+            }
                 else {
                     return response(['message' => 'Commande non trouvé'], 404);
                 }

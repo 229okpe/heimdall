@@ -83,8 +83,7 @@ public function update(Request $request, $id)
         'prenoms' => 'required|string',
         'numeroTelephone' => 'required',
         'type' => 'required',
-        'devise' => 'required',
-        'email' => 'required|string|email|max:255|unique:'.User::class,
+        'devise' => 'required' 
        
     ]);
 
@@ -105,8 +104,7 @@ public function update(Request $request, $id)
             'prenoms' => $request->prenoms,
             'type' => $request->type,
             'devise' => $request->devise,
-            'valeurDevise' => $valeurDevise,
-            'email' => $request->email
+            'valeurDevise' => $valeurDevise 
         ]);
 
         return response([
