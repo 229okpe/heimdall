@@ -5,65 +5,111 @@ session_start();
 
 use Carbon\Carbon;
 use App\Models\User;
+use App\Models\Panier;
+use App\Mail\orderMail;
 use App\Models\Produit;
 use App\Models\Commande;
 use Illuminate\Http\Request;
 use App\Mail\orderDetailsMail;
-use App\Mail\orderMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Gloudemans\Shoppingcart\Facades\Cart;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Notification;
 
 
 class commandesController extends Controller
 {
+    
     public function addcart(Request $request, $id) {
-        $produit=Produit::find($id);
         $token = $request->header('Authorization');
-       
-            if($produit){
-                Cart::instance($token)->add($produit->id, $produit->nom, 1,$produit->prix, ['image' => $produit->image]);
-                
-                return response(["message"=>"Produit ajouté"], 200);
-            } else {
-                return response(["message"=>"Produit non trouvé"], 404);
-            }
+        $paniers = Panier::where('token', $token)->get();
 
-    }
+        $product=Produit::find($id);
+        
+        if(count($paniers)!==0){
+                    if($product){
+                    
+                        foreach ($paniers as $panierItem) {
+                           
+                                if ($panierItem->idProduit == $product->id) {
+                                
+                                        $panierItem->qty+=1;
+                                        $panierItem->save();
+                                        return response(["message"=> "Produit ajouté" ], 200);
+                                        break; // Sortez de la boucle dès que le produit est trouvé dans le panier
+                                    }
+                                
+                                    else {
+                                       
+                                        Panier::create([
+                                            'token' => $token,
+                                            'idProduit' => $product->id,
+                                            'nomProduit'=>$product->nom,
+                                            'qty'=>1,
+                                            'image'=>$product->image,
+                                            'prix'=>$product->prix ]);
+                                        
+                                    }
+                                }
+                                return response(["message"=> "Produit ajouté" ], 200);
+                        
+                            } 
+                        
+                            else {
+                                return response(["message"=>"Produit non trouvé"], 404);
+                            }
+                        }
+                        else{
 
-    public function removeCart(Request $request, $rowId) {
-            $token = $request->header('Authorization');
-              Cart::instance($token)->remove($rowId);
-                return response(["message"=>"Produit supprimé du panier"], 200);
-         
+                            Panier::create([
+                                'token' => $token,
+                                'idProduit' => $product->id,
+                                'nomProduit'=>$product->nom,
+                                'qty'=>1,
+                                'image'=>$product->image,
+                                'prix'=>$product->prix ]);
+
+                              return response(["message"=> "Produit ajouté" ], 200);
+                        }
+         }
+            
+
+    public function removeCart(Request $request, $id) {
+       // Récupérez le jeton ou l'ID de l'utilisateur, selon votre système d'authentification
+    $token = $request->header('Authorization'); // Vous devrez peut-être ajuster ceci.
+
+    // Recherchez le panier de l'utilisateur en fonction du jeton ou de l'ID utilisateur.
+    $produit = Panier::where('token', $token)->where('idProduit', $id)->first();
+
+    if ($produit) {
+        // Utilisez la méthode `where` pour trouver l'élément spécifique du panier en fonction de l'ID du produit et du panier.
+        $produit->delete();
+
+        return response(["message" => "Produit supprimé du panier"], 200);
+    } else {
+        return response(["message" => "Panier introuvable"], 404);
     }
+} 
+
+  
 
     public function recupererContenuPanier(Request $request)
-    {     $token = $request->header('Authorization');
-        $contenuPanier = Cart::instance($token)->content(); 
-        $cartWithoutRowIds = [];
-        $tauxDeChange = app('currentUser')->valeurDevise;
-     
-        $totalPanier = Cart::instance($token)->total();
-       $totalPanier=$totalPanier / app('currentUser')->valeurDevise;
-       foreach ($contenuPanier as $item) {
-        $cartWithoutRowIds[] = [
-            'id' => $item->id,
-            'name' => $item->name,
-            'qty' => $item->qty,
-            'price' => round($item->price /$tauxDeChange,2)  ,
-            'options' => $item->options,
-            'tax' => $item->tax,
-            'subtotal' => $item->subtotal,
-        ];
-    }
-        return response(["message"=>$cartWithoutRowIds, "prixTotal" =>round($totalPanier,2)], 200);
-   
-    }
+    {      $token = $request->header('Authorization');  
+          $paniers = Panier::where('token', $token)->get();
 
-    
+         $prixTotal = 0;
+
+        // Parcourez tous les paniers de l'utilisateur
+        
+            // Parcourez les produits dans chaque panier et ajoutez leur prix à la somme
+            foreach ($paniers  as $produit) {
+                $prixTotal += $produit->prix;
+            }
+
+        // Répondez avec le contenu du panier
+        return response()->json(['message' =>$paniers, "prixTotal" => $prixTotal ]);
+     
+    }
     /**
      * Display a listing of the resource.
      */
@@ -93,7 +139,12 @@ class commandesController extends Controller
 
         if($idProduit == 02513 ) {
             $token = $request->header('Authorization');
-           $prix = (int)Cart::instance($token)->total(); 
+            $paniers = Panier::where('token', $token)->get();
+            $prix = 0;
+           foreach ($paniers  as $produit) {
+               $prix += $produit->prix;
+             }
+  
         }
         else {
             $produit=Produit::findorfail($idProduit);
@@ -157,14 +208,14 @@ class commandesController extends Controller
           
         if(empty($request->produit_id)){
             $token = $request->header('Authorization');
-            $contenuPanier = Cart::instance($token)->content();
+            $paniers = Panier::where('token', $token)->get();
+          
             $idsDansLePanier = [];
             $nomProduits= "" ;
-
-            foreach ($contenuPanier as $item) {
+           foreach ($paniers  as $item) {
                 $idsDansLePanier[] = $item->id;
                 $nomProduits .= $item->name.' \ ';
-            }
+             } 
             $produits=$idsDansLePanier;
             $listeProduit = $nomProduits;
         }
@@ -186,7 +237,7 @@ class commandesController extends Controller
             $vente->date_created = Carbon::now();
             $vente->save();
            // Session::forget(app('currentUser')->nom); 
-            session()->forget(app('currentUser')->nom);
+           $paniers = Panier::where('token', $token)->delete();
             if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
                 {
                 return response(['success' => 'Achat effectue avec succes'], 200);

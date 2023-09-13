@@ -139,7 +139,6 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'GrahamCampbell\\ResultType\\' => 26,
-            'Gloudemans\\Shoppingcart\\' => 24,
         ),
         'F' => 
         array (
@@ -452,10 +451,6 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
         ),
-        'Gloudemans\\Shoppingcart\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src',
-        ),
         'Fruitcake\\Cors\\' => 
         array (
             0 => __DIR__ . '/..' . '/fruitcake/php-cors/src',
@@ -544,6 +539,8 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Mail\\SendCodeResetPassword' => __DIR__ . '/../..' . '/app/Mail/SendCodeResetPassword.php',
         'App\\Mail\\contactMail' => __DIR__ . '/../..' . '/app/Mail/contactMail.php',
+        'App\\Mail\\orderDetailsMail' => __DIR__ . '/../..' . '/app/Mail/orderDetailsMail.php',
+        'App\\Mail\\orderMail' => __DIR__ . '/../..' . '/app/Mail/orderMail.php',
         'App\\Models\\Admin' => __DIR__ . '/../..' . '/app/Models/Admin.php',
         'App\\Models\\Categorie' => __DIR__ . '/../..' . '/app/Models/Categorie.php',
         'App\\Models\\Commande' => __DIR__ . '/../..' . '/app/Models/Commande.php',
@@ -1416,17 +1413,6 @@ class ComposerStaticInit10b6f9ceb7bf7d9b9e6048e13de3eb69
         'FedaPay\\WebhookSignature' => __DIR__ . '/..' . '/fedapay/fedapay-php/lib/WebhookSignature.php',
         'Fruitcake\\Cors\\CorsService' => __DIR__ . '/..' . '/fruitcake/php-cors/src/CorsService.php',
         'Fruitcake\\Cors\\Exceptions\\InvalidOptionException' => __DIR__ . '/..' . '/fruitcake/php-cors/src/Exceptions/InvalidOptionException.php',
-        'Gloudemans\\Shoppingcart\\CanBeBought' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/CanBeBought.php',
-        'Gloudemans\\Shoppingcart\\Cart' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Cart.php',
-        'Gloudemans\\Shoppingcart\\CartItem' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/CartItem.php',
-        'Gloudemans\\Shoppingcart\\CartItemOptions' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/CartItemOptions.php',
-        'Gloudemans\\Shoppingcart\\Contracts\\Buyable' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Contracts/Buyable.php',
-        'Gloudemans\\Shoppingcart\\Contracts\\InstanceIdentifier' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Contracts/InstanceIdentifier.php',
-        'Gloudemans\\Shoppingcart\\Exceptions\\CartAlreadyStoredException' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Exceptions/CartAlreadyStoredException.php',
-        'Gloudemans\\Shoppingcart\\Exceptions\\InvalidRowIDException' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Exceptions/InvalidRowIDException.php',
-        'Gloudemans\\Shoppingcart\\Exceptions\\UnknownModelException' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Exceptions/UnknownModelException.php',
-        'Gloudemans\\Shoppingcart\\Facades\\Cart' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/Facades/Cart.php',
-        'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider' => __DIR__ . '/..' . '/mindscms/laravelshoppingcart/src/ShoppingcartServiceProvider.php',
         'GrahamCampbell\\ResultType\\Error' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Error.php',
         'GrahamCampbell\\ResultType\\Result' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Result.php',
         'GrahamCampbell\\ResultType\\Success' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Success.php',
