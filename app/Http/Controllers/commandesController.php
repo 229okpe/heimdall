@@ -11,6 +11,7 @@ use App\Models\Produit;
 use App\Models\Commande;
 use Illuminate\Http\Request;
 use App\Mail\orderDetailsMail;
+use Feexpay\FeexpayPhp\FeexpayClass;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Gloudemans\Shoppingcart\Facades\Cart;
@@ -19,7 +20,8 @@ use Illuminate\Support\Facades\Validator;
 
 class commandesController extends Controller
 {
-    
+          
+
     public function addcart(Request $request, $id) {
         $token = $request->header('Authorization');
         $paniers = Panier::where('token', $token)->get();
@@ -27,7 +29,8 @@ class commandesController extends Controller
         $product=Produit::find($id);
         
         if(count($paniers)!==0){
-                    if($product){
+                    if($product)
+                        {
                     
                         foreach ($paniers as $panierItem) {
                            
@@ -103,9 +106,10 @@ class commandesController extends Controller
         
             // Parcourez les produits dans chaque panier et ajoutez leur prix à la somme
             foreach ($paniers  as $produit) {
-                $prixTotal += $produit->prix;
+                $produit->prix_converti= $produit->prix /app('currentUser')->valeurDevise ;
+                $prixTotal += $produit->prix * $produit->qty;
             }
-
+            $prixTotal =$prixTotal /  app('currentUser')->valeurDevise ;
         // Répondez avec le contenu du panier
         return response()->json(['message' =>$paniers, "prixTotal" => $prixTotal ]);
      
@@ -162,12 +166,13 @@ class commandesController extends Controller
           ]);
           $_SESSION[app('currentUser')->nom]=$vente->order_id; 
           
+
  
          /* Rempacez VOTRE_CLE_API par votre véritable clé API */
-         \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
-         //  \FedaPay\FedaPay::setApiKey("sk_live_i8hnQzQKe-Ez_gY6Hq6VC27D");
+        \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
+         // \FedaPay\FedaPay::setApiKey("sk_live_HvgQ1tCMXjY9zKqWEvAhonDO");
        /* Précisez si vous souhaitez exécuter votre requête en mode test ou live */
-           \FedaPay\FedaPay::setEnvironment('sandbox'); //ou setEnvironment('live');
+           \FedaPay\FedaPay::setEnvironment('live'); //ou setEnvironment('live');
  
            /* Créer la transaction */ 
           $transaction = \FedaPay\Transaction::create(array(
@@ -197,7 +202,7 @@ class commandesController extends Controller
     public function savePayment(Request $request) {
   
         $validator = Validator::make($request->all(), [
-            'statut' => 'required', 
+             "idTransaction" => 'required' 
            ]);
            
             if ($validator->fails()) {
@@ -205,7 +210,11 @@ class commandesController extends Controller
                      'errors' => $validator->errors(),
               ], 422); // Code de r&eacute;ponse HTTP 422 Unprocessable Entity
           }
-          
+
+          $transaction = \FedaPay\Transaction::retrieve($request->idTransaction);
+          if ($transaction->status !== "approved") {
+            return response(['error' => 'Transaction echouée'], 404);
+        }
         if(empty($request->produit_id)){
             $token = $request->header('Authorization');
             $paniers = Panier::where('token', $token)->get();
@@ -228,7 +237,7 @@ class commandesController extends Controller
          
         $vente = Commande::where('order_id', $_SESSION[app('currentUser')->nom])->first();
         
-        if($vente && $request->statut == 'success'){
+        if($vente && $transaction->status == 'approved'){
             $vente->produit_id =  $produits;
             $vente->box = $request->box;
             

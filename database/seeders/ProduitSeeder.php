@@ -25,6 +25,7 @@ class ProduitSeeder extends Seeder
                         'nom' => 'Chaussure ' . $i,
                         'description' => 'Description ' . $i,
                         'prix' => 200 * $i,
+                        'statut' =>"Disponible",
                         'categorie_id' => $cat->id,
                         'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Ffr%2Fcategory%2Fnature&psig=AOvVaw1FVCJsazZT3VTWU_-pIRN8&ust=1691492161624000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjH8L2xyoADFQAAAAAdAAAAABAE'
                     ]);

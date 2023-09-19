@@ -19,8 +19,7 @@ return new class extends Migration
              $table->string('statut');
             $table->text('image');
             $table->integer('prix'); 
-           
-            $table->unsignedBigInteger('categorie_id');
+              $table->unsignedBigInteger('categorie_id');
             $table->timestamps();
             $table->foreign('categorie_id')->references('id')->on('categories')->onDelete('cascade');
         });

@@ -1,4 +1,0 @@
-[19-Aug-2023 12:02:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TransformsRequest" not found in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:7
-Stack trace:
-#0 {main}
-  thrown in /home/uppersof/heimdallapi.uppersoftgroup.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php on line 7

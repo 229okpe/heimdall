@@ -22,6 +22,7 @@ use Illuminate\Foundation\Application;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
+Route::get('/payer', [commandesController::class, 'payer']);
 
 Route::post('/register', [Authentification::class, 'register']); 
 
