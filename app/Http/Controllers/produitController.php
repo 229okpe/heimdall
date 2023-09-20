@@ -17,16 +17,22 @@ class produitController extends Controller
     public function index()
     { 
      //   $produits=Produit::all();
-     $produits = Produit::selectRaw('*, prix / :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->with('categorie:id,nom')->orderBy('id', 'desc')->get();
-
-        return response()->json(['produits' => $produits], 200);
+     $produits = Produit::selectRaw('*, prix / :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])
+    ->with('categorie:id,nom')
+    ->orderBy('id', 'desc')
+    ->get(); 
+            foreach ($produits as $produit) {
+                $produit->prix_converti = round($produit->prix_converti, 2);
+            }   return response()->json(['produits' => $produits], 200);
     }
 
     public function indexwithoutlog()
     { 
      //   $produits=Produit::all();
-     $produits = Produit::with('categorie:id,nom')->get();
-
+     $produits = Produit::with('categorie:id,nom') ->orderBy('id', 'desc')->get();
+            foreach ($produits as $produit) {
+                $produit->prix_converti = round($produit->prix_converti, 2);
+            }  
         return response()->json(['produits' => $produits], 200);
     }
 
@@ -94,7 +100,7 @@ class produitController extends Controller
 
     if ($produit) {
         // Multipliez le prix du produit par la devise donnée
-        $produit->prix_converti = $produit->prix * app('currentUser')->valeurDevise;
+        $produit->prix_converti =round( $produit->prix / app('currentUser')->valeurDevise,2);
 
  
         return response()->json(['produit' => $produit], 200);
@@ -169,8 +175,12 @@ class produitController extends Controller
     {
         $categorie = Categorie::find($idCategorie);
 
-        $produits = $categorie->produits()->get();
+        $produits = $categorie->produits() ->orderBy('id', 'desc')
+                                            ->get(); 
 
+        foreach ($produits as $produit) {
+            $produit->prix_converti = round($produit->prix_converti, 2);
+        }  
         return response()->json($produits);
     }
 
@@ -210,7 +220,9 @@ class produitController extends Controller
         $produitsFavoris = Favoris::where('user_id', $currentUser->id)
                                 ->with('produit') // Charger les détails des produits associés
                                 ->get();
-
+            foreach ($produitsFavoris as $produit) {
+                $produit->prix_converti = round($produit->prix_converti, 2);
+            }  
         return response()->json(['produits_favoris' => $produitsFavoris] , 200);
     }
 
@@ -245,8 +257,6 @@ class produitController extends Controller
     }  
 
    
-   
-
     public function rechercherProduits(Request $request)
     {
         $nomRecherche = $request->nom;

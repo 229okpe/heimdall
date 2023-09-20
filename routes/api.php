@@ -112,6 +112,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/total-commandes', [commandesController::class, 'nbrTotalCommandes']);
 
     Route::post('/valider-commande', [commandesController::class, 'validateOrder']);
+
+    Route::post('/modifier-quantite-panier/{id}', 'PanierController@modifierQuantite')->name('panier.modifier-quantite');
+
     
                     //FAVORIS
 

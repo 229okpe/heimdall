@@ -119,6 +119,7 @@ public function update(Request $request, $id)
         $credentials = $request->validate([
             'email' => 'required|email',
             'password' => 'required',
+            'type'=> 'required'
         ]);
 
        if (Auth::attempt($credentials)) {

@@ -24,36 +24,34 @@ class commandesController extends Controller
 
     public function addcart(Request $request, $id) {
         $token = $request->header('Authorization');
-        $paniers = Panier::where('token', $token)->get();
+        $paniers = Panier::where('token', $token)->get(); 
+        $ids = Panier::where('token', $token)->pluck('idProduit')->toArray();
 
         $product=Produit::find($id);
         
         if(count($paniers)!==0){
                     if($product)
-                        {
+                        { 
+                            if(in_array($product->id,$ids)) {
+                                $pdt = Panier::where('idProduit', $product->id)->first();
+                                $pdt->qty+=1;
+                                $pdt->save();
+                                return response(["message"=> "Produit ajouté" ], 200);
+                             
+                            }
+                            else {
+                                Panier::create([
+                                    'token' => $token,
+                                    'idProduit' => $product->id,
+                                    'nomProduit'=>$product->nom,
+                                    'qty'=>1,
+                                    'image'=>$product->image,
+                                    'prix'=>$product->prix ]);
+                                    return response(["message"=> "Produit ajouté" ], 200);
+                                   
+                            }
+
                     
-                        foreach ($paniers as $panierItem) {
-                           
-                                if ($panierItem->idProduit == $product->id) {
-                                
-                                        $panierItem->qty+=1;
-                                        $panierItem->save();
-                                        return response(["message"=> "Produit ajouté" ], 200);
-                                        break; // Sortez de la boucle dès que le produit est trouvé dans le panier
-                                    }
-                                
-                                    else {
-                                       
-                                        Panier::create([
-                                            'token' => $token,
-                                            'idProduit' => $product->id,
-                                            'nomProduit'=>$product->nom,
-                                            'qty'=>1,
-                                            'image'=>$product->image,
-                                            'prix'=>$product->prix ]);
-                                        
-                                    }
-                                }
                                 return response(["message"=> "Produit ajouté" ], 200);
                         
                             } 
@@ -63,7 +61,7 @@ class commandesController extends Controller
                             }
                         }
                         else{
-
+                             
                             Panier::create([
                                 'token' => $token,
                                 'idProduit' => $product->id,
@@ -90,9 +88,30 @@ class commandesController extends Controller
 
         return response(["message" => "Produit supprimé du panier"], 200);
     } else {
-        return response(["message" => "Panier introuvable"], 404);
+        return response(["message" => "Produit introuvable"], 404);
     }
 } 
+
+          public function modifierQuantite(Request $request, $id)
+    {
+        $token = $request->header('Authorization'); 
+        $produit = Panier::where('token', $token)->where('idProduit', $id)->first();
+
+        if ($produit) {
+            // Utilisez la méthode `where` pour trouver l'élément spécifique du panier en fonction de l'ID du produit et du panier.
+            $produit->qte = $request->qte;
+             $produit->save();
+    
+            return response(["message" => "quantité mis a jour"], 200);
+        } else {
+            return response(["message" => "Produit introuvable"], 404);
+        }
+        $panier = Panier::findOrFail($id);
+      
+
+        // Redirigez l'utilisateur vers la page du panier ou une autre page appropriée
+        return redirect()->route('panier.index')->with('success', 'Quantité mise à jour avec succès');
+    }
 
   
 
@@ -106,10 +125,10 @@ class commandesController extends Controller
         
             // Parcourez les produits dans chaque panier et ajoutez leur prix à la somme
             foreach ($paniers  as $produit) {
-                $produit->prix_converti= $produit->prix /app('currentUser')->valeurDevise ;
+                $produit->prix_converti= round($produit->prix /app('currentUser')->valeurDevise,2) ;
                 $prixTotal += $produit->prix * $produit->qty;
             }
-            $prixTotal =$prixTotal /  app('currentUser')->valeurDevise ;
+            $prixTotal =round($prixTotal /  app('currentUser')->valeurDevise,2);
         // Répondez avec le contenu du panier
         return response()->json(['message' =>$paniers, "prixTotal" => $prixTotal ]);
      
@@ -172,7 +191,7 @@ class commandesController extends Controller
         \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
          // \FedaPay\FedaPay::setApiKey("sk_live_HvgQ1tCMXjY9zKqWEvAhonDO");
        /* Précisez si vous souhaitez exécuter votre requête en mode test ou live */
-           \FedaPay\FedaPay::setEnvironment('live'); //ou setEnvironment('live');
+           \FedaPay\FedaPay::setEnvironment('sandbox'); //ou setEnvironment('live');
  
            /* Créer la transaction */ 
           $transaction = \FedaPay\Transaction::create(array(
@@ -310,7 +329,7 @@ class commandesController extends Controller
 
     public function nombreCommandesEnAttente()
     {
-        $nombreEnAttente = Commande::where('statut', 'En attente')->count();
+        $nombreEnAttente = Commande::where('status', 'En attente')->count();
 
         return response(["message"=>$nombreEnAttente], 200);
          
@@ -364,6 +383,7 @@ class commandesController extends Controller
         }
     }
 
+ 
     
 }
 
