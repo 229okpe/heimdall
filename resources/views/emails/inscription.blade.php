@@ -198,8 +198,8 @@
 <tr>
 <td style="padding:0 15px 0 0px;"><a href="https://www.facebook.com/profile.php?id=100094754689560&mibextid=LQQJ4d" target="_blank"><img alt="Facebook" height="32" src="{{asset('storage/images/images_mails/facebook2x.png')}}" style="display: block; height: auto; border: 0;" title="Facebook" width="32"/></a></td>
 <td style="padding:0 15px 0 0px;"><a href="https://instagram.com/heimdall.corp?igshid=MjEwN2IyYWYwYw==" target="_blank"><img alt="Instagram" height="32" src="{{asset('storage/images/images_mails/instagram2x.png')}}" style="display: block; height: auto; border: 0;" title="Instagram" width="32"/></a></td>
-<td style="padding:0 15px 0 0px;"><a href="https://www.tiktok.com/@heimdall.bj?_t=8ee13DWSyko&_r=1" target="_blank"><img alt="TikTok" height="32" src="{{asset('storage/images/images_mails/tiktok2x.png')}}" style="display: block; height: auto; border: 0;" title="TikTok" width="32"/></a></td>
-<td style="padding:0 15px 0 0px;"><a href="https://telegram.orghttps://t.me/Heimdall_TV" target="_blank"><img alt="Telegram" height="32" src="{{asset('storage/images/images_mails/telegram2x.png')}}" style="display: block; height: auto; border: 0;" title="Telegram" width="32"/></a></td>
+<td style="padding:0 15px 0 0px;"><a href="https://www.tiktok.com/@heimdall.corp?_t=8gQ5su5QpBF&_r=1" target="_blank"><img alt="TikTok" height="32" src="{{asset('storage/images/images_mails/tiktok2x.png')}}" style="display: block; height: auto; border: 0;" title="TikTok" width="32"/></a></td>
+<td style="padding:0 15px 0 0px;"><a href="https://t.me/Heimdall_TV" target="_blank"><img alt="Telegram" height="32" src="{{asset('storage/images/images_mails/telegram2x.png')}}" style="display: block; height: auto; border: 0;" title="Telegram" width="32"/></a></td>
 </tr>
 </table>
 </div>
@@ -211,7 +211,7 @@
 <td class="pad">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #fbfbfb; line-height: 1.2;">
-<p style="margin: 0; font-size: 12px; text-align: center; mso-line-height-alt: 14.399999999999999px;"><span style="font-size:20px;">Tel:</span> <span style="font-size:15px;">(+229) 97195479  </span></p>
+<p style="margin: 0; font-size: 12px; text-align: center; mso-line-height-alt: 14.399999999999999px;"><span style="font-size:20px;">Tel:</span> <span style="font-size:15px;">(+229) 94123355  </span></p>
 <p style="margin: 0; font-size: 12px; text-align: center; mso-line-height-alt: 14.399999999999999px;"><span style="font-size:20px;">Email:</span><span style="font-size:15px;"> contact@heimdall-store.com</span></p>
 </div>
 </div>

@@ -1,0 +1,328 @@
+[22-Sep-2023 09:03:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 09:03:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 09:03:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 09:03:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 10:20:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 10:20:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 10:20:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 10:20:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 11:17:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 11:17:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 11:17:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 11:17:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 14:14:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 14:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 14:14:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 14:14:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 17:10:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 17:10:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 17:10:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 17:10:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 18:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 18:25:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[22-Sep-2023 18:25:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[22-Sep-2023 18:25:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[23-Sep-2023 23:44:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[23-Sep-2023 23:44:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[23-Sep-2023 23:44:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[23-Sep-2023 23:44:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 01:36:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 01:36:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 01:36:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 01:36:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 03:34:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 03:34:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 03:34:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 03:34:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 08:10:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 08:10:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 09:35:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 09:35:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 09:35:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 09:35:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 10:55:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 10:55:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 10:55:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 10:55:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 18:50:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 18:50:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 18:50:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 18:50:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 20:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 20:46:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 20:46:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 20:46:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 23:19:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 23:19:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[24-Sep-2023 23:19:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[24-Sep-2023 23:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 02:29:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 02:29:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 02:29:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 02:29:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 03:45:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 03:45:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 03:45:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 03:45:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 05:42:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 05:42:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 05:42:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 05:42:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 07:42:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 07:42:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 07:42:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 07:42:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 10:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 10:04:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 10:04:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 10:04:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 20:53:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 20:53:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mailer\Envelope" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/DelayedEnvelope.php on line 24
+[25-Sep-2023 20:53:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26
+[25-Sep-2023 20:53:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mailer\MailerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mailer/Mailer.php on line 26

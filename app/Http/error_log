@@ -1,0 +1,324 @@
+[22-Sep-2023 08:57:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 08:57:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 10:15:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 10:15:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 11:10:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 11:10:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 13:28:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 14:07:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 14:07:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 16:28:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 16:29:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 17:04:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 17:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 18:19:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 18:19:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 20:15:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 21:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 21:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[22-Sep-2023 22:44:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[23-Sep-2023 23:38:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[23-Sep-2023 23:38:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 01:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 01:30:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 02:42:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 03:29:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 03:29:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 03:38:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 04:47:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 04:47:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 05:45:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 07:38:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 07:50:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 07:50:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 08:31:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 09:29:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 09:29:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 10:49:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 10:49:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 11:14:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 12:50:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 12:50:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 14:42:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 14:42:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 16:48:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 16:48:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 18:12:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 18:44:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 18:44:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 20:02:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 20:41:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 20:41:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 23:13:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 23:13:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[24-Sep-2023 23:57:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 00:14:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 00:14:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 01:17:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 01:17:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 01:17:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 02:24:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 02:24:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 03:39:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 03:39:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 04:48:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 05:36:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 05:36:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 06:30:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 07:35:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 07:35:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 09:58:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 09:58:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 12:00:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 12:00:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 14:04:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 14:49:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 14:49:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 17:56:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 17:56:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 20:48:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 20:48:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7
+[25-Sep-2023 23:29:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/heimdall/public_html/api/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Kernel.php on line 7

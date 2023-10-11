@@ -99,12 +99,12 @@ class commandesController extends Controller
 
         if ($produit) {
             // Utilisez la méthode `where` pour trouver l'élément spécifique du panier en fonction de l'ID du produit et du panier.
-            $produit->qte = $request->qte;
+            $produit->qty = $request->qte;
              $produit->save();
     
             return response(["message" => "quantité mis a jour"], 200);
         } else {
-            return response(["message" => "Produit introuvable"], 404);
+            return response(["erreur" => "Produit introuvable"], 404);
         }
         $panier = Panier::findOrFail($id);
       
@@ -139,7 +139,7 @@ class commandesController extends Controller
     public function index()
     { 
         
-        $commandes = Commande::selectRaw('*, prix_total / :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])->get();
+        $commandes = Commande::selectRaw('*, prix_total / :devise as prix', ['devise' => app('currentUser')->valeurDevise])->get();
      
         return response(["commandes"=>$commandes], 200);
     }
@@ -149,7 +149,7 @@ class commandesController extends Controller
                 $commandes = Commande::where('user_id', app('currentUser')->id) ->get();
 
                 foreach($commandes as $commande){
-                    $commande->prix_converti = $commande->prix_total / app('currentUser')->valeurDevise;
+                    $commande->prix= $commande->prix_total / app('currentUser')->valeurDevise;
                 }
                            
                          
@@ -161,29 +161,46 @@ class commandesController extends Controller
        
 
         if($idProduit == 02513 ) {
+            $url="https://heimdall-store.com/panier";
             $token = $request->header('Authorization');
             $paniers = Panier::where('token', $token)->get();
             $prix = 0;
+             $qty= 0;
+             $idsDansLePanier = [];
            foreach ($paniers  as $produit) {
                $prix += $produit->prix;
+                $qty += $produit->quantite;
+                $idsDansLePanier[] =["id" =>$produit->id, "qty" =>$produit->qty];
              }
-  
+              $produits=$idsDansLePanier;
+   
         }
         else {
-            $produit=Produit::findorfail($idProduit);
-           
-            $prix =$produit->prix;  
+            
+                $url="https://heimdall-store.com/payer-abonnement";
+            $produit=Produit::findorfail(1);
+            $produits[]=["id" =>$produit->id, "qty" =>$produit->quantite];
+            $prix =$produit->prix; 
+            $qty = 1;
         }
        
         $prefix = 'HEIMDALL_ORDER-';
         $randomNumber = mt_rand(1000, 9999); 
         $orderID = $prefix . $randomNumber;
+  $produits_serialized = json_encode($produits);
 
+       
         $vente=Commande::create([
             'order_id' => $orderID,
-            'prix_total' =>$prix 
+            'produit_id'=> $produits_serialized ,
+            'prix_total' => $prix ,
+            'status' => "Unpaid",
+            'quantite' => $qty ,
+              'user_id' => app('currentUser')->id,
+            'user_name' => app('currentUser')->nom.' '.app('currentUser')->prenoms,
+             'date_created'=> Carbon::now()
           ]);
-          $_SESSION[app('currentUser')->nom]=$vente->order_id; 
+        //  $_SESSION[app('currentUser')->nom]=$vente->order_id; 
           
 
  
@@ -198,7 +215,7 @@ class commandesController extends Controller
            "description" =>   app('currentUser')->nom." ".$prix,
            "amount" => $prix,
            "currency" => ["iso" => "XOF"],
-           "callback_url" => "http://uppersoftgroup.com/",
+           "callback_url" => $url,
            "customer" => [
                "firstname" =>app('currentUser')->nom,
                "lastname" => app('currentUser')->prenoms,
@@ -213,15 +230,15 @@ class commandesController extends Controller
           
            $token = $transaction->generateToken(); 
            
-           return response()->json(['url' => $token->url], 200);
+           return response()->json(['url' => $token->url, 'commande'=> $vente], 200);
         
           
     }
 
     public function savePayment(Request $request) {
-  
         $validator = Validator::make($request->all(), [
-             "idTransaction" => 'required' 
+             "idTransaction" => 'required', 
+             'order_id' => 'required'
            ]);
            
             if ($validator->fails()) {
@@ -229,8 +246,13 @@ class commandesController extends Controller
                      'errors' => $validator->errors(),
               ], 422); // Code de r&eacute;ponse HTTP 422 Unprocessable Entity
           }
-
+  /* Rempacez VOTRE_CLE_API par votre véritable clé API */
+        \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
+         // \FedaPay\FedaPay::setApiKey("sk_live_HvgQ1tCMXjY9zKqWEvAhonDO");
+       /* Précisez si vous souhaitez exécuter votre requête en mode test ou live */
+           \FedaPay\FedaPay::setEnvironment('sandbox'); //ou setEnvironment('live');
           $transaction = \FedaPay\Transaction::retrieve($request->idTransaction);
+         
           if ($transaction->status !== "approved") {
             return response(['error' => 'Transaction echouée'], 404);
         }
@@ -254,21 +276,19 @@ class commandesController extends Controller
             $listeProduit = Produit::find($request->produit_id)->nom;
         } 
          
-        $vente = Commande::where('order_id', $_SESSION[app('currentUser')->nom])->first();
+        $vente = Commande::where('order_id', $request->order_id)->first();
         
         if($vente && $transaction->status == 'approved'){
-            $vente->produit_id =  $produits;
+             
             $vente->box = $request->box;
+            $vente->status = "En attente";
             
-            $vente->user_id = app('currentUser')->id;
-            $vente->user_name = app('currentUser')->nom.' '.app('currentUser')->prenoms;
-            $vente->date_created = Carbon::now();
             $vente->save();
            // Session::forget(app('currentUser')->nom); 
            $paniers = Panier::where('token', $token)->delete();
             if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
                 {
-                return response(['success' => 'Achat effectue avec succes'], 200);
+                return response(['success' => 'Achat effectue avec succes', 'id'=>$vente->id ], 200);
                  } else {dd("error");}}
      
         
@@ -294,18 +314,32 @@ class commandesController extends Controller
     {
         // Récupérez le produit par son ID
         $commande = Commande::find($id); 
-      
+
         if ($commande) {
-            $tab=json_decode($commande->produit_id); 
-            foreach($tab as $id) 
+                  $customer = User::find($commande->user_id);
+                 $tab=json_decode($commande->produit_id,true); 
+ 
+          
+            foreach($tab as $item) 
                 {
                      
-                $produits[] = Produit::find($id);
+                 $id = $item['id'];
+                $quantite = $item['qty']; // Supposons que la quantité soit également dans l'objet JSON
+            
+                $produit = Produit::find($id);
+                
+                // Ajouter la propriété quantité à l'objet $produit
+                $produit->quantite = $quantite;
+            
+                $produits[] = $produit;
+              
                 
                 }
             $commande->produits = $produits;
             $commande->prix_converti = $commande->prix_total / app('currentUser')->valeurDevise;
-            
+       
+             $commande->customer_telephone =  $customer->numTelephone;
+             $commande->customer_email =  $customer->email;
             return response()->json(['message' => $commande], 200);
         } else{
             return response()->json(['message' => 'Commande non trouvé'], 404);
@@ -343,34 +377,38 @@ class commandesController extends Controller
 
     } 
 
-    public function validateOrder(Request $request){
-        $validator = Validator::make($request->all(), [
+    public function validercommande(Request $request){
+     
+       $validator = Validator::make($request->all(), [
         
-            'order_id' => 'required'
+            'order_id' => 'required',
+               'status' => 'required|in:Annulee,Livree',
           ]);
 
            
-            if ($validator->fails()) {
+  if ($validator->fails()) {
               return response(['errors' => $validator->errors(), ], 422); 
           } 
-          else {
+         else {
+               
             $commande = Commande::where('order_id', $request->order_id)->first();
             if($commande){ 
                     
-                if ($request->statut =="Annulé") {
-                    $commande->status = $request->statut;
+                if ($request->status =="Annulee") {
+                    $commande->status = $request->status;
                     $commande->save();
+                       return response(['message' => "Commande annulée"], 200);
                 }
-                 else {
+                elseif($request->status =="Livree"){
                         $data = $request->details; 
-                        $commande->status = $request->statut;
+                        $commande->status = $request->status;
                         $commande->details = $data;
                         $commande->save();
                         $user= User::where('id', $commande->user_id)->first();
-                    
-                        if(Mail::to($user->email)->send(new orderDetailsMail( $user,$data, $commande))){
-                                return response(['message' => "Details envoyé"], 200);
-                        }
+                       
+                       if(Mail::to($user->email)->send(new orderDetailsMail( $user,$data, $commande))){
+                                return response(['message' => "Details envoyé ".$user->email], 200);
+                        } 
             
                       }
         

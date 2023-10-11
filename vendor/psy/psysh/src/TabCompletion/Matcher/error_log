@@ -1,0 +1,12 @@
+[22-Sep-2023 14:43:06 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\TabCompletion\Matcher\AbstractMatcher" not found in /home/heimdall/public_html/api/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php on line 21
+[22-Sep-2023 14:43:21 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\TabCompletion\Matcher\AbstractMatcher" not found in /home/heimdall/public_html/api/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php on line 21
+[22-Sep-2023 14:43:29 UTC] PHP Fatal error:  Uncaught Error: Class "Psy\TabCompletion\Matcher\AbstractMatcher" not found in /home/heimdall/public_html/api/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php on line 21

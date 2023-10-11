@@ -1,0 +1,440 @@
+[22-Sep-2023 09:01:57 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 09:01:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 09:01:58 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 09:01:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 09:01:58 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 09:01:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 09:01:59 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 09:01:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 10:19:21 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 10:19:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 10:19:22 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 10:19:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 10:19:22 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 10:19:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 10:19:23 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 10:19:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 11:15:38 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 11:15:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 11:15:39 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 11:15:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 11:15:40 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 11:15:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 11:15:41 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 11:15:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 14:13:33 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 14:13:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 14:13:34 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 14:13:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 14:13:34 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 14:13:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 14:13:35 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 14:13:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 17:09:26 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 17:09:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 17:09:27 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 17:09:28 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 17:09:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 17:09:29 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 17:09:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 18:24:09 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 18:24:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 18:24:10 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 18:24:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[22-Sep-2023 18:24:11 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 18:24:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 18:24:12 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[22-Sep-2023 18:24:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[23-Sep-2023 23:43:07 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[23-Sep-2023 23:43:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[23-Sep-2023 23:43:08 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[23-Sep-2023 23:43:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[23-Sep-2023 23:43:08 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[23-Sep-2023 23:43:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[23-Sep-2023 23:43:09 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[23-Sep-2023 23:43:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 01:35:22 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 01:35:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 01:35:23 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 01:35:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 01:35:23 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 01:35:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 01:35:24 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 01:35:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 03:33:19 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 03:33:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 03:33:20 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 03:33:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 03:33:21 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 03:33:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 03:33:22 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 03:33:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 09:34:15 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 09:34:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 09:34:16 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 09:34:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 09:34:16 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 09:34:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 09:34:17 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 09:34:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 10:54:17 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 10:54:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 10:54:18 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 10:54:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 10:54:18 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 10:54:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 10:54:19 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 10:54:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 18:49:24 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 18:49:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 18:49:25 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 18:49:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 18:49:25 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 18:49:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 18:49:26 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 18:49:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 20:44:55 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 20:44:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 20:44:56 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 20:44:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 20:44:57 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 20:44:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 20:44:58 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 20:44:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 23:18:39 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 23:18:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 23:18:40 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 23:18:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[24-Sep-2023 23:18:40 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 23:18:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 23:18:41 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[24-Sep-2023 23:18:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 00:22:39 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 00:22:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 00:22:40 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 00:22:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 00:22:40 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 00:22:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 00:22:41 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 00:22:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 01:25:20 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 01:25:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 01:25:21 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 01:25:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 01:25:22 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 01:25:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 01:25:23 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 01:25:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 02:27:58 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 02:27:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 02:27:59 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 02:27:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 02:28:00 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 02:28:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 02:28:01 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 02:28:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 03:44:12 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 03:44:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 03:44:13 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 03:44:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 03:44:13 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 03:44:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 03:44:14 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 03:44:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 05:41:22 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 05:41:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 05:41:23 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 05:41:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 05:41:24 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 05:41:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 05:41:25 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 05:41:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 07:41:10 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 07:41:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 07:41:12 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 07:41:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 07:41:12 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 07:41:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 07:41:13 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 07:41:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 10:03:23 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 10:03:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 10:03:24 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 10:03:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 10:03:24 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 10:03:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 10:03:25 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 10:03:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 20:52:31 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 20:52:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 20:52:32 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 20:52:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/phpdoc.php on line 44
+[25-Sep-2023 20:52:32 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 20:52:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 20:52:33 UTC] PHP Warning:  require_once(/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14
+[25-Sep-2023 20:52:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nesbot/carbon/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nesbot/carbon/sponsors.php on line 14

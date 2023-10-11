@@ -35,7 +35,7 @@ class SendCodeResetPassword extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Code de Reinitialisation | Heimdall',
+            subject: 'Code de Reinitialisation | Heimdall'
         );
     }
 
@@ -46,7 +46,7 @@ class SendCodeResetPassword extends Mailable
      */
     public function content() {  
        
-         if ($this->type ='Customer') { 
+         if ($this->type =='customer') { 
                 $this->url="https://heimdall-store.com/reinitialisation";
             } else {
                 $this->url="https://heimdall-store.com/admin/reinitialisation";

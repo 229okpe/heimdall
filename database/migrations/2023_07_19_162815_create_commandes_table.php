@@ -20,6 +20,7 @@ return new class extends Migration
             $table->unsignedBigInteger('user_id')->nullable();	
             $table->string('user_name')->nullable();	
             $table->dateTime('date_created')->nullable();
+                $table->string('quantite')->nullable();
             $table->integer('prix_total')->nullable();
             $table->text('details')->nullable();	
             $table->timestamps();

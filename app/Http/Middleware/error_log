@@ -1,0 +1,2108 @@
+[22-Sep-2023 08:58:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 08:58:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 08:58:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 08:58:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 08:58:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 08:58:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 08:58:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 08:58:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 08:58:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 08:58:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 08:58:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 08:58:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 08:58:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 08:58:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 08:58:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 08:58:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 10:16:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 10:16:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 10:16:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 10:16:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 10:16:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 10:16:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 10:16:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 10:16:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 10:16:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 10:16:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 10:16:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 10:16:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 10:16:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 10:16:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 10:16:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 10:16:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 11:12:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 11:12:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 11:12:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 11:12:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 11:12:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 11:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 11:12:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 11:12:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 11:12:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 11:12:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 11:12:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 11:12:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 11:12:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 11:12:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 11:12:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 11:12:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 14:09:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 14:09:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 14:09:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 14:09:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 14:09:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 14:09:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 14:09:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 14:09:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 14:09:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 14:09:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 14:09:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 14:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 14:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 14:09:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 14:09:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 14:09:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 16:33:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 16:33:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 16:33:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 16:33:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 16:33:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 16:33:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 16:33:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 16:33:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 16:33:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 16:33:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 16:33:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 16:33:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 16:33:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 16:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 16:33:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 16:33:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 17:05:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 17:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 17:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 17:05:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 17:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 17:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 17:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 17:05:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 17:05:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 17:06:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 17:06:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 17:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 17:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 17:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 17:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 17:06:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 18:20:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 18:20:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 18:20:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 18:20:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 18:20:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 18:20:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 18:20:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 18:20:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 18:20:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 18:20:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 18:20:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 18:20:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 18:20:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 18:21:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 18:21:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 18:21:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 21:08:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 21:08:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[22-Sep-2023 21:08:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 21:08:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Sep-2023 21:08:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 21:08:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Sep-2023 21:08:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 21:08:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[22-Sep-2023 21:08:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 21:08:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[22-Sep-2023 21:08:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 21:08:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[22-Sep-2023 21:08:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 21:08:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Sep-2023 21:08:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Sep-2023 21:08:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[23-Sep-2023 23:39:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[23-Sep-2023 23:39:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[23-Sep-2023 23:39:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[23-Sep-2023 23:39:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[23-Sep-2023 23:39:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[23-Sep-2023 23:39:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[23-Sep-2023 23:39:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[23-Sep-2023 23:39:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[23-Sep-2023 23:39:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[23-Sep-2023 23:39:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[23-Sep-2023 23:39:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[23-Sep-2023 23:39:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[23-Sep-2023 23:39:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[23-Sep-2023 23:39:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[23-Sep-2023 23:39:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[23-Sep-2023 23:39:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 01:32:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 01:32:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 01:32:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 01:32:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 01:32:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 01:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 01:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 01:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 01:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 01:32:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 01:32:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 01:32:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 01:32:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 01:32:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 01:32:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 01:32:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 03:31:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 03:31:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 03:31:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 03:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 03:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 03:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 03:31:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 03:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 03:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 03:31:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 03:31:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 03:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 03:31:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 03:31:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 03:31:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 03:31:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 04:36:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 04:36:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 04:36:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 04:36:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 04:37:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 04:37:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 04:37:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 04:37:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 04:52:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 04:52:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 04:52:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 04:52:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 04:52:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 04:52:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 04:52:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 04:52:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 04:52:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 04:52:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 04:52:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 04:52:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 04:52:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 04:52:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 04:52:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 04:52:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 07:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 07:55:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 07:55:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 07:55:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 07:55:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 07:55:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 07:55:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 07:55:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 07:55:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 07:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 07:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 07:55:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 07:55:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 07:55:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 07:55:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 07:55:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 09:30:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 09:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 09:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 09:30:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 09:30:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 09:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 09:30:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 09:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 09:30:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 09:30:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 09:30:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 09:30:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 09:30:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 09:31:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 09:31:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 09:31:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 10:50:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 10:50:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 10:50:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 10:50:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 10:50:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 10:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 10:50:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 10:50:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 10:50:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 10:50:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 10:50:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 10:50:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 10:50:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 10:50:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 10:50:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 10:50:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 12:55:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 12:55:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 12:55:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 12:55:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 12:55:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 12:55:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 12:55:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 12:55:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 12:55:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 12:55:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 12:55:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 12:55:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 12:55:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 12:55:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 12:55:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 12:55:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 13:01:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 13:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 13:04:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 13:04:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 13:04:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 13:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 13:04:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 14:45:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 14:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 14:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 14:45:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 14:45:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 14:45:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 14:45:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 14:45:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 14:45:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 14:45:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 14:45:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 14:45:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 14:45:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 14:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 14:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 14:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 16:51:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 16:51:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 16:51:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 16:51:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 16:51:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 16:51:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 16:51:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 16:51:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 16:51:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 16:51:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 16:51:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 16:51:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 16:51:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 16:51:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 16:51:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 16:51:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 18:45:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 18:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 18:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 18:45:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 18:45:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 18:45:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 18:45:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 18:45:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 18:45:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 18:45:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 18:45:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 18:45:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 18:45:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 18:45:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 18:45:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 18:45:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 20:42:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 20:42:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 20:42:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 20:42:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 20:42:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 20:42:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 20:42:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 20:42:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 20:42:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 20:42:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 20:42:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 20:42:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 20:42:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 20:42:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 20:42:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 20:42:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 23:14:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 23:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[24-Sep-2023 23:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 23:14:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Sep-2023 23:14:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 23:14:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Sep-2023 23:14:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 23:14:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[24-Sep-2023 23:14:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 23:14:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[24-Sep-2023 23:14:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 23:14:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[24-Sep-2023 23:14:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 23:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Sep-2023 23:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[24-Sep-2023 23:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 00:16:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 00:16:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 00:16:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 00:16:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 00:16:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 00:16:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 00:16:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 00:16:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 00:16:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 00:16:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 00:16:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 00:17:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 00:17:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 00:17:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 00:17:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 00:17:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 01:19:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 01:19:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 01:19:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 01:19:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 01:19:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 01:19:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 01:19:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 01:19:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 01:19:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 01:19:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 01:19:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 01:20:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 01:20:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 01:20:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 01:20:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 01:20:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 02:25:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 02:25:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 02:25:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 02:25:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 02:25:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 02:25:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 02:25:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 02:25:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 02:25:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 02:25:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 02:25:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 02:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 02:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 02:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 02:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 02:25:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 03:40:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 03:40:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 03:40:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 03:40:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 03:40:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 03:40:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 03:40:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 03:40:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 03:40:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 03:40:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 03:40:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 03:40:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 03:40:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 03:40:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 03:40:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 03:41:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 05:37:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 05:37:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 05:37:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 05:38:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 05:38:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 05:38:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 05:38:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 05:38:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 05:38:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 05:38:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 05:38:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 05:38:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 05:38:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 05:38:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 07:37:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 07:37:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 07:37:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 07:37:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 07:37:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 07:37:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 07:37:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 07:37:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 07:37:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 07:37:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 07:37:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 07:37:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 07:37:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 07:37:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 07:37:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 07:37:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 09:59:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 09:59:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 09:59:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 09:59:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 09:59:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 09:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 09:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 09:59:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 09:59:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 09:59:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 09:59:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 09:59:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 09:59:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 09:59:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 09:59:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 09:59:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 12:02:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 12:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 12:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 12:02:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 12:02:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 12:02:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 12:02:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 12:02:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 12:02:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 12:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 12:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 12:03:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 12:03:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 12:03:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 12:03:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 12:03:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 14:55:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 14:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 14:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 14:55:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 14:55:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 14:55:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 14:55:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 14:55:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 14:55:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 14:55:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 14:55:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 14:55:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 14:55:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 14:55:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 14:55:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 14:55:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 17:59:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 17:59:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 17:59:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 17:59:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 17:59:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 17:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 17:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 17:59:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 17:59:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 17:59:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 17:59:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 17:59:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 17:59:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 17:59:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 17:59:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 17:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 20:50:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 20:50:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/Authenticate.php on line 8
+[25-Sep-2023 20:50:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 20:50:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Sep-2023 20:50:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 20:50:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[25-Sep-2023 20:50:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 20:50:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrimStrings.php on line 7
+[25-Sep-2023 20:50:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 20:50:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustHosts.php on line 7
+[25-Sep-2023 20:50:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 20:50:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/TrustProxies.php on line 8
+[25-Sep-2023 20:50:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 20:50:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Sep-2023 20:50:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[25-Sep-2023 20:50:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/app/Http/Middleware/VerifyCsrfToken.php on line 7

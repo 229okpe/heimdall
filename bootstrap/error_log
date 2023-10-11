@@ -1,0 +1,432 @@
+[22-Sep-2023 08:56:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 08:56:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 09:48:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 10:14:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 10:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 10:59:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 11:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 11:10:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 11:38:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 14:07:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 14:07:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 14:42:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 16:27:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 16:27:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 17:03:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 17:03:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 18:00:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 18:13:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 18:19:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 18:19:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 19:41:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 21:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 21:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[22-Sep-2023 21:41:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 00:04:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 00:04:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 00:04:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 00:04:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 00:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 00:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 00:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 23:37:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[23-Sep-2023 23:37:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 00:00:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 01:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 01:30:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 01:55:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 03:29:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 03:29:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 03:36:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 04:46:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 04:46:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 05:09:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 05:09:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 05:09:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 05:09:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 05:10:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 05:14:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 06:55:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 07:48:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 07:48:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 07:58:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 08:27:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 09:28:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 09:28:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 10:01:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 10:48:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 10:48:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 10:58:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 12:48:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 12:48:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 13:28:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 14:41:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 14:41:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 16:47:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 16:47:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 17:14:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 18:43:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 18:43:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 20:40:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 20:40:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 23:12:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 23:12:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[24-Sep-2023 23:30:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 00:13:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 00:13:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 00:30:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 01:16:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 01:16:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 02:20:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 02:23:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 02:23:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 03:38:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 03:38:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 03:58:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 05:36:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 05:36:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 05:51:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 07:35:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 07:35:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 09:57:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 09:57:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 11:59:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 11:59:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 12:46:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 14:48:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 14:48:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 17:55:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 17:55:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 18:36:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 20:48:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 20:48:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[25-Sep-2023 22:09:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[28-Sep-2023 19:49:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[28-Sep-2023 19:49:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[28-Sep-2023 19:49:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[28-Sep-2023 19:49:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14
+[28-Sep-2023 19:49:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/heimdall/public_html/api/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/bootstrap/app.php on line 14

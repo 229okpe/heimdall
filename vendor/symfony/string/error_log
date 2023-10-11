@@ -1,0 +1,656 @@
+[22-Sep-2023 09:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 09:03:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 09:03:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 09:03:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 09:03:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 09:03:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 09:03:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 09:03:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 10:21:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 10:21:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 10:21:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 10:21:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 10:21:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 10:21:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 10:21:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 10:21:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 11:17:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 11:17:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 11:17:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 11:17:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 11:17:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 11:17:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 11:17:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 11:17:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 14:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 14:15:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 14:15:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 14:15:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 14:15:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 14:15:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 14:15:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 14:15:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 17:11:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 17:11:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 17:11:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 17:11:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 17:11:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 17:11:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 17:11:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 17:11:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 18:25:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 18:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[22-Sep-2023 18:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 18:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[22-Sep-2023 18:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 18:25:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[22-Sep-2023 18:25:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[22-Sep-2023 18:25:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[23-Sep-2023 23:45:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[23-Sep-2023 23:45:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[23-Sep-2023 23:45:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[23-Sep-2023 23:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[23-Sep-2023 23:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[23-Sep-2023 23:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[23-Sep-2023 23:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[23-Sep-2023 23:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 01:37:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 01:37:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 01:37:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 01:37:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 01:37:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 01:37:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 01:37:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 01:37:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 03:35:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 03:35:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 03:35:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 03:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 03:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 03:35:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 03:35:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 03:35:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 08:04:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 08:04:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 08:04:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 08:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 09:36:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 09:36:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 09:36:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 09:36:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 09:36:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 09:36:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 09:36:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 09:36:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 10:56:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 10:56:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 10:56:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 10:56:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 10:56:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 10:56:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 10:56:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 10:56:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 18:51:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 18:51:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 18:51:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 18:51:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 18:51:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 18:51:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 18:51:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 18:51:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 20:46:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 20:46:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 20:46:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 20:46:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 20:46:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 20:46:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 20:46:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 20:46:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 23:20:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 23:20:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[24-Sep-2023 23:20:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 23:20:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[24-Sep-2023 23:20:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 23:20:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[24-Sep-2023 23:20:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[24-Sep-2023 23:20:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 02:29:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 02:29:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 02:29:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 02:29:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 02:29:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 02:29:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 02:29:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 02:29:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 03:46:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 03:46:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 03:46:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 03:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 03:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 03:46:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 03:46:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 03:46:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 05:43:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 05:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 05:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 05:43:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 05:43:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 05:43:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 05:43:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 05:43:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 07:43:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 07:43:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 07:43:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 07:43:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 07:43:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 07:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 07:43:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 07:43:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 10:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 10:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 10:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 10:05:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 10:05:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 10:05:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 10:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 10:05:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 20:54:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 20:54:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/AbstractUnicodeString.php on line 29
+[25-Sep-2023 20:54:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 20:54:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractString" not found in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/ByteString.php on line 26
+[25-Sep-2023 20:54:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 20:54:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/CodePointString.php on line 25
+[25-Sep-2023 20:54:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33
+[25-Sep-2023 20:54:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\String\AbstractUnicodeString" not found in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/string/UnicodeString.php on line 33

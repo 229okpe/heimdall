@@ -1,0 +1,12 @@
+[22-Sep-2023 14:43:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Formatter\ReflectorFormatter" not found in /home/heimdall/public_html/api/vendor/psy/psysh/src/Formatter/Formatter.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/psy/psysh/src/Formatter/Formatter.php on line 19
+[22-Sep-2023 14:43:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Formatter\ReflectorFormatter" not found in /home/heimdall/public_html/api/vendor/psy/psysh/src/Formatter/Formatter.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/psy/psysh/src/Formatter/Formatter.php on line 19
+[22-Sep-2023 14:43:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Psy\Formatter\ReflectorFormatter" not found in /home/heimdall/public_html/api/vendor/psy/psysh/src/Formatter/Formatter.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/psy/psysh/src/Formatter/Formatter.php on line 19

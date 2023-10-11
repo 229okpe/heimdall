@@ -63,7 +63,7 @@ class AdminController extends Controller
 
     public function index()
     {
-        $user = User::all();
+      $user = User::where('type', 'admin')->get();
 
         return response()->json(['user' => $user], 200);
     }

@@ -1,0 +1,1353 @@
+[22-Sep-2023 09:03:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 09:03:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 09:03:43 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 09:03:44 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 09:03:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 09:03:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 09:03:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 09:03:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 09:03:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 09:03:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 09:03:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 09:03:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 09:03:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 09:03:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 09:03:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 09:03:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 09:03:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 09:03:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 10:21:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 10:21:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 10:21:10 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 10:21:11 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 10:21:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 10:21:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 10:21:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 10:21:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 10:21:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 10:21:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 10:21:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 10:21:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 10:21:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 10:21:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 10:21:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 10:21:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 10:21:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 10:21:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 11:17:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 11:17:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 11:17:42 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 11:17:43 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 11:17:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 11:17:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 11:17:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 11:17:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 11:17:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 11:17:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 11:17:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 11:17:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 11:17:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 11:17:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 11:17:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 11:17:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 11:17:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 11:17:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 14:15:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 14:15:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 14:15:35 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 14:15:36 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 14:15:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 14:15:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 14:15:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 14:15:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 14:15:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 14:15:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 14:15:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 14:15:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 14:15:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 14:15:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 14:15:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 14:15:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 14:15:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 14:15:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 17:11:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 17:11:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 17:11:32 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 17:11:33 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 17:11:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 17:11:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 17:11:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 17:11:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 17:11:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 17:11:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 17:11:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 17:11:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 17:11:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 17:11:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 17:11:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 17:11:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 17:11:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 17:11:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 18:25:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 18:25:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[22-Sep-2023 18:25:57 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 18:25:58 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[22-Sep-2023 18:25:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 18:25:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[22-Sep-2023 18:25:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 18:26:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[22-Sep-2023 18:26:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 18:26:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[22-Sep-2023 18:26:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 18:26:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[22-Sep-2023 18:26:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 18:26:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[22-Sep-2023 18:26:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 18:26:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[22-Sep-2023 18:26:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[22-Sep-2023 18:26:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[23-Sep-2023 23:45:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[23-Sep-2023 23:45:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[23-Sep-2023 23:45:09 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[23-Sep-2023 23:45:10 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[23-Sep-2023 23:45:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[23-Sep-2023 23:45:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[23-Sep-2023 23:45:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[23-Sep-2023 23:45:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[23-Sep-2023 23:45:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[23-Sep-2023 23:45:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[23-Sep-2023 23:45:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[23-Sep-2023 23:45:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[23-Sep-2023 23:45:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[23-Sep-2023 23:45:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[23-Sep-2023 23:45:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[23-Sep-2023 23:45:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[23-Sep-2023 23:45:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[23-Sep-2023 23:45:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 01:37:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 01:37:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 01:37:19 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 01:37:20 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 01:37:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 01:37:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 01:37:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 01:37:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 01:37:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 01:37:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 01:37:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 01:37:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 01:37:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 01:37:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 01:37:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 01:37:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 01:37:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 01:37:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 03:35:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 03:35:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 03:35:20 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 03:35:21 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 03:35:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 03:35:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 03:35:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 03:35:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 03:35:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 03:35:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 03:35:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 03:35:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 03:35:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 03:35:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 03:35:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 03:35:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 03:35:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 03:35:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 08:02:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 08:02:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 08:02:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 08:02:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 08:03:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 08:03:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 08:03:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 08:03:17 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 08:03:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 09:36:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 09:36:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 09:36:20 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 09:36:21 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 09:36:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 09:36:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 09:36:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 09:36:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 09:36:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 09:36:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 09:36:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 09:36:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 09:36:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 09:36:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 09:36:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 09:36:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 09:36:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 09:36:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 10:56:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 10:56:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 10:56:21 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 10:56:22 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 10:56:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 10:56:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 10:56:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 10:56:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 10:56:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 10:56:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 10:56:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 10:56:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 10:56:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 10:56:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 10:56:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 10:56:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 10:56:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 10:56:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 18:51:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 18:51:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 18:51:18 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 18:51:19 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 18:51:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 18:51:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 18:51:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 18:51:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 18:51:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 18:51:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 18:51:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 18:51:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 18:51:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 18:51:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 18:51:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 18:51:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 18:51:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 18:51:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 20:46:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 20:46:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 20:46:44 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 20:46:45 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 20:46:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 20:46:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 20:46:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 20:46:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 20:46:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 20:46:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 20:46:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 20:46:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 20:46:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 20:46:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 20:46:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 20:46:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 20:46:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 20:46:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 23:20:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 23:20:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[24-Sep-2023 23:20:25 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 23:20:26 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[24-Sep-2023 23:20:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 23:20:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[24-Sep-2023 23:20:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 23:20:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[24-Sep-2023 23:20:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 23:20:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[24-Sep-2023 23:20:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 23:20:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[24-Sep-2023 23:20:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 23:20:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[24-Sep-2023 23:20:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 23:20:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[24-Sep-2023 23:20:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[24-Sep-2023 23:20:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 02:29:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 02:29:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 02:29:55 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 02:29:56 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 02:29:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 02:29:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 02:29:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 02:29:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 02:29:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 02:29:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 02:30:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 02:30:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 02:30:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 02:30:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 02:30:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 02:30:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 02:30:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 02:30:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 03:46:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 03:46:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 03:46:15 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 03:46:16 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 03:46:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 03:46:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 03:46:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 03:46:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 03:46:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 03:46:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 03:46:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 03:46:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 03:46:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 03:46:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 03:46:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 03:46:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 03:46:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 03:46:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 05:43:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 05:43:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 05:43:19 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 05:43:20 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 05:43:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 05:43:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 05:43:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 05:43:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 05:43:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 05:43:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 05:43:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 05:43:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 05:43:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 05:43:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 05:43:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 05:43:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 05:43:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 05:43:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 07:43:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 07:43:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 07:43:18 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 07:43:19 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 07:43:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 07:43:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 07:43:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 07:43:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 07:43:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 07:43:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 07:43:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 07:43:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 07:43:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 07:43:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 07:43:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 07:43:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 07:43:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 07:43:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 10:05:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 10:05:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 10:05:12 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 10:05:13 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 10:05:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 10:05:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 10:05:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 10:05:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 10:05:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 10:05:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 10:05:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 10:05:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 10:05:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 10:05:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 10:05:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 10:05:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 10:05:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 10:05:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 20:54:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 20:54:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/DataCollectorTranslator.php on line 22
+[25-Sep-2023 20:54:21 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 20:54:22 UTC] PHP Fatal error:  Trait "Symfony\Contracts\Translation\TranslatorTrait" not found in /home/heimdall/public_html/api/vendor/symfony/translation/IdentityTranslator.php on line 23
+[25-Sep-2023 20:54:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 20:54:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\LocaleAwareInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LocaleSwitcher.php on line 20
+[25-Sep-2023 20:54:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 20:54:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/LoggingTranslator.php on line 22
+[25-Sep-2023 20:54:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 20:54:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\MessageCatalogueInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/MessageCatalogue.php on line 20
+[25-Sep-2023 20:54:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 20:54:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/PseudoLocalizationTranslator.php on line 19
+[25-Sep-2023 20:54:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 20:54:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatableInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatableMessage.php on line 20
+[25-Sep-2023 20:54:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 20:54:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Contracts\Translation\TranslatorInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/Translator.php on line 34
+[25-Sep-2023 20:54:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17
+[25-Sep-2023 20:54:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Translation\TranslatorBagInterface" not found in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/translation/TranslatorBag.php on line 17

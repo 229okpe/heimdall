@@ -1,0 +1,492 @@
+[22-Sep-2023 09:03:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 09:03:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 09:03:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 09:03:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 09:03:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 09:03:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 10:20:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 10:20:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 10:20:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 10:20:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 10:20:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 10:21:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 11:17:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 11:17:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 11:17:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 11:17:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 11:17:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 11:17:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 14:15:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 14:15:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 14:15:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 14:15:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 14:15:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 14:15:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 17:11:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 17:11:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 17:11:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 17:11:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 17:11:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 17:11:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 18:25:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 18:25:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[22-Sep-2023 18:25:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 18:25:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[22-Sep-2023 18:25:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[22-Sep-2023 18:25:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[23-Sep-2023 23:44:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[23-Sep-2023 23:44:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[23-Sep-2023 23:44:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[23-Sep-2023 23:44:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[23-Sep-2023 23:44:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[23-Sep-2023 23:44:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 01:37:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 01:37:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 01:37:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 01:37:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 01:37:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 01:37:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 03:35:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 03:35:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 03:35:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 03:35:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 03:35:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 03:35:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 08:05:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 08:05:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 08:05:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 09:36:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 09:36:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 09:36:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 09:36:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 09:36:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 09:36:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 10:56:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 10:56:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 10:56:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 10:56:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 10:56:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 10:56:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 18:51:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 18:51:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 18:51:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 18:51:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 18:51:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 18:51:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 20:46:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 20:46:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 20:46:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 20:46:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 20:46:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 20:46:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 23:20:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 23:20:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[24-Sep-2023 23:20:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 23:20:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[24-Sep-2023 23:20:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[24-Sep-2023 23:20:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 02:29:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 02:29:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 02:29:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 02:29:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 02:29:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 02:29:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 03:46:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 03:46:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 03:46:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 03:46:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 03:46:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 03:46:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 05:43:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 05:43:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 05:43:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 05:43:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 05:43:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 05:43:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 07:43:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 07:43:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 07:43:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 07:43:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 07:43:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 07:43:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 10:04:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 10:05:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 10:05:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 10:05:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 10:05:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 10:05:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 20:54:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 20:54:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouteCompilerInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouteCompiler.php on line 20
+[25-Sep-2023 20:54:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 20:54:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\RouterInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/Router.php on line 38
+[25-Sep-2023 20:54:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24
+[25-Sep-2023 20:54:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Routing\Matcher\UrlMatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/routing/RouterInterface.php on line 24

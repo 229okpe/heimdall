@@ -31,7 +31,7 @@ class produitController extends Controller
      //   $produits=Produit::all();
      $produits = Produit::with('categorie:id,nom') ->orderBy('id', 'desc')->get();
             foreach ($produits as $produit) {
-                $produit->prix_converti = round($produit->prix_converti, 2);
+                $produit->prix_converti = round($produit->prix, 2);
             }  
         return response()->json(['produits' => $produits], 200);
     }
@@ -41,7 +41,7 @@ class produitController extends Controller
     {
       // Récupérez le produit par son ID
       $produit = Produit::with('categorie:id,nom')->find($id);
-
+  $produit->prix_converti = round($produit->prix, 2);
     if ($produit) {
       
         return response()->json(['produit' => $produit], 200);

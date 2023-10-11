@@ -1,0 +1,1148 @@
+[22-Sep-2023 09:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 09:03:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 09:03:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 09:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 09:03:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 09:03:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 09:03:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 09:03:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 09:03:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 09:03:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 09:03:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 09:03:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 09:03:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 09:03:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 10:20:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 10:20:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 10:20:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 10:20:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 10:20:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 10:20:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 10:20:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 10:20:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 10:20:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 10:20:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 10:20:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 10:20:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 10:20:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 10:20:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 11:17:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 11:17:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 11:17:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 11:17:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 11:17:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 11:17:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 11:17:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 11:17:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 11:17:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 11:17:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 11:17:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 11:17:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 11:17:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 11:17:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 14:15:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 14:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 14:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 14:15:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 14:15:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 14:15:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 14:15:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 14:15:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 14:15:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 14:15:07 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 14:15:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 14:15:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 14:15:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 14:15:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 17:10:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 17:10:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 17:10:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 17:11:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 17:11:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 17:11:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 17:11:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 17:11:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 17:11:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 17:11:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 17:11:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 17:11:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 17:11:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 17:11:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 18:25:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 18:25:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[22-Sep-2023 18:25:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 18:25:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[22-Sep-2023 18:25:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 18:25:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[22-Sep-2023 18:25:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 18:25:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[22-Sep-2023 18:25:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 18:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[22-Sep-2023 18:25:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 18:25:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[22-Sep-2023 18:25:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[22-Sep-2023 18:25:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[23-Sep-2023 23:44:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[23-Sep-2023 23:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[23-Sep-2023 23:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[23-Sep-2023 23:44:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[23-Sep-2023 23:44:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[23-Sep-2023 23:44:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[23-Sep-2023 23:44:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[23-Sep-2023 23:44:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[23-Sep-2023 23:44:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[23-Sep-2023 23:44:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[23-Sep-2023 23:44:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[23-Sep-2023 23:44:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[23-Sep-2023 23:44:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[23-Sep-2023 23:44:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 01:36:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 01:36:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 01:36:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 01:36:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 01:36:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 01:36:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 01:36:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 01:36:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 01:36:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 01:36:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 01:36:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 01:36:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 01:36:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 01:36:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 03:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 03:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 03:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 03:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 03:34:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 03:34:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 03:34:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 03:34:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 03:34:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 03:34:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 03:34:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 03:34:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 03:34:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 03:34:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 08:09:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 08:09:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 08:09:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 08:09:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 08:09:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 08:09:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 08:10:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 09:35:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 09:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 09:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 09:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 09:35:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 09:35:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 09:35:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 09:35:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 09:35:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 09:35:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 09:35:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 09:35:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 09:35:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 09:35:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 10:55:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 10:55:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 10:55:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 10:55:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 10:55:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 10:55:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 10:55:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 10:55:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 10:55:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 10:55:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 10:55:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 10:55:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 10:55:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 10:55:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 18:50:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 18:50:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 18:50:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 18:50:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 18:50:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 18:50:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 18:50:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 18:50:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 18:50:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 18:50:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 18:50:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 18:50:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 18:50:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 18:50:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 20:46:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 20:46:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 20:46:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 20:46:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 20:46:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 20:46:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 20:46:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 20:46:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 20:46:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 20:46:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 20:46:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 20:46:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 20:46:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 20:46:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 23:19:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 23:19:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[24-Sep-2023 23:19:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 23:19:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[24-Sep-2023 23:19:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 23:19:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[24-Sep-2023 23:19:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 23:19:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[24-Sep-2023 23:19:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 23:20:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[24-Sep-2023 23:20:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 23:20:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[24-Sep-2023 23:20:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[24-Sep-2023 23:20:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 02:29:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 02:29:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 02:29:23 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 02:29:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 02:29:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 02:29:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 02:29:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 02:29:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 02:29:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 02:29:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 02:29:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 02:29:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 02:29:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 02:29:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 03:45:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 03:45:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 03:45:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 03:45:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 03:45:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 03:45:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 03:45:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 03:45:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 03:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 03:45:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 03:45:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 03:45:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 03:45:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 03:45:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 05:42:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 05:42:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 05:42:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 05:42:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 05:42:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 05:42:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 05:42:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 05:42:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 05:42:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 05:42:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 05:42:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 05:42:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 05:42:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 05:42:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 07:42:45 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 07:42:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 07:42:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 07:42:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 07:42:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 07:42:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 07:42:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 07:42:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 07:42:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 07:42:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 07:42:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 07:42:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 07:42:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 07:42:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 10:04:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 10:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 10:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 10:04:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 10:04:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 10:04:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 10:04:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 10:04:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 10:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 10:04:47 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 10:04:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 10:04:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 10:04:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 10:04:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 20:53:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 20:53:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Email" not found in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/DraftEmail.php on line 20
+[25-Sep-2023 20:53:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 20:53:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\Message" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Email.php on line 26
+[25-Sep-2023 20:53:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 20:53:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php on line 22
+[25-Sep-2023 20:53:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 20:53:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/FileinfoMimeTypeGuesser.php on line 22
+[25-Sep-2023 20:53:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 20:53:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\Mime\RawMessage" not found in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/Message.php on line 22
+[25-Sep-2023 20:53:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 20:53:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypesInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypes.php on line 37
+[25-Sep-2023 20:53:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17
+[25-Sep-2023 20:53:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\Mime\MimeTypeGuesserInterface" not found in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/mime/MimeTypesInterface.php on line 17

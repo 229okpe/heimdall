@@ -1,0 +1,328 @@
+[22-Sep-2023 09:02:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 09:02:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 09:02:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 09:02:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 10:20:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 10:20:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 10:20:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 10:20:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 11:16:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 11:16:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 11:16:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 11:16:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 14:14:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 14:14:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 14:14:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 14:14:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 17:10:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 17:10:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 17:10:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 17:10:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 18:24:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 18:24:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[22-Sep-2023 18:24:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[22-Sep-2023 18:24:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[23-Sep-2023 23:44:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[23-Sep-2023 23:44:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[23-Sep-2023 23:44:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[23-Sep-2023 23:44:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 01:36:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 01:36:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 01:36:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 01:36:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 03:34:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 03:34:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 03:34:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 03:34:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 08:14:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 08:14:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 09:35:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 09:35:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 09:35:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 09:35:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 10:55:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 10:55:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 10:55:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 10:55:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 18:50:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 18:50:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 18:50:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 18:50:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 20:45:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 20:45:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 20:45:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 20:45:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 23:19:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 23:19:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[24-Sep-2023 23:19:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[24-Sep-2023 23:19:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 02:28:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 02:28:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 02:28:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 02:28:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 03:45:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 03:45:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 03:45:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 03:45:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 05:42:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 05:42:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 05:42:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 05:42:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 07:42:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 07:42:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 07:42:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 07:42:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 10:04:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 10:04:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 10:04:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 10:04:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 20:53:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 20:53:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\StoppableEventInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/Event.php on line 31
+[25-Sep-2023 20:53:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19
+[25-Sep-2023 20:53:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\EventDispatcher\EventDispatcherInterface" not found in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/symfony/event-dispatcher-contracts/EventDispatcherInterface.php on line 19

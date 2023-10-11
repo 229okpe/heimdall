@@ -30,11 +30,12 @@ class Authentification extends Controller
             'prenoms' =>"required|string",
             'numeroTelephone'=>'required|',
             'type' => "required",
-            'devise' => "required",
-           'email' =>"required|string|email|max:255|unique:".User::class,
+            'devise' => "required|in:EUR,CFA,USD",
+           'email' =>"required|string|email:rfc,dns|max:255|unique:".User::class,
            'password' => 'required' ]);
          
-          if ($validator->fails()) {return response(["error" =>  $validator->errors()], 200);  }
+          if ($validator->fails()) {return 
+            response(["error" =>  $validator->errors()->all()], 200);  }
 else { 
         if($request->devise =="USD"){
             $valeurDevise="650";
@@ -57,7 +58,7 @@ else {
         ]);
 
        
-   //   Notification::send($user, new VerifyEmail($user));
+       Notification::send($user, new VerifyEmail($user));
  
         $token = $user->createToken('api_token')->plainTextToken;
             $this->login($request);
@@ -204,8 +205,8 @@ public function update(Request $request, $id)
             
         }
     
-        return response(['success' => 'Email vérifié avec succ&egrave;s.']);
-          // return redirect('http://82.165.107.148/compte-valide'); 
+       // return response(['success' => 'Email vérifié avec succ&egrave;s.']);
+           return redirect('https://heimdall-store.com/compte-valide'); 
     }
 
     public function resendEmailVerification() {
@@ -322,7 +323,7 @@ public function passwordReset(Request $request)
               ], 422); // Code de r&eacute;ponse HTTP 422 Unprocessable Entity
           }
           $data = $request->all();
-          Mail::to('admin@admin.com')->send(new contactMail($data));
+          Mail::to('hello@heimdall-store.com')->send(new contactMail($data));
 
         return response()->json(['message' => 'Message sent successfully'], 200);
     }

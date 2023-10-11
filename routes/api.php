@@ -44,6 +44,7 @@ Route::get('/produit-sansconnexion/{id}', [produitController::class, 'showWithou
 
 Route::post('/update-password', [Authentification::class, 'passwordReset']);
 
+   Route::get('/categories', [categorieController::class, 'index']);
 Route::middleware(['auth'])->group(function () {   
                 //USER
     Route::get('/current-user', [Authentification::class, 'currentUser']);          
@@ -51,7 +52,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/update-user/{id}', [Authentification::class, 'update']);
 
 
-    Route::post('/update-password', [Authentification::class, 'modifyPassword']);
+    Route::post('/updatepassword', [Authentification::class, 'modifyPassword']);
             //PRODUITS
     Route::get('/produits', [produitController::class, 'index']); 
 
@@ -70,7 +71,7 @@ Route::middleware(['auth'])->group(function () {
 
     
             //CATEGORIES
-    Route::get('/categories', [categorieController::class, 'index']);
+
 
     Route::post('/ajouter-categorie', [categorieController::class, 'store']); 
 
@@ -110,10 +111,12 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/commandes-en-attente', [commandesController::class, 'nombreCommandesEnAttente']);
    
     Route::get('/total-commandes', [commandesController::class, 'nbrTotalCommandes']);
+    
+     Route::post('/valider', [commandesController::class, 'validercommande']);
 
-    Route::post('/valider-commande', [commandesController::class, 'validateOrder']);
+   // Route::post('/valider-commande', [commandesController::class, 'validercommande']);
 
-    Route::post('/modifier-quantite-panier/{id}', 'PanierController@modifierQuantite')->name('panier.modifier-quantite');
+    Route::post('/modifier-quantite-panier/{id}', [commandesController::class, 'modifierQuantite']);
 
     
                     //FAVORIS

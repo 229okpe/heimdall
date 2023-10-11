@@ -1,0 +1,49 @@
+[22-Sep-2023 14:32:57 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:32:57 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:32:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php:3
+Stack trace:
+#0 /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/public/index.php(34): require()
+#1 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:32:59 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:32:59 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:32:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php:3
+Stack trace:
+#0 /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/public/index.php(34): require()
+#1 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:33:04 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:33:04 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 14:33:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php:3
+Stack trace:
+#0 /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/public/index.php(34): require()
+#1 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:44 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:44 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php:3
+Stack trace:
+#0 /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/public/index.php(34): require()
+#1 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:54 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:54 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php:3
+Stack trace:
+#0 /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/public/index.php(34): require()
+#1 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:55 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:55 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php:3
+Stack trace:
+#0 /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/public/index.php(34): require()
+#1 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:56 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:56 UTC] PHP Warning:  require(/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3
+[22-Sep-2023 15:03:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php:3
+Stack trace:
+#0 /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/public/index.php(34): require()
+#1 {main}
+  thrown in /home/heimdall/public_html/api/vendor/nunomaduro/collision/tests/LaravelApp/vendor/autoload.php on line 3

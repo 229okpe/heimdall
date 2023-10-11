@@ -1,0 +1,12 @@
+[22-Sep-2023 14:43:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Egulias\EmailValidator\Result\Reason\Reason" not found in /home/heimdall/public_html/api/vendor/egulias/email-validator/src/Result/Reason/DetailedReason.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/egulias/email-validator/src/Result/Reason/DetailedReason.php on line 5
+[22-Sep-2023 14:43:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Egulias\EmailValidator\Result\Reason\Reason" not found in /home/heimdall/public_html/api/vendor/egulias/email-validator/src/Result/Reason/DetailedReason.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/egulias/email-validator/src/Result/Reason/DetailedReason.php on line 5
+[22-Sep-2023 14:43:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Egulias\EmailValidator\Result\Reason\Reason" not found in /home/heimdall/public_html/api/vendor/egulias/email-validator/src/Result/Reason/DetailedReason.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/vendor/egulias/email-validator/src/Result/Reason/DetailedReason.php on line 5

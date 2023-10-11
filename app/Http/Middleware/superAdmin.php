@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Symfony\Component\HttpFoundation\Response;
 
-class CheckAccess
+class superadmin
 {
     /**
      * Handle an incoming request.
@@ -19,8 +19,8 @@ class CheckAccess
     public function handle(Request $request, Closure $next)
     {
         // Vérifiez si l'utilisateur est connecté et est un super administrateur
-
-        if (Auth::user() &&  Auth::user()->type == "superAdmin") {
+             
+        if (auth('sanctum')->user() &&  auth('sanctum')->user()->type == "superadmin") {
             
             return $next($request); // L'utilisateur est un super administrateur, laissez-le accéder à la route
        }
