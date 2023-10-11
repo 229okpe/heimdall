@@ -9,13 +9,12 @@ use App\Models\Panier;
 use App\Mail\orderMail;
 use App\Models\Produit;
 use App\Models\Commande;
+use App\Models\codePromo;
 use Illuminate\Http\Request;
-use App\Mail\orderDetailsMail;
-use Feexpay\FeexpayPhp\FeexpayClass;
+use App\Mail\orderDetailsMail; 
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
-use Gloudemans\Shoppingcart\Facades\Cart;
-use Illuminate\Support\Facades\Validator;
+ 
 
 
 class commandesController extends Controller
@@ -158,22 +157,49 @@ class commandesController extends Controller
      
 
     public function payerAbonnement(Request $request, $idProduit = 02513 ){
-       
-
-        if($idProduit == 02513 ) {
-            $token = $request->header('Authorization');
-            $paniers = Panier::where('token', $token)->get();
-            $prix = 0;
-           foreach ($paniers  as $produit) {
-               $prix += $produit->prix;
-             }
-  
-        }
+        
+        if($request->codePromo !== "undefined"){
+            $promo = codePromo::where('intitule', $request->input('code_promo'))->first();
+                if($promo){
+                    if($idProduit == 02513 ) {
+                        $token = $request->header('Authorization');
+                        $paniers = Panier::where('token', $token)->get();
+                        $prix = 0;
+                       foreach ($paniers  as $produit) {
+                           $prix += $produit->prix;
+                         }
+                         
+                         $prix = $prix * $promo->valeur/100;
+                    }
+                    else {
+                        $produit=Produit::findorfail($idProduit);
+                       
+                        $prix =$produit->prix * $promo->valeur/100;
+                    }
+                }
+                else 
+                {
+                    return response()->json(['erreur' => "Code promo errone"]);
+                }
+        } 
         else {
-            $produit=Produit::findorfail($idProduit);
-           
-            $prix =$produit->prix;  
+            if($idProduit == 02513 ) {
+                $token = $request->header('Authorization');
+                $paniers = Panier::where('token', $token)->get();
+                $prix = 0;
+               foreach ($paniers  as $produit) {
+                   $prix += $produit->prix;
+                 }
+    
+      
+            }
+            else {
+                $produit=Produit::findorfail($idProduit);
+               
+                $prix =$produit->prix;  
+            }
         }
+      
        
         $prefix = 'HEIMDALL_ORDER-';
         $randomNumber = mt_rand(1000, 9999); 

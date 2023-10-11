@@ -5,6 +5,7 @@ use App\Http\Controllers\Authentification;
 use App\Http\Controllers\produitController;
 use App\Http\Controllers\categorieController;
 use App\Http\Controllers\chiffreAffaireController;
+use App\Http\Controllers\CodePromoController;
 use App\Http\Controllers\commandesController;
 use App\Http\Middleware\CheckAccess;
 use Illuminate\Auth\Events\Authenticated;
@@ -124,8 +125,13 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/favoris', [produitController::class, 'showFavoris']);
            
-    
 
+                        //CODES PROMOS
+ Route::post('/ajouter-codepromo', [CodePromoController::class, 'store']);
+    
+ Route::get('/codepromo/{id}', [CodePromoController::class, 'show']);
+
+ Route::get('/supprimer-codepromo/{id}', [CodePromoController::class, 'delete']);
                     //CHIFFRES DAFFAIRES
     Route::get('/chiffre-affaires', [chiffreAffaireController::class, 'calculerChiffreAffaires']);
 
