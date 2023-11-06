@@ -5,6 +5,7 @@ use App\Http\Controllers\Authentification;
 use App\Http\Controllers\produitController;
 use App\Http\Controllers\categorieController;
 use App\Http\Controllers\chiffreAffaireController;
+use App\Http\Controllers\CodePromoController;
 use App\Http\Controllers\commandesController;
 use App\Http\Middleware\CheckAccess;
 use Illuminate\Auth\Events\Authenticated;
@@ -94,7 +95,7 @@ Route::middleware(['auth'])->group(function () {
  
     //Route::get('/total-panier', [commandesController::class, 'totalPanier']);
 
-    Route::get('/payer-abonnement/{idProduit?}', [commandesController::class, 'payerAbonnement']);
+    Route::post('/payer-abonnement/{idProduit?}', [commandesController::class, 'payerAbonnement']);
     
     Route::post('/enregistrer-paiement', [commandesController::class, 'savePayment']);
 
@@ -127,8 +128,16 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/favoris', [produitController::class, 'showFavoris']);
            
-    
 
+                        //CODES PROMOS
+ Route::post('/ajouter-codepromo', [CodePromoController::class, 'store']);
+    
+ Route::get('/codepromo/{id}', [CodePromoController::class, 'show']);
+ 
+ Route::post('/verifier-codepromo', [CodePromoController::class, 'checkValidity']);     
+ Route::get('/codepromos', [CodePromoController::class, 'index']);
+
+ Route::get('/supprimer-codepromo/{id}', [CodePromoController::class, 'delete']);
                     //CHIFFRES DAFFAIRES
     Route::get('/chiffre-affaires', [chiffreAffaireController::class, 'calculerChiffreAffaires']);
 

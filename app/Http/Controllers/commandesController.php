@@ -9,13 +9,13 @@ use App\Models\Panier;
 use App\Mail\orderMail;
 use App\Models\Produit;
 use App\Models\Commande;
+use App\Models\codePromo;
 use Illuminate\Http\Request;
-use App\Mail\orderDetailsMail;
-use Feexpay\FeexpayPhp\FeexpayClass;
+use App\Mail\orderDetailsMail; 
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Session;
-use Gloudemans\Shoppingcart\Facades\Cart;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Session;
+ 
 
 
 class commandesController extends Controller
@@ -139,14 +139,19 @@ class commandesController extends Controller
     public function index()
     { 
         
-        $commandes = Commande::selectRaw('*, prix_total / :devise as prix', ['devise' => app('currentUser')->valeurDevise])->get();
+        $commandes =Commande::selectRaw('*, prix_total / :devise as prix', ['devise' => app('currentUser')->valeurDevise])
+    ->orderBy('id', 'desc')
+    ->get();
+
      
         return response(["commandes"=>$commandes], 200);
     }
 
     public function mesCommandes()
     {
-                $commandes = Commande::where('user_id', app('currentUser')->id) ->get();
+              $commandes = Commande::where('user_id', app('currentUser')->id)
+                                    ->orderBy('id', 'desc')
+                                    ->get();
 
                 foreach($commandes as $commande){
                     $commande->prix= $commande->prix_total / app('currentUser')->valeurDevise;
@@ -157,10 +162,47 @@ class commandesController extends Controller
     }
      
 
-    public function payerAbonnement(Request $request, $idProduit = 02513 ){
+    public function payerAbonnement(Request $request ){
+  
+        if($request->codepromo !== "UNDEFINED"){
+            $promo = codePromo::where('intitule', $request->input('codepromo'))->first();
+            
+                if($promo){
+                    if(!$request->idProduit) {
+                           $url="https://heimdall-store.com/panier";
+            $token = $request->header('Authorization');
+            $paniers = Panier::where('token', $token)->get();
+            $prix = 0;
+             $qty= 0;
+             $idsDansLePanier = [];
+           foreach ($paniers  as $produit) {
+               $prix += $produit->prix;
+                $qty += $produit->quantite;
+                $idsDansLePanier[] =["id" =>$produit->idProduit, "qty" =>$produit->qty];
+             }
+              $produits=$idsDansLePanier;
+                 $prix = (1-$promo->valeur/100) *$prix  ;
+                      
+                    }
+                    else {
+                           $url="https://heimdall-store.com/payer-abonnement";
+            $produit=Produit::findorfail($request->idProduit);
+            $produits[]=["id" =>$produit->id, "qty" =>$produit->quantite];
+            $prix =$produit->prix; 
+            $qty = 1;
+                       
+                        $prix =$produit->prix * $promo->valeur/100;
+                    }
+                }
+                else 
+                {
+                    return response()->json(['erreur' => "Code promo errone"]);
+                }
+        } 
+        else {
        
-
-        if($idProduit == 02513 ) {
+       
+        if(!$request->idProduit ) {
             $url="https://heimdall-store.com/panier";
             $token = $request->header('Authorization');
             $paniers = Panier::where('token', $token)->get();
@@ -170,7 +212,7 @@ class commandesController extends Controller
            foreach ($paniers  as $produit) {
                $prix += $produit->prix;
                 $qty += $produit->quantite;
-                $idsDansLePanier[] =["id" =>$produit->id, "qty" =>$produit->qty];
+                $idsDansLePanier[] =["id" =>$produit->idProduit, "qty" =>$produit->qty];
              }
               $produits=$idsDansLePanier;
    
@@ -182,12 +224,15 @@ class commandesController extends Controller
             $produits[]=["id" =>$produit->id, "qty" =>$produit->quantite];
             $prix =$produit->prix; 
             $qty = 1;
+            }
+ 
         }
+      
        
         $prefix = 'HEIMDALL_ORDER-';
         $randomNumber = mt_rand(1000, 9999); 
         $orderID = $prefix . $randomNumber;
-  $produits_serialized = json_encode($produits);
+       $produits_serialized = json_encode($produits);
 
        
         $vente=Commande::create([
@@ -236,9 +281,10 @@ class commandesController extends Controller
     }
 
     public function savePayment(Request $request) {
+       
         $validator = Validator::make($request->all(), [
              "idTransaction" => 'required', 
-             'order_id' => 'required'
+             "order_id" => 'required'
            ]);
            
             if ($validator->fails()) {
@@ -246,13 +292,15 @@ class commandesController extends Controller
                      'errors' => $validator->errors(),
               ], 422); // Code de r&eacute;ponse HTTP 422 Unprocessable Entity
           }
-  /* Rempacez VOTRE_CLE_API par votre véritable clé API */
-        \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
-         // \FedaPay\FedaPay::setApiKey("sk_live_HvgQ1tCMXjY9zKqWEvAhonDO");
-       /* Précisez si vous souhaitez exécuter votre requête en mode test ou live */
-           \FedaPay\FedaPay::setEnvironment('sandbox'); //ou setEnvironment('live');
-          $transaction = \FedaPay\Transaction::retrieve($request->idTransaction);
-         
+          
+          
+          try {
+    \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
+    \FedaPay\FedaPay::setEnvironment('sandbox');
+
+    $transaction = \FedaPay\Transaction::retrieve($request->idTransaction);
+
+   
           if ($transaction->status !== "approved") {
             return response(['error' => 'Transaction echouée'], 404);
         }
@@ -297,6 +345,10 @@ class commandesController extends Controller
         }
 
 
+} catch (\FedaPay\Error\Base $e) {
+      return response(['error' => 'Transaction erronée'], 500);
+
+}  
     }
 
     /**
@@ -319,7 +371,7 @@ class commandesController extends Controller
                   $customer = User::find($commande->user_id);
                  $tab=json_decode($commande->produit_id,true); 
  
-          
+        
             foreach($tab as $item) 
                 {
                      
