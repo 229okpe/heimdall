@@ -11,5 +11,6 @@ class codePromo extends Model
     protected $fillable = [
         'intitule',
         'valeur',
+        'nombreUtilisation'
     ];
 }

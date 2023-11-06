@@ -14,6 +14,7 @@ class CodePromoController extends Controller
         $validator = Validator::make($request->all(), [
         
             'intitule' => 'required',
+            'nombreUtilisation' =>"required",
             'valeur' => 'required|integer|max:100',
            ]);
            
@@ -23,6 +24,7 @@ class CodePromoController extends Controller
           $codePromo=codePromo::create([
             'intitule' => $request->intitule,
             'valeur' => $request->valeur,
+            'nombreUtilisation' => $request->nombreUtilisation
           ]);
  
         return response()->json(['codePromo' => $codePromo], 200);
@@ -72,12 +74,12 @@ class CodePromoController extends Controller
         $promo = codePromo::where('intitule', $request->input('codePromo'))->first();
 
         // Vérification de la validité du code promo
-        if ($promo) {
+        if ($promo && $promo->nombreUtilisation > 0) {
             // Le code promo est valide, vous pouvez ajouter des actions supplémentaires ici
             return response()->json(['value' => $promo->valeur/100]);
         } else {
             // Le code promo n'est pas valide
-            return response()->json(['erreur' => "Code promo errone"]);
+            return response()->json(['erreur' => "Code promo errone ou épuisé"]);
         }
     }
 } 

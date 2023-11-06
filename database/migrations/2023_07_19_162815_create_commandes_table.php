@@ -22,7 +22,8 @@ return new class extends Migration
             $table->dateTime('date_created')->nullable();
                 $table->string('quantite')->nullable();
             $table->integer('prix_total')->nullable();
-            $table->text('details')->nullable();	
+            $table->text('details')->nullable();
+            $table->text('codePromo')->nullable();	
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

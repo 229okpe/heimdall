@@ -16,6 +16,7 @@ class Commande extends Model
         'date_created',
         'status',
         'box',
+        'codePromo',
         'quantite',
         'prix_total',
         'user_name'

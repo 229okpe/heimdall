@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('intitule');
             $table->integer('valeur');
+            $table->integer('nombreUtilisation');
             $table->timestamps();
         });
     }

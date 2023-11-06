@@ -165,9 +165,14 @@ class commandesController extends Controller
     public function payerAbonnement(Request $request ){
   
         if($request->codepromo !== "UNDEFINED"){
+           
             $promo = codePromo::where('intitule', $request->input('codepromo'))->first();
             
-                if($promo){
+                if($promo && $promo->nombreUtilisation > 0){
+                    $codePromo =$request->codepromo ;
+                    $promo->nombreUtilisation =  $promo->nombreUtilisation - 1;
+                    $promo ->save();
+                 
                     if(!$request->idProduit) {
                            $url="https://heimdall-store.com/panier";
             $token = $request->header('Authorization');
@@ -196,7 +201,7 @@ class commandesController extends Controller
                 }
                 else 
                 {
-                    return response()->json(['erreur' => "Code promo errone"]);
+                    return response()->json(['erreur' => "Code promo errone ou code épuisé "]);
                 }
         } 
         else {
@@ -237,6 +242,7 @@ class commandesController extends Controller
        
         $vente=Commande::create([
             'order_id' => $orderID,
+            'codePromo' => $codePromo ? $codePromo : null,
             'produit_id'=> $produits_serialized ,
             'prix_total' => $prix ,
             'status' => "Unpaid",
@@ -245,6 +251,7 @@ class commandesController extends Controller
             'user_name' => app('currentUser')->nom.' '.app('currentUser')->prenoms,
              'date_created'=> Carbon::now()
           ]);
+         
         //  $_SESSION[app('currentUser')->nom]=$vente->order_id; 
           
 
