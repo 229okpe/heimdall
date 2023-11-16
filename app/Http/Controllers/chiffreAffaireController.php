@@ -10,7 +10,7 @@ class chiffreAffaireController extends Controller
 {
     public function calculerChiffreAffaires()
     {
-        $chiffreAffaire = Commande::where('statut', '!=', 'impayé')->sum('prix_total');
+        $chiffreAffaire = Commande::where('status', '!=', 'Unpaid')->sum('prix_total');
 
 
         return response(["ca"=>$chiffreAffaire ], 200);
@@ -22,7 +22,7 @@ class chiffreAffaireController extends Controller
     {
         $moisEnCours = Carbon::now()->month;
 
-        $chiffreAffaires = Commande::whereMonth('created_at', $moisEnCours)->where('statut', '!=', 'impayé')->sum('prix_total');
+        $chiffreAffaires = Commande::whereMonth('created_at', $moisEnCours)->where('status', '!=', 'Unpaid')->sum('prix_total');
 
         return response(["ca"=>$chiffreAffaires ], 200); 
     }

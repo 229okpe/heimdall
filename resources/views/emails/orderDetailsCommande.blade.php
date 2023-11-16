@@ -139,7 +139,7 @@
 <td class="pad" style="padding-bottom:10px;padding-left:25px;padding-right:10px;padding-top:10px;">
 <div style="color:#000000;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:20px;font-weight:400;line-height:180%;text-align:center;mso-line-height-alt:36px;">
 <p style="margin: 0; margin-bottom: 0px;">Voici les détails de l'achat: </p>
-<p style="margin: 0; margin-bottom: 0px;">{{$data}}</p> 
+<p style="margin: 0; margin-bottom: 0px;">{!! $data !!}</p> 
 </div>
 </td>
 </tr>

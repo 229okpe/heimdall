@@ -180,13 +180,17 @@ class commandesController extends Controller
             $prix = 0;
              $qty= 0;
              $idsDansLePanier = [];
+            
            foreach ($paniers  as $produit) {
-               $prix += $produit->prix;
-                $qty += $produit->quantite;
+              
+                $qty += $produit->qty;
+                
+                 $prix += $produit->prix *  $qty;
                 $idsDansLePanier[] =["id" =>$produit->idProduit, "qty" =>$produit->qty];
              }
               $produits=$idsDansLePanier;
-                 $prix = (1-$promo->valeur/100) *$prix  ;
+           
+              $prix = $prix - $promo->valeur * $prix /100;
                       
                     }
                     else {
@@ -196,7 +200,7 @@ class commandesController extends Controller
             $prix =$produit->prix; 
             $qty = 1;
                        
-                        $prix =$produit->prix * $promo->valeur/100;
+                        $prix = $prix - $promo->valeur * $prix /100;
                     }
                 }
                 else 
@@ -206,7 +210,7 @@ class commandesController extends Controller
         } 
         else {
        
-       
+       $codePromo=null;
         if(!$request->idProduit ) {
             $url="https://heimdall-store.com/panier";
             $token = $request->header('Authorization');
@@ -215,8 +219,8 @@ class commandesController extends Controller
              $qty= 0;
              $idsDansLePanier = [];
            foreach ($paniers  as $produit) {
-               $prix += $produit->prix;
-                $qty += $produit->quantite;
+                $qty += $produit->qty;
+                 $prix += $produit->prix *  $qty;
                 $idsDansLePanier[] =["id" =>$produit->idProduit, "qty" =>$produit->qty];
              }
               $produits=$idsDansLePanier;
@@ -225,7 +229,7 @@ class commandesController extends Controller
         else {
             
                 $url="https://heimdall-store.com/payer-abonnement";
-            $produit=Produit::findorfail(1);
+            $produit=Produit::findorfail($request->idProduit);
             $produits[]=["id" =>$produit->id, "qty" =>$produit->quantite];
             $prix =$produit->prix; 
             $qty = 1;
@@ -239,7 +243,7 @@ class commandesController extends Controller
         $orderID = $prefix . $randomNumber;
        $produits_serialized = json_encode($produits);
 
-       
+      
         $vente=Commande::create([
             'order_id' => $orderID,
             'codePromo' => $codePromo ? $codePromo : null,
@@ -257,10 +261,10 @@ class commandesController extends Controller
 
  
          /* Rempacez VOTRE_CLE_API par votre véritable clé API */
-        \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
+        \FedaPay\FedaPay::setApiKey("sk_live_E8o6Spu7rdpm4pVU_prsTEKf");
          // \FedaPay\FedaPay::setApiKey("sk_live_HvgQ1tCMXjY9zKqWEvAhonDO");
        /* Précisez si vous souhaitez exécuter votre requête en mode test ou live */
-           \FedaPay\FedaPay::setEnvironment('sandbox'); //ou setEnvironment('live');
+           \FedaPay\FedaPay::setEnvironment('live'); //ou setEnvironment('live');
  
            /* Créer la transaction */ 
           $transaction = \FedaPay\Transaction::create(array(
@@ -302,8 +306,8 @@ class commandesController extends Controller
           
           
           try {
-    \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
-    \FedaPay\FedaPay::setEnvironment('sandbox');
+    \FedaPay\FedaPay::setApiKey("sk_live_E8o6Spu7rdpm4pVU_prsTEKf");
+    \FedaPay\FedaPay::setEnvironment('live');
 
     $transaction = \FedaPay\Transaction::retrieve($request->idTransaction);
 
@@ -430,7 +434,7 @@ class commandesController extends Controller
 
     public function nbrTotalCommandes(){
 
-        $total = Commande::count();
+        $total = Commande::where('status', '!=', 'Unpaid')->count();
 
         return response()->json(['message' =>  $total], 200); 
 
