@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AbonnementsController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Authentification;
 use App\Http\Controllers\produitController;
@@ -144,33 +145,19 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/chiffre-affaires/mois-en-cours', [chiffreAffaireController::class, 'calculerChiffreAffairesMoisEnCours']);
 
            
-           //
-  //   Route::get('/ajouter-panier/{id}', [commandesController::class, 'addCart']);
+                        //GESTION DES ABONNEMENTS
 
-     
- //    Route::get('/panier', [commandesController::class, 'recupererContenuPanier']);
+   Route::post('/ajouter-abonnement', [AbonnementsController::class, 'store']); 
+
+   Route::get('/abonnements', [AbonnementsController::class, 'index']);
+
+   Route::get('/supprimer-abonnement', [AbonnementsController::class, 'index']);
+
 });
-
+ 
  
 
-
-Route::middleware(['auth, superAdmin'])->group(function () { 
-
-     Route::get('/admins', [AdminController::class, 'index']); 
-
-     Route::post('/ajouter-admin', [AdminController::class, 'ajouterAdmin']); 
-
-     Route::get  ('/supprimer-admin/{id}', [AdminController::class, 'delete']); 
-
-     Route::post('/modifier-admin/{id}', [AdminController::class, 'update']);
-
-});
-
-
-
-
                                     //CHIFFRE D'AFFAIRE
-
 
 Route::group(['middleware' => ['auth', 'superadmin']], function () {
 
