@@ -277,7 +277,7 @@ class commandesController extends Controller
                "lastname" => app('currentUser')->prenoms,
                "email" => app('currentUser')->email,
                "phone_number" => [
-                   "number" => "22996199507",
+                   "number" => app('currentUser')->numTelephone,
                    "country" => "bj"
                ]
            ]
