@@ -64,6 +64,7 @@ class produitController extends Controller
             'description' => 'required',
             'prix' => 'required',
             'image' => 'required|file',
+            'traitement' => 'required|in:Manuelle,Automatique',
             'categorie_id' => 'required',
             'statut' => 'required'
            ]);
@@ -82,6 +83,7 @@ class produitController extends Controller
             'nom' => $request->nom,
             'description' => $request->description,
             'prix' => $request->prix,
+            'traitement' =>$request->traitement,
             'statut' => $request->statut,
             'image' => $image,
             'categorie_id' => $request->categorie_id
@@ -148,6 +150,7 @@ class produitController extends Controller
         $produit->nom = $request->nom;
         $produit->statut = $request->statut;
         $produit->description = $request->description;
+        $produit->traitement = $request->traitement;
         $produit->prix = $request->prix;
         $produit->categorie_id = $request->categorie_id;
     

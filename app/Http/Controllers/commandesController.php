@@ -10,11 +10,14 @@ use App\Mail\orderMail;
 use App\Models\Produit;
 use App\Models\Commande;
 use App\Models\codePromo;
+use App\Models\abonnements;
 use Illuminate\Http\Request;
 use App\Mail\orderDetailsMail; 
+use App\Mail\mailabonnementEpuise;
+use App\Mail\mailpresqueEpuise;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
  
 
 
@@ -308,25 +311,32 @@ class commandesController extends Controller
           try {
     \FedaPay\FedaPay::setApiKey("sk_live_E8o6Spu7rdpm4pVU_prsTEKf");
     \FedaPay\FedaPay::setEnvironment('live');
-
+/*
     $transaction = \FedaPay\Transaction::retrieve($request->idTransaction);
 
-   
-          if ($transaction->status !== "approved") {
+    if ($transaction->status !== "approved") {
             return response(['error' => 'Transaction echouée'], 404);
-        }
+        }*/
+
+
         if(empty($request->produit_id)){
             $token = $request->header('Authorization');
             $paniers = Panier::where('token', $token)->get();
-          
+       
+                if(!$paniers){
+                    return response(['message' => 'Panier vide', 404]);
+                }
+        
             $idsDansLePanier = [];
             $nomProduits= "" ;
            foreach ($paniers  as $item) {
-                $idsDansLePanier[] = $item->id;
-                $nomProduits .= $item->name.' \ ';
+                $idsDansLePanier[] = $item->idProduit;
+                $nomProduits .= $item->nomProduit.' \ ';
              } 
             $produits=$idsDansLePanier;
             $listeProduit = $nomProduits;
+
+       
         }
         else{
 
@@ -337,22 +347,98 @@ class commandesController extends Controller
          
         $vente = Commande::where('order_id', $request->order_id)->first();
         
-        if($vente && $transaction->status == 'approved'){
+        //&& $transaction->status == 'approved'
+        if($vente){
+
+
+                $nbreProduitsManuel = automatisationController::getnbreProduitsManuel($idsDansLePanier);
+
+                if($nbreProduitsManuel == 0) {
+                        $contenuMail= "";
+                        $user = auth('sanctum')->user() ;
+                        
+                        foreach($idsDansLePanier as $id) {
+                            $p = Produit::find($id);
+ 
+                            $latestAbonnement = abonnements::where('attribue', 'false')
+                            ->latest('created_at')
+                            ->where('produit_id', $p->id )
+                                ->first();
+
+                                $a = abonnements::where('attribue', 'false')
+                                ->latest('created_at')
+                                ->where('produit_id', $p->id )
+                                    ->count();
+
+                                   
+                                if($a == 3) {
+                                    Mail::to('hello@heimdall-store.com ')
+                                    ->send(new mailpresqueEpuise( $p->nom));
+                                 
+                                }
+        
+                                elseif($a == 1) {
+                                    Mail::to('hello@heimdall-store.com ')
+                                    ->send(new mailabonnementEpuise($p->nom));
+                                   
+                                    $p->statut = "Indisponible";
+                                    $p->save();
+         
+                                }  
+                                
+                                $latestAbonnement->nomClient = $user->nom.' '.$user->prenoms;
+                                $latestAbonnement->emailClient = $user->email;
+                                $latestAbonnement->attribue = "true";
+                                $latestAbonnement->save();
+                                
+    
+                              
+
+                                $contenuMail .= '<p style="text-align:center"><strong>'.$p->nom.'</strong></p>
+
+                               '.$latestAbonnement->details.'
+                                
+                                <p>&nbsp;</p>
+                                
+                               
+                                ' ;
+
+                              
+
+
+                        }
+
+                        $vente->box = $request->box;
+                        $vente->status = "Livree";
+                        $vente->save();
+                      
+                        Mail::to($user->email)
+                        ->send(new orderDetailsMail( $user,$contenuMail , $vente ));
+                   
+
+                }
              
-            $vente->box = $request->box;
-            $vente->status = "En attente";
-            
-            $vente->save();
+                elseif ($nbreProduitsManuel > 0 ) {
+                  
+                    $vente->box = $request->box;
+                    $vente->status = "En attente"; 
+                    $vente->save();
+                   
+
+                }
+           
            // Session::forget(app('currentUser')->nom); 
            $paniers = Panier::where('token', $token)->delete();
+         
             if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
                 {
                 return response(['success' => 'Achat effectue avec succes', 'id'=>$vente->id ], 200);
-                 } else {dd("error");}}
+                 } else {dd("error");}
+                }
      
         
         else{
-            return response(['error' => 'Produit non trouvé'], 404);
+            return response(['error' => 'Commande non trouvé'], 404);
         }
 
 

@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\abonnements;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Produit extends Model
 {
@@ -17,7 +18,8 @@ class Produit extends Model
         'prix',
         'categorie_id',
         'image',
-        'statut'
+        'statut',
+        'traitement'
        
     ]; 
 
@@ -26,5 +28,9 @@ class Produit extends Model
         return $this->belongsTo(Categorie::class, 'categorie_id', 'id');
     }
 
+    public function abonnements()
+    {
+        return $this->hasMany(abonnements::class,'abonnement_id');
+    }
     
 }

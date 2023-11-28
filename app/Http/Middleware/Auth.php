@@ -11,6 +11,7 @@ class Auth
     
     public function handle($request, Closure $next, ...$guards)
     { $user = auth('sanctum')->user() ;
+   
         if ($user) {
             return $next($request);
         } 
