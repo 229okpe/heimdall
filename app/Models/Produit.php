@@ -18,7 +18,8 @@ class Produit extends Model
         'prix',
         'categorie_id',
         'image',
-        'statut'
+        'statut',
+        'traitement'
        
     ]; 
 
