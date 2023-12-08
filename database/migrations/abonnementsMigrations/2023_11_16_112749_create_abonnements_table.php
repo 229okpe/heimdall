@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('abonnements', function (Blueprint $table) {
             $table->id();
             $table->text('details');
+            $table->text('titre')->nullable();
+            $table->text('dateAchat')->nullable();
             $table->unsignedBigInteger('produit_id')->nullable();	
             $table->string('emailClient')->nullable();
             $table->string('nomClient')->nullable();

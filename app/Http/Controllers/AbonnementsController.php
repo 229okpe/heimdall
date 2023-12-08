@@ -61,6 +61,8 @@ class AbonnementsController extends Controller
 
         $validator = Validator::make($request->all(), [
             'details' => 'required',
+            'titre' => 'nullable|string',
+            'dateAchat' => 'nullable',
             'produit_id' => 'nullable|exists:produits,id',
             'dateExpiration' => 'required|date',
            
@@ -72,6 +74,8 @@ class AbonnementsController extends Controller
 
         // Création d'un nouvel abonnement
         $abonnement = new abonnements();
+        $abonnement->titre=$request->input('titre');
+        $abonnement->dateAchat=$request->input('dateAchat');
         $abonnement->details = $request->input('details');
         $abonnement->produit_id = $request->input('produit_id'); 
         $abonnement->dateExpiration = $request->input('dateExpiration');
@@ -95,7 +99,9 @@ class AbonnementsController extends Controller
         $validator = Validator::make($request->all(), [
             'details' => 'required',
             'produit_id' => 'nullable|exists:produits,id', 
-            'dateExpiration' => 'required|date',
+            'dateExpiration' => 'nullable|date',
+            'dateAchat' => 'nullable',
+            'titre'=>'nullable'
         ]);
     
         if ($validator->fails()) {
@@ -113,7 +119,7 @@ class AbonnementsController extends Controller
         $abonnement->details = $request->input('details');
         $abonnement->produit_id = $request->input('produit_id'); 
         $abonnement->dateExpiration = $request->input('dateExpiration');
-    
+        $abonnement->dateAchat=$request->input('dateAchat');
         // Sauvegarde des modifications
         $abonnement->save();
     
@@ -141,7 +147,8 @@ class AbonnementsController extends Controller
     
         // Mise à jour des données de l'abonnement
         $abonnement->nomClient = $request->input('nomClient');
-        $abonnement->emailClient = $request->input('emailClient');  
+        $abonnement->emailClient = $request->input('emailClient');
+        $abonnement->dateAchat=now();
     
         // Sauvegarde des modifications
         $abonnement->save();

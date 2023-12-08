@@ -11,12 +11,14 @@ class abonnements extends Model
 
     
     protected $fillable = [
+        'titre',
         'details',
         'produit_id',
         'nomClient',
         'emailClient',
         'dateExpiration',
-        'attribue'
+        'attribue',
+        'dateAchat'
        
     ]; 
 

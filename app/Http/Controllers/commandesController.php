@@ -389,6 +389,7 @@ class commandesController extends Controller
                                 $latestAbonnement->nomClient = $user->nom.' '.$user->prenoms;
                                 $latestAbonnement->emailClient = $user->email;
                                 $latestAbonnement->attribue = "true";
+                                $latestAbonnement->dateAchat=now();
                                 $latestAbonnement->save();
                                 
     
@@ -415,7 +416,7 @@ class commandesController extends Controller
                         Mail::to($user->email)
                         ->send(new orderDetailsMail( $user,$contenuMail , $vente ));
                    
-
+                        
                 }
              
                 elseif ($nbreProduitsManuel > 0 ) {
@@ -429,7 +430,7 @@ class commandesController extends Controller
            
            // Session::forget(app('currentUser')->nom); 
            $paniers = Panier::where('token', $token)->delete();
-         
+           Mail::to("hello@heimdall-store.com")->send(new orderMail( $vente,$listeProduit));
             if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
                 {
                 return response(['success' => 'Achat effectue avec succes', 'id'=>$vente->id ], 200);
