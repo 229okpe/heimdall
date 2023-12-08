@@ -78,13 +78,13 @@ class produitController extends Controller
          $images->move("storage/images/images_produits", $filename);
           $image='public/storage/images/images_produits/'.$filename;
           $request->merge(['image' => $image]);
-       
+            if($request->traitement =="Automatique") { $statut ="Indisponible" ; } else {  $statut = $request->statut;  }
           $produit=Produit::create([
             'nom' => $request->nom,
             'description' => $request->description,
             'prix' => $request->prix,
             'traitement' =>$request->traitement,
-            'statut' => $request->statut,
+            'statut' => $statut,
             'image' => $image,
             'categorie_id' => $request->categorie_id
           ]);
@@ -122,6 +122,7 @@ class produitController extends Controller
             'nom' => 'required',
             'description' => 'required',
             'prix' => 'required',
+            'traitement' =>'required',
             'image' => 'nullable|file', // Le champ 'image' est facultatif pour la mise à jour
             'categorie_id' => 'required'
         ]);

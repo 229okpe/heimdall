@@ -223,7 +223,7 @@ class commandesController extends Controller
              $idsDansLePanier = [];
            foreach ($paniers  as $produit) {
                 $qty += $produit->qty;
-                 $prix += $produit->prix *  $qty;
+                 $prix += $produit->prix *  $produit->qty;
                 $idsDansLePanier[] =["id" =>$produit->idProduit, "qty" =>$produit->qty];
              }
               $produits=$idsDansLePanier;
@@ -265,7 +265,7 @@ class commandesController extends Controller
  
          /* Rempacez VOTRE_CLE_API par votre véritable clé API */
         \FedaPay\FedaPay::setApiKey("sk_live_E8o6Spu7rdpm4pVU_prsTEKf");
-         // \FedaPay\FedaPay::setApiKey("sk_live_HvgQ1tCMXjY9zKqWEvAhonDO");
+         // \FedaPay\FedaPay::setApiKey("sk_sandbox_mGVNXupMPNzgS08eH8BGsJlo");
        /* Précisez si vous souhaitez exécuter votre requête en mode test ou live */
            \FedaPay\FedaPay::setEnvironment('live'); //ou setEnvironment('live');
  
@@ -311,12 +311,12 @@ class commandesController extends Controller
           try {
     \FedaPay\FedaPay::setApiKey("sk_live_E8o6Spu7rdpm4pVU_prsTEKf");
     \FedaPay\FedaPay::setEnvironment('live');
-/*
+ 
     $transaction = \FedaPay\Transaction::retrieve($request->idTransaction);
 
     if ($transaction->status !== "approved") {
             return response(['error' => 'Transaction echouée'], 404);
-        }*/
+        } 
 
 
         if(empty($request->produit_id)){
@@ -347,8 +347,8 @@ class commandesController extends Controller
          
         $vente = Commande::where('order_id', $request->order_id)->first();
         
-        //&& $transaction->status == 'approved'
-        if($vente){
+         
+        if($vente && $transaction->status == 'approved'){
 
 
                 $nbreProduitsManuel = automatisationController::getnbreProduitsManuel($idsDansLePanier);

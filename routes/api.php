@@ -151,7 +151,8 @@ Route::middleware(['auth'])->group(function () {
 
    Route::get('/abonnements', [AbonnementsController::class, 'index']);
 
-   Route::get('/supprimer-abonnement', [AbonnementsController::class, 'index']);
+   Route::get('/supprimer-abonnement/{id}', [AbonnementsController::class, 'delete']);
+
 
    Route::post('/modifier-abonnement/{id}', [AbonnementsController::class, 'update']); 
 

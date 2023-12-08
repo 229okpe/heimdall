@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\abonnements;
 use Illuminate\Http\Request;
+use App\Models\Produit;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 
@@ -78,6 +79,10 @@ class AbonnementsController extends Controller
         
         // Sauvegarde de l'abonnement
         $abonnement->save();
+        
+        $produit = Produit::findorfail($request->produit_id);
+        $produit->statut="Disponible";
+        $produit->save();
 
              return response()->json(['abonnement' => $abonnement], 200);
    
@@ -129,7 +134,7 @@ class AbonnementsController extends Controller
     
         // Recherche de l'abonnement à mettre à jour
         $abonnement = Abonnements::find($id);
-    
+     
         if (!$abonnement) {
             return response()->json(['error' => 'Abonnement non trouvé'], 404);
         }
@@ -145,6 +150,16 @@ class AbonnementsController extends Controller
                 
     }
 
+    public function delete(string $id)
+    {
+        $categorie = Abonnements::find($id);
+
+        if ($categorie) {
+            $categorie->delete();
+            return response()->json(['message' => 'Abonnement supprimé'], 200);
+            
+        }
+    }   
 
     
 }
