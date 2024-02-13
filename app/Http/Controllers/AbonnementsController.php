@@ -83,10 +83,12 @@ class AbonnementsController extends Controller
         
         // Sauvegarde de l'abonnement
         $abonnement->save();
-        
+
+        if($request->has('produit_id')){
         $produit = Produit::findorfail($request->produit_id);
         $produit->statut="Disponible";
         $produit->save();
+    }
 
              return response()->json(['abonnement' => $abonnement], 200);
    

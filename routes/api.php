@@ -147,12 +147,12 @@ Route::middleware(['auth'])->group(function () {
            
                         //GESTION DES ABONNEMENTS
 
-   Route::post('/ajouter-abonnement', [AbonnementsController::class, 'store']); 
-
+  
    Route::get('/abonnements', [AbonnementsController::class, 'index']);
 
    Route::get('/supprimer-abonnement/{id}', [AbonnementsController::class, 'delete']);
 
+   Route::post('/ajouter-abonnements', [AbonnementsController::class, 'store']); 
 
    Route::post('/modifier-abonnement/{id}', [AbonnementsController::class, 'update']); 
 

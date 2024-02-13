@@ -328,4 +328,104 @@ public function passwordReset(Request $request)
         return response()->json(['message' => 'Message sent successfully'], 200);
     }
 
+
+    public function redirectToProvider($provider)
+    {
+
+        $validated = $this->validateProvider($provider);
+        if (!is_null($validated)) {
+            return $validated;
+        }
+            if($provider=="facebook"){
+                return  ['url'=>Socialite::driver($provider)->stateless()->with(["scope" => ''])->redirect()->getTargetUrl()];
+              // return Socialite::driver($provider)->stateless()->with(["scope" => ''])->redirect();
+            }else { 
+               //  return Socialite::driver($provider)->stateless()->redirect();
+          
+                 return ['url'=>Socialite::driver($provider)->stateless()->redirect()->getTargetUrl()];
+            }
+    }
+
+    public function handleProviderCallback($provider)
+    {
+        $validated = $this->validateProvider($provider);
+        if (!is_null($validated)) {
+            return $validated;
+        }
+        try {
+            $user = Socialite::driver($provider)->stateless()->user();
+         
+ 
+      } catch (ClientException $exception) {
+            return response(['error' => 'Identifiants incorrects.'], 422);
+        }           
+        $existingUser = User::where('email', $user->email)->first();
+
+        if ($existingUser) {
+            
+       Auth::login($existingUser);
+	$token=$existingUser->createToken('Auth+via+'.$provider)->plainTextToken;
+$part1 = Str::substr($token, 0, 15);
+$part2 = Str::substr($token, 15,18);
+$part3 = Str::substr($token, 33,10);
+return "ok";
+//return redirect::away('http://82.165.107.148/connexion?k='.Str::random(1).$part2.Str::random(1).'&u='.Str::random(1).$part1.Str::random(1).'&s='.Str::random(2).$part3.Str::random(1)); 
+                   
+        } else {    
+            if($provider=="facebook") 
+            {
+                
+                $name = $user->user['name'];
+                $parts = explode(" ", $name);
+                $nomFamille = end($parts);
+ 
+                $prenoms= trim(str_replace($nomFamille, "", $name));
+        
+                 $userCreated = User::firstOrCreate(
+                         
+                    [   'nom' => $nomFamille,
+                        
+                        'prenom' =>$prenoms,
+                         
+                        'email_verified_at' => now(),
+                    
+                    ]);
+                         
+        }
+        else {
+           
+            $userCreated = User::firstOrCreate(
+                [
+                    'email' => $user->getEmail()
+                ],
+                [   'nom' => $user->user['family_name'],
+                    
+                    'prenom'=>$user->user['given_name'],
+
+                    'email_verified_at' => now(), 
+                ]);
+ 
+               // Mail::to($user->email)->send(new InscriptionMailDirect($user));
+        }
+
+       
+      
+        $token = $userCreated->createToken('token-name')->plainTextToken;
+	
+	$part1 = Str::substr($token, 0, 15);
+    $part2 = Str::substr($token, 15,18);
+    $part3 = Str::substr($token, 33,10);
+    return redirect::away('http://82.165.107.148/connexion?k='.Str::random(1).$part2.Str::random(1).'&u='.Str::random(1).$part1.Str::random(1).'&s='.Str::random(2).$part3.Str::random(1)); 
+	    }
+}  
+
+ 
+
+
+    protected function validateProvider($provider)
+    {
+        if (!in_array($provider, ['facebook','google'])) {
+            return response(['error' => 'Please login using facebook or google'], 422);
+        }
+    }
 }
