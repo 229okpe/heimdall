@@ -19,7 +19,7 @@ return new class extends Migration
             $table->unsignedBigInteger('produit_id')->nullable();	
             $table->string('emailClient')->nullable();
             $table->string('nomClient')->nullable();
-            $table->string('dateExpiration');
+            $table->string('dateExpiration')->nullable();
             $table->string('traitement')->default('Manuelle');
             $table->string('attribue')->default('false');
             $table->foreign('produit_id')->references('id')->on('produits')->onDelete('cascade');

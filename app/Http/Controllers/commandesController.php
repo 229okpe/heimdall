@@ -410,7 +410,8 @@ class commandesController extends Controller
                         }
 
                         $vente->box = $request->box;
-                        $vente->status = "Livree";
+                         $vente->status = "Livree";
+                        $vente->details = $contenuMail ;
                         $vente->save();
                       
                         Mail::to($user->email)
@@ -430,7 +431,7 @@ class commandesController extends Controller
            
            // Session::forget(app('currentUser')->nom); 
            $paniers = Panier::where('token', $token)->delete();
-           Mail::to("hello@heimdall-store.com")->send(new orderMail( $vente,$listeProduit));
+   
             if(Mail::to(app('currentUser')->email)->send(new orderMail( $vente,$listeProduit)))
                 {
                 return response(['success' => 'Achat effectue avec succes', 'id'=>$vente->id ], 200);

@@ -5078,3 +5078,7 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/heimdall/public_html/api/config/view.php on line 17
+[08-Jan-2024 13:21:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/heimdall/public_html/api/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/heimdall/public_html/api/config/filesystems.php on line 16
