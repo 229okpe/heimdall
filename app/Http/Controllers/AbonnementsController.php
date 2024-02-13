@@ -22,11 +22,16 @@ class AbonnementsController extends Controller
         
             // Comparer la date d'expiration avec la date actuelle
             $maintenant = now();
-            if ($dateExpiration < $maintenant) {
-                $abonnement->statut = 'Expiré';
+            if($dateExpiration !== null){
+                   if ($dateExpiration < $maintenant) {
+                    $abonnement->statut = 'Expiré';
+                } else {
+                    $abonnement->statut = 'Actif';
+                }  
             } else {
-                $abonnement->statut = 'Actif';
+              $abonnement->statut = 'Indéfini';   
             }
+           
         }
 
         return response()->json(['abonnements' => $abonnements], 200);
@@ -64,7 +69,7 @@ class AbonnementsController extends Controller
             'titre' => 'nullable|string',
             'dateAchat' => 'nullable',
             'produit_id' => 'nullable|exists:produits,id',
-            'dateExpiration' => 'required|date',
+            'dateExpiration' => 'nullable|date',
            
         ]);
         
@@ -83,9 +88,15 @@ class AbonnementsController extends Controller
         
         // Sauvegarde de l'abonnement
         $abonnement->save();
+<<<<<<< HEAD
 
         if($request->has('produit_id')){
         $produit = Produit::findorfail($request->produit_id);
+=======
+        
+      if($request->produit_id !== null){
+        $produit = Produit::find($request->produit_id);
+>>>>>>> 4e080e263bab1cb4cc241fdf8a496f18c74fa8a5
         $produit->statut="Disponible";
         $produit->save();
     }
@@ -99,6 +110,8 @@ class AbonnementsController extends Controller
     {
         // Validation des données de la requête
         $validator = Validator::make($request->all(), [
+            'nomClient' => 'nullable',
+             'emailClient' => 'nullable',
             'details' => 'required',
             'produit_id' => 'nullable|exists:produits,id', 
             'dateExpiration' => 'nullable|date',
@@ -119,12 +132,19 @@ class AbonnementsController extends Controller
     
         // Mise à jour des données de l'abonnement
         $abonnement->details = $request->input('details');
+         $abonnement->nomClient = $request->input('nomClient');
+          $abonnement->emailClient = $request->input('emailClient');
         $abonnement->produit_id = $request->input('produit_id'); 
         $abonnement->dateExpiration = $request->input('dateExpiration');
         $abonnement->dateAchat=$request->input('dateAchat');
         // Sauvegarde des modifications
         $abonnement->save();
     
+    if($request->produit_id !== null){
+        $produit = Produit::find($request->produit_id);
+        $produit->statut="Disponible";
+        $produit->save();
+    }
         return response()->json(['abonnement' => $abonnement], 200);
     }
 
