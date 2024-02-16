@@ -46,12 +46,22 @@ Route::get('/produit-sansconnexion/{id}', [produitController::class, 'showWithou
 
 Route::post('/update-password', [Authentification::class, 'passwordReset']);
 
+
+Route::get('login/{provider}', [Authentification::class, 'redirectToProvider']);
+
+Route::get  ('login/{provider}/callback', [Authentification::class,'handleProviderCallback']);
+
+
    Route::get('/categories', [categorieController::class, 'index']);
+
 Route::middleware(['auth'])->group(function () {   
+
                 //USER
     Route::get('/current-user', [Authentification::class, 'currentUser']);          
 
     Route::post('/update-user/{id}', [Authentification::class, 'update']);
+
+    Route::post('/update-email/{id}', [Authentification::class, 'updateEmail']);
 
 
     Route::post('/updatepassword', [Authentification::class, 'modifyPassword']);
@@ -140,7 +150,7 @@ Route::middleware(['auth'])->group(function () {
 
  Route::get('/supprimer-codepromo/{id}', [CodePromoController::class, 'delete']);
                     //CHIFFRES DAFFAIRES
-    Route::get('/chiffre-affaires', [chiffreAffaireController::class, 'calculerChiffreAffaires']);
+    Route::get('/chiffre-affaires',[chiffreAffaireController::class, 'calculerChiffreAffaires']);
 
     Route::get('/chiffre-affaires/mois-en-cours', [chiffreAffaireController::class, 'calculerChiffreAffairesMoisEnCours']);
 

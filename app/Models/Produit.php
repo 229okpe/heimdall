@@ -19,7 +19,8 @@ class Produit extends Model
         'categorie_id',
         'image',
         'statut',
-        'traitement'
+        'traitement',
+        'nOrdre',
        
     ]; 
 

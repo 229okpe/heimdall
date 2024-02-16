@@ -2,9 +2,10 @@
  
 namespace App\Http\Controllers;
 
-use App\Models\Categorie; 
+use DB;
 use App\Models\Favoris;
 use App\Models\Produit;
+use App\Models\Categorie; 
 use Illuminate\Http\Request; 
 use Illuminate\Support\Facades\Validator;
 // App\Http\Controllers\nbrTotalProduits;
@@ -19,7 +20,7 @@ class produitController extends Controller
      //   $produits=Produit::all();
      $produits = Produit::selectRaw('*, prix / :devise as prix_converti', ['devise' => app('currentUser')->valeurDevise])
     ->with('categorie:id,nom')
-    ->orderBy('id', 'desc')
+    ->orderBy('nOrdre', 'asc')
     ->get(); 
             foreach ($produits as $produit) {
                 $produit->prix_converti = round($produit->prix_converti, 2);
@@ -29,7 +30,7 @@ class produitController extends Controller
     public function indexwithoutlog()
     { 
      //   $produits=Produit::all();
-     $produits = Produit::with('categorie:id,nom') ->orderBy('id', 'desc')->get();
+     $produits = Produit::with('categorie:id,nom') ->orderBy('nOrdre', 'asc')->get();
             foreach ($produits as $produit) {
                 $produit->prix_converti = round($produit->prix, 2);
             }  
@@ -56,7 +57,7 @@ class produitController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
         
@@ -66,7 +67,8 @@ class produitController extends Controller
             'image' => 'required|file',
             'traitement' => 'required|in:Manuelle,Automatique',
             'categorie_id' => 'required',
-            'statut' => 'required'
+            'statut' => 'required',
+            'nOrdre' => 'required'
            ]);
            
             if ($validator->fails()) {
@@ -75,16 +77,29 @@ class produitController extends Controller
           $images = $request->file('image');
           $filename = uniqid() . '.' . $images->getClientOriginalExtension();
        //  $images->storeAs('public/images/images_produits', $filename);
-         $images->move("storage/images/images_produits", $filename);
+             $images->move("storage/images/images_produits", $filename);
           $image='public/storage/images/images_produits/'.$filename;
           $request->merge(['image' => $image]);
             if($request->traitement =="Automatique") { $statut ="Indisponible" ; } else {  $statut = $request->statut;  }
-          $produit=Produit::create([
+         
+            $existing_product = Produit::where('nOrdre','>=' ,$request->nOrdre)->get();
+
+          
+            if ($existing_product) {
+
+                foreach($existing_product as $a){
+                    $a->nOrdre = $a->nOrdre+1;
+                    $a->save();
+                }
+                
+            }
+            $produit=Produit::create([
             'nom' => $request->nom,
             'description' => $request->description,
             'prix' => $request->prix,
             'traitement' =>$request->traitement,
             'statut' => $statut,
+            'nOrdre' => $request->nOrdre,
             'image' => $image,
             'categorie_id' => $request->categorie_id
           ]);
@@ -98,7 +113,7 @@ class produitController extends Controller
     public function show(string $id)
     {
       // Récupérez le produit par son ID
-      $produit = Produit::with('categorie:id,nom')->find($id);
+      $produit = Produit::with('categorie:id,nom')->orderby('nOrdre', 'ASC')->find($id);
 
     if ($produit) {
         // Multipliez le prix du produit par la devise donnée
@@ -123,6 +138,7 @@ class produitController extends Controller
             'description' => 'required',
             'prix' => 'required',
             'traitement' =>'required',
+            'nOrdre' => 'required|',
             'image' => 'nullable|file', // Le champ 'image' est facultatif pour la mise à jour
             'categorie_id' => 'required'
         ]);
@@ -146,9 +162,20 @@ class produitController extends Controller
             $imagePath = 'public/storage/images/images_produits/' . $filename;
             $produit->image = $imagePath;
         }
-    
+        $existing_product = Produit::where('nOrdre','>=' ,$request->nOrdre)->get();
+
+          
+        if ($existing_product) {
+
+            foreach($existing_product as $a){
+                $a->nOrdre = $a->nOrdre+1;
+                $a->save();
+            }
+            
+        }
         // Mettre à jour les attributs du produit avec les nouvelles valeurs
         $produit->nom = $request->nom;
+        $produit->nOrdre = $request->nOrdre;
         $produit->statut = $request->statut;
         $produit->description = $request->description;
         $produit->traitement = $request->traitement;

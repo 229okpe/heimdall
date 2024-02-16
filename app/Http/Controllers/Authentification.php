@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Mail\contactMail;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Models\ResetCodePassword;
 use App\Mail\SendCodeResetPassword;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
+use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Auth\Notifications\VerifyEmail;
@@ -114,6 +116,38 @@ public function update(Request $request, $id)
         ], 200);
     }
 }
+
+public function updateEmail(Request $request, $id)
+{
+    $user = User::find($id);
+
+    if (!$user) {
+        return response(['error' => 'Utilisateur introuvable'], 404);
+    }
+
+    $validator = Validator::make($request->all(), [
+      
+        'email' => 'required|email', 
+       
+    ]);
+
+    if ($validator->fails()) {
+        return response(["error" => $validator->errors()], 200);
+    } else {
+        
+
+        $user->update([ 
+            'email' => $request->email 
+        ]);
+
+        return response([
+            'message' => 'Email mis à jour avec succès',
+            
+        ], 200);
+    }
+}
+
+
 
     public function login(Request $request)
     {
@@ -328,6 +362,7 @@ public function passwordReset(Request $request)
         return response()->json(['message' => 'Message sent successfully'], 200);
     }
 
+    
 
     public function redirectToProvider($provider)
     {
@@ -374,7 +409,7 @@ return "ok";
         } else {    
             if($provider=="facebook") 
             {
-                
+               
                 $name = $user->user['name'];
                 $parts = explode(" ", $name);
                 $nomFamille = end($parts);
@@ -385,7 +420,7 @@ return "ok";
                          
                     [   'nom' => $nomFamille,
                         
-                        'prenom' =>$prenoms,
+                        'prenoms' =>$prenoms,
                          
                         'email_verified_at' => now(),
                     
@@ -393,29 +428,27 @@ return "ok";
                          
         }
         else {
-           
+       
             $userCreated = User::firstOrCreate(
                 [
                     'email' => $user->getEmail()
                 ],
-                [   'nom' => $user->user['family_name'],
+                [   'nom' =>$user->name , 
                     
-                    'prenom'=>$user->user['given_name'],
+                    'prenoms'=>$user->user['given_name'] ?: $user->user['given_name'], null ,
 
                     'email_verified_at' => now(), 
                 ]);
  
-               // Mail::to($user->email)->send(new InscriptionMailDirect($user));
-        }
-
-       
+           }
+   
       
         $token = $userCreated->createToken('token-name')->plainTextToken;
 	
 	$part1 = Str::substr($token, 0, 15);
     $part2 = Str::substr($token, 15,18);
     $part3 = Str::substr($token, 33,10);
-    return redirect::away('http://82.165.107.148/connexion?k='.Str::random(1).$part2.Str::random(1).'&u='.Str::random(1).$part1.Str::random(1).'&s='.Str::random(2).$part3.Str::random(1)); 
+    //return redirect::away('http://82.165.107.148/connexion?k='.Str::random(1).$part2.Str::random(1).'&u='.Str::random(1).$part1.Str::random(1).'&s='.Str::random(2).$part3.Str::random(1)); 
 	    }
 }  
 
