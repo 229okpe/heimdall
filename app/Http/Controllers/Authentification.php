@@ -127,7 +127,7 @@ public function updateEmail(Request $request, $id)
 
     $validator = Validator::make($request->all(), [
       
-        'email' => 'required|email', 
+        'email' => 'required|email|unique:'.User::class, 
        
     ]);
 
